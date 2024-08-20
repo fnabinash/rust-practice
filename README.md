@@ -4,9 +4,21 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 > **I'll update this repo as I complete each exercise.**
 
+## Structure
+
+- **Basic Concepts (10%)**
+  - (variables, mutability, Data types, Control flow, Functions, Ownership & borrowing)
+- **Intermediate Concepts (20%)**
+  - (Structs, Enums, Vectors, Hashmap, Error Handling, Traits, Iterators, Closures, Modules & Crates)
+- **Advanced Rust Concepts (40%)**
+  - (Concurrency, Async programming, Smart Pointers( Box, Rc, RefCell ), Macros, Unsafe Rust, Lifetimes, Generics)
+- **Production-Grade CLI Projects (30%)**
+  - (Command-line tools, Advanced CLI tools, Package Building, Cross-platform development, Integration, Plugins & Systems)
+
 ### 1. **Basics of Rust Programming (10%)**
 
 #### Hello, World! (0.5%)
+
 - [ ] Print "Hello, World!" to the console.
 - [ ] Modify the program to take user input and print "Hello, [name]!".
 - [ ] Create a program that prints a greeting based on the time of day.
@@ -18,7 +30,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Print a countdown from 10 to 1
 - [ ] Create a program that prints a quote using escape characters.
 
-#### Variables and Mutability (1%)
+#### Variables and Mutability (1.5%)
+
 - [ ] Swap two variables without using a third variable.
 - [ ] Declare a constant and print its value.
 - [ ] Create a mutable variable and change its value inside a loop.
@@ -30,7 +43,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Implement a program that changes a variable's value based on user input.
 - [ ] Create a program that increments a counter variable each time a button is pressed.
 
-#### Data Types and Casting (1.5%)
+#### Data Types and Casting (3%)
+
 - [ ] Convert a floating-point number to an integer.
 - [ ] Parse a string as a number and perform arithmetic on it.
 - [ ] Convert a number from one type to another and print the result.
@@ -42,7 +56,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Convert a number from binary to decimal.
 - [ ] Create a program that calculates the area of a circle using a floating-point number.
 
-#### Control Flow (2%)
+#### Control Flow (5%)
+
 - [ ] Implement a program that checks if a number is even or odd.
 - [ ] Write a simple program that uses `if-else` to compare two numbers.
 - [ ] Create a calculator using a match statement.
@@ -54,7 +69,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a simple menu-driven program using a loop and match statement.
 - [ ] Write a program that calculates the factorial of a number using a loop.
 
-#### Functions (2.5%)
+#### Functions (7%)
+
 - [ ] Create a function that returns the square of a number.
 - [ ] Implement a function that takes two numbers and returns their sum.
 - [ ] Write a function that checks if a number is prime.
@@ -66,7 +82,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Implement a function that calculates the sum of an array of numbers.
 - [ ] Create a function that generates a random number within a specified range.
 
-#### Ownership and Borrowing (3%)
+#### Ownership and Borrowing (10%)
+
 - [ ] Create a function that takes ownership of a string and prints it.
 - [ ] Implement a function that borrows a string and returns its length.
 - [ ] Write a function that takes two borrowed strings and concatenates them.
@@ -78,9 +95,12 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Write a function that takes ownership of a vector and returns its length.
 - [ ] Create a program that demonstrates the use of references in function parameters and return types.
 
+---
+
 ### 2. **Intermediate Rust (20%)**
 
-#### Structs (4%)
+#### Structs (12%)
+
 - [ ] Create a `struct` to represent a book with fields for title, author, and pages.
 - [ ] Implement a method for the book `struct` to display its details.
 - [ ] Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.
@@ -92,7 +112,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.
 - [ ] Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.
 
-#### Enums and Pattern Matching (6%)
+#### Enums and Pattern Matching (14%)
+
 - [ ] Create an `enum` to represent traffic light states and use pattern matching to display messages.
 - [ ] Implement a program that uses an `enum` to represent different shapes (Circle, Square, Rectangle) and calculate their area.
 - [ ] Write a program that uses an `enum` to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.
@@ -104,7 +125,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Write a program that uses an `enum` to represent different error types (NotFound, PermissionDenied, Unknown) and use pattern matching to handle errors.
 - [ ] Create an `enum` to represent different operations (Add, Subtract, Multiply, Divide) and use pattern matching to implement a basic calculator.
 
-#### Collections (Vectors, HashMaps) (8%)
+#### Collections (Vectors, HashMaps) (18%)
+
 - [ ] Create a program that adds and removes elements from a vector.
 - [ ] Implement a program that finds the largest number in a vector.
 - [ ] Write a program that sorts a vector of integers in ascending and descending order.
@@ -116,7 +138,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Write a program that uses a `HashMap` to store and retrieve configuration settings.
 - [ ] Create a program that uses a `HashMap` to implement a basic phone book with names and phone numbers.
 
-#### Error Handling (10%)
+#### Error Handling (21%)
+
 - [ ] Write a program that handles file reading errors and displays an appropriate message if the file is not found.
 - [ ] Implement a function that returns a `Result` type and handles both success and error cases.
 - [ ] Create a program that parses a string as an integer and handles invalid input with error messages.
@@ -128,7 +151,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a program that reads a configuration file and handles errors if the file is missing or corrupted.
 - [ ] Write a function that attempts to connect to a server and returns a custom error type if the connection fails.
 
-#### Traits (12%)
+#### Traits (24%)
+
 - [ ] Create a trait called `Printable` with a method `print` and implement it for different types (e.g., `struct`, `enum`).
 - [ ] Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.
 - [ ] Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).
@@ -140,7 +164,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Implement a trait called `Updatable` with a method `update` and implement it for different data types (`i32`, `f64`, `String`).
 - [ ] Write a program that creates a trait called `Convertible` with methods for converting data between different formats, and implement it for a `struct` representing a currency converter.
 
-#### Iterators and Closures (15%)
+#### Iterators and Closures (28%)
+
 - [ ] Create a program that uses an iterator to sum all elements in a vector.
 - [ ] Implement a program that filters out even numbers from a vector using an iterator.
 - [ ] Write a program that maps a vector of integers to their squares using an iterator.
@@ -152,7 +177,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Write a program that uses a closure to find the maximum value in a vector of integers.
 - [ ] Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.
 
-#### Modules and Crates (20%)
+#### Modules and Crates (30%)
+
 - [ ] Create a module to organize functions for mathematical operations and use it in a main program.
 - [ ] Implement a program that uses a module to organize functions for file handling and use it in a main program.
 - [ ] Write a program that creates a module to organize functions for string processing and use it in a main program.
@@ -164,9 +190,12 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON, XML) and use it in a project.
 - [ ] Create a program that uses a third-party crate (e.g., `serde`, `regex`) and organizes the code into modules.
 
+---
+
 ### 3. **Advanced Rust Concepts (40%)**
 
-#### Concurrency (25%)
+#### Concurrency (35%)
+
 - [ ] Write a program that uses threads to perform multiple calculations in parallel.
 - [ ] Implement a program that spawns multiple threads to process a large array and combines the results.
 - [ ] Create a program that uses channels to send messages between threads.
@@ -178,7 +207,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a program that implements a simple producer-consumer pattern using threads and channels.
 - [ ] Implement a program that uses threads to simulate a basic chat server where multiple clients can send and receive messages concurrently.
 
-#### Asynchronous Programming (28%)
+#### Asynchronous Programming (41%)
+
 - [ ] Write an asynchronous program that fetches data from a web API using `async/await`.
 - [ ] Implement a program that performs multiple HTTP requests concurrently using `async/await`.
 - [ ] Create an asynchronous program that reads and writes to a file without blocking the main thread.
@@ -190,7 +220,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create an asynchronous program that handles multiple client connections to a server concurrently.
 - [ ] Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).
 
-#### Smart Pointers (Box, Rc, RefCell) (32%)
+#### Smart Pointers (Box, Rc, RefCell) (47%)
+
 - [ ] Write a program that uses `Box` to create a linked list.
 - [ ] Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.
 - [ ] Create a program that uses `RefCell` to modify data inside a `struct` with shared ownership.
@@ -202,7 +233,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.
 - [ ] Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.
 
-#### Macros (35%)
+#### Macros (54%)
+
 - [ ] Write a simple macro that prints "Hello, Macro!" to the console.
 - [ ] Implement a macro that calculates the square of a number.
 - [ ] Create a macro that generates getter and setter methods for a `struct`.
@@ -214,7 +246,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a macro that performs compile-time checks on a `struct` field.
 - [ ] Write a macro that generates code for a custom `Debug` implementation for a `struct`.
 
-#### Unsafe Rust (40%)
+#### Unsafe Rust (63%)
+
 - [ ] Write a program that uses raw pointers to access and modify memory.
 - [ ] Implement a program that uses unsafe code to call a C function from Rust.
 - [ ] Create a program that uses unsafe code to implement a custom memory allocator.
@@ -226,7 +259,8 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a program that uses unsafe code to directly access hardware registers.
 - [ ] Write a program that uses unsafe code to create a low-level system library.
 
-#### Lifetimes and Generics (45%)
+#### Lifetimes and Generics (70%)
+
 - [ ] Write a program that uses lifetimes to ensure references are valid.
 - [ ] Implement a function that uses generics to work with multiple data types.
 - [ ] Create a program that uses lifetimes and generics together to create a flexible data structure.
@@ -238,9 +272,12 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a program that uses generics to implement a custom collection type.
 - [ ] Write a program that uses lifetimes and generics to implement a flexible and reusable function.
 
+---
+
 ### 4. **Production-Grade CLI Projects (30%)**
 
-#### Command-Line Tool (50%)
+#### Command-Line Tool (73%)
+
 - [ ] Create a simple CLI tool that greets the user with their name.
 - [ ] Implement a CLI tool that fetches weather information from an API.
 - [ ] Write a CLI tool that performs basic file operations (e.g., create, read, write, delete).
@@ -250,18 +287,56 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 - [ ] Create a CLI tool that downloads files from the internet and saves them locally.
 - [ ] Implement a CLI tool that converts data between different formats (e.g., CSV to JSON).
 - [ ] Write a CLI tool that manages a to-do list with add, remove, and list operations.
-
-
 - [ ] Create a CLI tool that interacts with a web API to send and receive data.
 
-#### Task Automation (50%)
-- [ ] Write a CLI tool that automates the process of renaming multiple files in a directory.
-- [ ] Implement a CLI tool that automates the backup of files to a cloud storage service.
-- [ ] Create a CLI tool that automates the process of deploying a website to a server.
-- [ ] Write a CLI tool that automates the creation of boilerplate code for a new project.
-- [ ] Implement a CLI tool that automates the process of compressing and decompressing files.
-- [ ] Create a CLI tool that automates the process of generating documentation for a project.
-- [ ] Write a CLI tool that automates the process of updating dependencies in a project.
-- [ ] Implement a CLI tool that automates the testing and building of a Rust project.
-- [ ] Create a CLI tool that automates the process of sending emails based on a schedule.
-- [ ] Write a CLI tool that automates the process of monitoring system resources (e.g., CPU, memory usage).
+#### Advanced CLI Projects (78%)
+
+- [ ] File Searcher: Create a CLI tool that recursively searches for files by name in a directory.
+- [ ] Process Manager: Build a CLI tool to list and manage system processes (e.g., kill processes).
+- [ ] Database CRUD: Create a CLI tool that performs basic CRUD operations on a SQLite database.
+- [ ] Config File Parser: Build a CLI tool that reads and edits configuration files (e.g., JSON, TOML).
+- [ ] API Client: Create a CLI tool that interacts with a REST API to fetch and display data.
+- [ ] Log Analyzer: Build a CLI tool to parse and analyze log files, providing statistics and error reports.
+- [ ] Markdown to HTML Converter: Create a CLI tool that converts Markdown files into HTML.
+- [ ] Task Runner: Build a CLI tool that schedules and runs predefined tasks (like a simple cron job).
+- [ ] Backup Manager: Create a CLI tool to automate the backup of files to a specified location.
+- [ ] Git Helper: Build a CLI tool that wraps common Git commands to simplify version control tasks.
+
+#### Package Building (85%)
+
+- [ ] Basic Packager: Create a CLI tool that packages a Rust project into a binary for distribution.
+- [ ] Cross-Compiler: Build a CLI tool that cross-compiles a Rust project for different platforms.
+- [ ] Installer Generator: Create a CLI tool that generates an installer for a Rust application.
+- [ ] Tarball Creator: Build a CLI tool that packages a project into a tarball with optional compression.
+- [ ] Binary Size Analyzer: Create a CLI tool that analyzes and reports the size of a compiled binary.
+- [ ] Release Packager: Build a CLI tool that automates the creation of release packages with versioning.
+- [ ] Installer Validator: Create a CLI tool that verifies the integrity and correctness of an installer.
+- [ ] Package Signer: Build a CLI tool that signs packages with a cryptographic signature.
+- [ ] Deb/RPM Package Creator: Create a CLI tool that builds a Debian or RPM package from a Rust project.
+- [ ] Multi-Platform Installer: Build a CLI tool that generates installers for multiple platforms (e.g., Windows, macOS, Linux).
+
+#### Cross-Platform Development (91%)
+
+- [ ] Multi-OS CLI Tool: Create a CLI tool that runs on Windows, macOS, and Linux with platform-specific features.
+- [ ] Cross-Platform File Watcher: Build a CLI tool that watches for file changes on different operating systems.
+- [ ] Universal Package Manager: Create a CLI tool that works with multiple package managers (e.g., apt, brew, chocolatey).
+- [ ] Portable CLI Tool: Build a CLI tool that requires no installation and runs from a USB drive.
+- [ ] Cross-Platform Logger: Create a CLI tool that logs system events across different operating systems.
+- [ ] Environment Configuration Tool: Build a CLI tool that configures environment variables for different OSs.
+- [ ] Cross-Platform Process Monitor: Create a CLI tool that monitors system processes on multiple operating systems.
+- [ ] Universal Installer: Build a CLI tool that installs software packages across different platforms.
+- [ ] Multi-OS Backup Tool: Create a CLI tool that performs backups on different operating systems.
+- [ ] Cross-Platform Clipboard Manager: Build a CLI tool that manages the clipboard across different operating systems.
+
+#### Integration, Plugins, and Systems (100%)
+
+- [ ] Plugin System: Create a CLI tool that supports plugins, allowing users to extend its functionality.
+- [ ] API Gateway: Build a CLI tool that acts as a gateway for integrating with multiple APIs.
+- [ ] Task Scheduler: Create a CLI tool that schedules and runs tasks at specified intervals, integrating with system cron jobs.
+- [ ] Messaging Queue Client: Build a CLI tool that interacts with a message queue system (e.g., RabbitMQ, Kafka).
+- [ ] Service Integrator: Create a CLI tool that integrates with cloud services (e.g., AWS, GCP) and performs tasks.
+- [ ] Database Migrator: Build a CLI tool that manages database migrations and integrates with different database systems.
+- [ ] CI/CD Pipeline Integrator: Create a CLI tool that integrates with CI/CD systems like Jenkins or GitHub Actions.
+- [ ] System Monitor Integrator: Build a CLI tool that integrates with system monitoring tools (e.g., Prometheus, Grafana).
+- [ ] Custom Shell: Create a CLI tool that acts as a custom shell with support for plugins and extensions.
+- [ ] Configuration Manager: Build a CLI tool that manages configuration files and integrates with other system tools.

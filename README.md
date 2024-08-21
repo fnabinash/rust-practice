@@ -20,7 +20,7 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 #### Hello, World! (0.5%)
 
 - [X] Print "Hello, World!" to the console.
-- [ ] Modify the program to take user input and print "Hello, [name]!".
+- [X] Modify the program to take user input and print "Hello, [name]!".
 - [ ] Create a program that prints a greeting based on the time of day.
 - [ ] Print a multi-line string using raw strings.
 - [ ] Format a string with multiple variables and print it.

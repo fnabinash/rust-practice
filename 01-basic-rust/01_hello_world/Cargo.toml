@@ -2,5 +2,8 @@
 
 members = [
     # Print "Hello, World!" to the console.
-    "hello_world_01"
+    "hello_world_01",
+
+    # Modify the program to take user input and print "Hello, [name]!".
+    "hello_world_02"
 ]

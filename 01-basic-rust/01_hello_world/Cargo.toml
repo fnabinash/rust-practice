@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    # Print "Hello, World!" to the console.
+    "hello_world_01"
+]

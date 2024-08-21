@@ -1,0 +1,14 @@
+[workspace]
+
+members = [
+    # -------------------- Basics Rust -----------------------
+
+    ## Hello World (0.5%)
+
+    # Print "Hello, World!" to the console.
+    "hello_world_01"
+
+    # ----------------- Intermediate Rust --------------------
+    # ------------------- Advanced Rust ----------------------
+    # ------------------- CLI Projects -----------------------
+]

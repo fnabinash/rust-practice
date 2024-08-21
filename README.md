@@ -6,20 +6,20 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 ## Structure
 
-- **Basic Concepts (10%)**
+- **Basic Rust (10%)**
   - (variables, mutability, Data types, Control flow, Functions, Ownership & borrowing)
-- **Intermediate Concepts (20%)**
+- **Intermediate Rust (20%)**
   - (Structs, Enums, Vectors, Hashmap, Error Handling, Traits, Iterators, Closures, Modules & Crates)
-- **Advanced Rust Concepts (40%)**
+- **Advanced Rust(40%)**
   - (Concurrency, Async programming, Smart Pointers( Box, Rc, RefCell ), Macros, Unsafe Rust, Lifetimes, Generics)
-- **Production-Grade CLI Projects (30%)**
+- **CLI Projects (30%)**
   - (Command-line tools, Advanced CLI tools, Package Building, Cross-platform development, Integration, Plugins & Systems)
 
-### 1. **Basics of Rust Programming (10%)**
+### 1. **Basics Rust (10%)**
 
 #### Hello, World! (0.5%)
 
-- [ ] Print "Hello, World!" to the console.
+- [X] Print "Hello, World!" to the console.
 - [ ] Modify the program to take user input and print "Hello, [name]!".
 - [ ] Create a program that prints a greeting based on the time of day.
 - [ ] Print a multi-line string using raw strings.
@@ -192,7 +192,7 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 ---
 
-### 3. **Advanced Rust Concepts (40%)**
+### 3. **Advanced Rust(40%)**
 
 #### Concurrency (35%)
 
@@ -274,7 +274,7 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 ---
 
-### 4. **Production-Grade CLI Projects (30%)**
+### 4. **CLI Projects (30%)**
 
 #### Command-Line Tool (73%)
 

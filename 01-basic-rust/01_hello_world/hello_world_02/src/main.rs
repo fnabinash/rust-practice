@@ -1,3 +1,5 @@
+// Modify the program to take user input and print "Hello, [name]!".
+
 use std::io;
 
 fn main() {

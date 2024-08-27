@@ -6,5 +6,11 @@ members = [
     "variables_01",
     
     # Declare a constant and print its value.
-    "variables_02"
+    "variables_02",
+    
+    # Create a mutable variable and change its value inside a loop.
+    "variables_03",
+    
+    # Shadow a variable and print both values.
+    "variables_04"
 ]

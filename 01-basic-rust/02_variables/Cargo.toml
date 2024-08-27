@@ -12,5 +12,23 @@ members = [
     "variables_03",
     
     # Shadow a variable and print both values.
-    "variables_04"
+    "variables_04",
+    
+    # Create a program that calculates the area of a rectangle.
+    "variables_05",
+    
+    # Convert a string to an integer and print the result.
+    "variables_06",
+    
+    # Declare a variable with a tuple and access its elements.
+    "variables_07",
+    
+    # Create a program that doubles the value of a number using a mutable variable.
+    "variables_08",
+    
+    # Implement a program that changes a variable's value based on user input.
+    "variables_09",
+    
+    # Create a program that increments a counter variable each time a button is pressed.
+    "variables_10"
 ]

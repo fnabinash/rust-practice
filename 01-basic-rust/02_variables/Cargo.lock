@@ -17,3 +17,27 @@ version = "0.1.0"
 [[package]]
 name = "variables_04"
 version = "0.1.0"
+
+[[package]]
+name = "variables_05"
+version = "0.1.0"
+
+[[package]]
+name = "variables_06"
+version = "0.1.0"
+
+[[package]]
+name = "variables_07"
+version = "0.1.0"
+
+[[package]]
+name = "variables_08"
+version = "0.1.0"
+
+[[package]]
+name = "variables_09"
+version = "0.1.0"
+
+[[package]]
+name = "variables_10"
+version = "0.1.0"

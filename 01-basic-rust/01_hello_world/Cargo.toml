@@ -5,5 +5,29 @@ members = [
     "hello_world_01",
 
     # Modify the program to take user input and print "Hello, [name]!".
-    "hello_world_02"
+    "hello_world_02",
+
+    # Create a program that prints a greeting based on the time of day.
+    "hello_world_03",
+
+    # Print a multi-line string using raw strings.
+    "hello_world_04",
+
+    # Format a string with multiple variables and print it.
+    "hello_world_05",
+    
+    # Print a list of numbers from 1 to 10.
+    "hello_world_06",
+    
+    # Print the length of a given string.
+    "hello_world_07",
+    
+    # Print the result of basic arithmetic operations.
+    "hello_world_08",
+    
+    # Print a countdown from 10 to 1.
+    "hello_world_09",
+    
+    # Create a program that prints a quote using escape characters.
+    "hello_world_10"
 ]

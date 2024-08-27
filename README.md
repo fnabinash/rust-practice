@@ -21,14 +21,14 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 - [X] Print "Hello, World!" to the console.
 - [X] Modify the program to take user input and print "Hello, [name]!".
-- [ ] Create a program that prints a greeting based on the time of day.
-- [ ] Print a multi-line string using raw strings.
-- [ ] Format a string with multiple variables and print it.
-- [ ] Print a list of numbers from 1 to 10
-- [ ] Print the length of a given string.
-- [ ] Print the result of basic arithmetic operations.
-- [ ] Print a countdown from 10 to 1
-- [ ] Create a program that prints a quote using escape characters.
+- [X] Create a program that prints a greeting based on the time of day.
+- [X] Print a multi-line string using raw strings.
+- [X] Format a string with multiple variables and print it.
+- [X] Print a list of numbers from 1 to 10
+- [X] Print the length of a given string.
+- [X] Print the result of basic arithmetic operations.
+- [X] Print a countdown from 10 to 1
+- [X] Create a program that prints a quote using escape characters.
 
 #### Variables and Mutability (1.5%)
 

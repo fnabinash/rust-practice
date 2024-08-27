@@ -4,8 +4,6 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 > **I'll update this repo as I complete each exercise.**
 
-<progress id="myProgress" value="0.5" max="100" style="width: 100%; height: 20px"></progress>
-
 ## Structure
 
 - **Basic Rust (10%)**

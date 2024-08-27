@@ -32,10 +32,10 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 #### Variables and Mutability (1.5%)
 
-- [ ] Swap two variables without using a third variable.
-- [ ] Declare a constant and print its value.
-- [ ] Create a mutable variable and change its value inside a loop.
-- [ ] Shadow a variable and print both values.
+- [X] Swap two variables without using a third variable.
+- [X] Declare a constant and print its value.
+- [X] Create a mutable variable and change its value inside a loop.
+- [X] Shadow a variable and print both values.
 - [ ] Create a program that calculates the area of a rectangle.
 - [ ] Convert a string to an integer and print the result.
 - [ ] Declare a variable with a tuple and access its elements.

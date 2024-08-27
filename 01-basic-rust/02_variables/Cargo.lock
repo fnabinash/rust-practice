@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "variables_01"
 version = "0.1.0"
+
+[[package]]
+name = "variables_02"
+version = "0.1.0"

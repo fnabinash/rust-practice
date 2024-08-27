@@ -3,5 +3,8 @@ resolver = "2"
 
 members = [
     # Swap two variables without using a third variable.
-    "variables_01"
+    "variables_01",
+    
+    # Declare a constant and print its value.
+    "variables_02"
 ]

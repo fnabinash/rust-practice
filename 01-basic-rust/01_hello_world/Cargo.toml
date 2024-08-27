@@ -1,5 +1,7 @@
 [workspace]
 
+resolver = "2"
+
 members = [
     # Print "Hello, World!" to the console.
     "hello_world_01",

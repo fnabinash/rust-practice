@@ -1,0 +1,25 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Convert a floating-point number to an integer.
+    "data_types_01",
+    
+    # Parse a string as a number and perform arithmetic on it.
+    "data_types_02",
+    
+    # Convert a number from one type to another and print the result.
+    "data_types_03",
+    
+    # Create a program that determines the type of a variable.
+    "data_types_04",
+    
+    # Implement a program that calculates the square root of a number.
+    "data_types_05",
+    
+    # Create a program that converts Celsius to Fahrenheit.
+    "data_types_06",
+    
+    # Convert a number to a string and concatenate it with another string.
+    "data_types_07"
+]

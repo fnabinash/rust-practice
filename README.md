@@ -1,18 +1,20 @@
 # Rust Practice
 
-This repository tracks my progress in mastering Rust, focusing on building production-grade CLI tools. The exercises are structured to cover all essential Rust concepts, from basics like variables and control flow to advanced topics like asynchronous programming and unsafe Rust.
+This repository tracks my progress in learning Rust, focusing on building production-grade CLI tools. The exercises are structured to cover all essential Rust concepts, from basics like variables and control flow to advanced topics like asynchronous programming and unsafe Rust.
+
+Repo contains 240+ exercises.
 
 > **I'll update this repo as I complete each exercise.**
 
 ## Structure
 
-- **Basic Rust (10%)**
+- [ ] **Basic Rust (10%)**
   - (variables, mutability, Data types, Control flow, Functions, Ownership & borrowing)
-- **Intermediate Rust (20%)**
+- [ ] **Intermediate Rust (20%)**
   - (Structs, Enums, Vectors, Hashmap, Error Handling, Traits, Iterators, Closures, Modules & Crates)
-- **Advanced Rust(40%)**
-  - (Concurrency, Async programming, Smart Pointers( Box, Rc, RefCell ), Macros, Unsafe Rust, Lifetimes, Generics)
-- **CLI Projects (30%)**
+- [ ] **Advanced Rust(40%)**
+  - (Concurrency, Async programming, Smart Pointers(Box, Rc, RefCell), Macros, Unsafe Rust, Lifetimes, Generics)
+- [ ] **CLI Projects (30%)**
   - (Command-line tools, Advanced CLI tools, Package Building, Cross-platform development, Integration, Plugins & Systems)
 
 ### 1. **Basics Rust (10%)**
@@ -45,13 +47,13 @@ This repository tracks my progress in mastering Rust, focusing on building produ
 
 #### Data Types and Casting (3%)
 
-- [ ] Convert a floating-point number to an integer.
-- [ ] Parse a string as a number and perform arithmetic on it.
-- [ ] Convert a number from one type to another and print the result.
-- [ ] Create a program that determines the type of a variable.
-- [ ] Implement a program that calculates the square root of a number.
-- [ ] Create a program that converts Celsius to Fahrenheit.
-- [ ] Convert a number to a string and concatenate it with another string.
+- [X] Convert a floating-point number to an integer.
+- [X] Parse a string as a number and perform arithmetic on it.
+- [X] Convert a number from one type to another and print the result.
+- [X] Create a program that determines the type of a variable.
+- [X] Implement a program that calculates the square root of a number.
+- [X] Create a program that converts Celsius to Fahrenheit.
+- [X] Convert a number to a string and concatenate it with another string.
 - [ ] Write a program that casts an integer to a character.
 - [ ] Convert a number from binary to decimal.
 - [ ] Create a program that calculates the area of a circle using a floating-point number.

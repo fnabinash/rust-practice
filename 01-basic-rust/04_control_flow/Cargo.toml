@@ -15,5 +15,20 @@ members = [
     "control_flow_04",
     
     # Write a program that checks if a number is positive, negative, or zero.
-    "control_flow_05"
+    "control_flow_05",
+    
+    # Implement a program that finds the largest of three numbers.
+    "control_flow_06",
+    
+    # Create a program that simulates a basic traffic light system.
+    "control_flow_07",
+    
+    # Write a program that checks if a year is a leap year.
+    "control_flow_08",
+    
+    # Create a simple menu-driven program using a loop and match statement.
+    "control_flow_09",
+    
+    # Write a program that calculates the factorial of a number using a loop.
+    "control_flow_10"
 ]

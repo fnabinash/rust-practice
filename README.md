@@ -65,11 +65,11 @@ This repo contains 240+ exercises.
 - [X] Create a calculator using a match statement.
 - [X] Implement a program that checks whether a character is a vowel or consonant.
 - [X] Write a program that checks if a number is positive, negative, or zero.
-- [ ] Implement a program that finds the largest of three numbers.
-- [ ] Create a program that simulates a basic traffic light system.
-- [ ] Write a program that checks if a year is a leap year.
-- [ ] Create a simple menu-driven program using a loop and match statement.
-- [ ] Write a program that calculates the factorial of a number using a loop.
+- [X] Implement a program that finds the largest of three numbers.
+- [X] Create a program that simulates a basic traffic light system.
+- [X] Write a program that checks if a year is a leap year.
+- [X] Create a simple menu-driven program using a loop and match statement.
+- [X] Write a program that calculates the factorial of a number using a loop.
 
 #### Functions (7%)
 

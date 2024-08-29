@@ -15,6 +15,8 @@ This repo contains 240+ exercises.
 - [ ] **CLI Projects (30%)**
   - (Command-line tools, Advanced CLI tools, Package Building, Cross-platform development, Integration, Plugins & Systems)
 
+## Exercises
+
 ### 1. **Basics Rust (10%)**
 
 #### Hello, World! (0.5%)

@@ -54,9 +54,9 @@ Repo contains 240+ exercises.
 - [X] Implement a program that calculates the square root of a number.
 - [X] Create a program that converts Celsius to Fahrenheit.
 - [X] Convert a number to a string and concatenate it with another string.
-- [ ] Write a program that casts an integer to a character.
-- [ ] Convert a number from binary to decimal.
-- [ ] Create a program that calculates the area of a circle using a floating-point number.
+- [X] Write a program that casts an integer to a character.
+- [X] Convert a number from binary to decimal.
+- [X] Create a program that calculates the area of a circle using a floating-point number.
 
 #### Control Flow (5%)
 

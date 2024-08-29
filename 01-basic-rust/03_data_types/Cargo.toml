@@ -21,5 +21,14 @@ members = [
     "data_types_06",
     
     # Convert a number to a string and concatenate it with another string.
-    "data_types_07"
+    "data_types_07",
+    
+    # Write a program that casts an integer to a character.
+    "data_types_08",
+    
+    # Convert a number from binary to decimal.
+    "data_types_09",
+    
+    # Create a program that calculates the area of a circle using a floating-point number.
+    "data_types_10"
 ]

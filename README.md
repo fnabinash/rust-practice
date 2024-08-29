@@ -58,11 +58,11 @@ This repo contains 240+ exercises.
 
 #### Control Flow (5%)
 
-- [ ] Implement a program that checks if a number is even or odd.
-- [ ] Write a simple program that uses `if-else` to compare two numbers.
-- [ ] Create a calculator using a match statement.
-- [ ] Implement a program that checks whether a character is a vowel or consonant.
-- [ ] Write a program that checks if a number is positive, negative, or zero.
+- [X] Implement a program that checks if a number is even or odd.
+- [X] Write a simple program that uses `if-else` to compare two numbers.
+- [X] Create a calculator using a match statement.
+- [X] Implement a program that checks whether a character is a vowel or consonant.
+- [X] Write a program that checks if a number is positive, negative, or zero.
 - [ ] Implement a program that finds the largest of three numbers.
 - [ ] Create a program that simulates a basic traffic light system.
 - [ ] Write a program that checks if a year is a leap year.

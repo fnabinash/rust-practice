@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Implement a program that checks if a number is even or odd.
+    "control_flow_01",
+    
+    # Write a simple program that uses if-else to compare two numbers.
+    "control_flow_02",
+    
+    # Create a calculator using a match statement.
+    "control_flow_03",
+    
+    # Implement a program that checks whether a character is a vowel or consonant
+    "control_flow_04",
+    
+    # Write a program that checks if a number is positive, negative, or zero.
+    "control_flow_05"
+]

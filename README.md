@@ -80,7 +80,7 @@ This repo contains 240+ exercises.
 - [X] Write a function that reverses a string.
 - [X] Create a function that checks if a string is a palindrome.
 - [X] Implement a function that returns the maximum of two numbers.
-- [ ] Write a function that calculates the greatest common divisor (GCD) of two numbers.
+- [X] Write a function that calculates the greatest common divisor (GCD) of two numbers.
 - [ ] Implement a function that calculates the sum of an array of numbers.
 - [ ] Create a function that generates a random number within a specified range.
 

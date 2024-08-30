@@ -76,10 +76,10 @@ This repo contains 240+ exercises.
 - [X] Create a function that returns the square of a number.
 - [X] Implement a function that takes two numbers and returns their sum.
 - [X] Write a function that checks if a number is prime.
-- [ ] Implement a function that returns the nth Fibonacci number.
-- [ ] Write a function that reverses a string.
-- [ ] Create a function that checks if a string is a palindrome.
-- [ ] Implement a function that returns the maximum of two numbers.
+- [X] Implement a function that returns the nth Fibonacci number.
+- [X] Write a function that reverses a string.
+- [X] Create a function that checks if a string is a palindrome.
+- [X] Implement a function that returns the maximum of two numbers.
 - [ ] Write a function that calculates the greatest common divisor (GCD) of two numbers.
 - [ ] Implement a function that calculates the sum of an array of numbers.
 - [ ] Create a function that generates a random number within a specified range.

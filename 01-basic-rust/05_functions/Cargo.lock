@@ -13,3 +13,23 @@ version = "0.1.0"
 [[package]]
 name = "functions_03"
 version = "0.1.0"
+
+[[package]]
+name = "functions_04"
+version = "0.1.0"
+
+[[package]]
+name = "functions_05"
+version = "0.1.0"
+
+[[package]]
+name = "functions_06"
+version = "0.1.0"
+
+[[package]]
+name = "functions_07"
+version = "0.1.0"
+
+[[package]]
+name = "functions_08"
+version = "0.1.0"

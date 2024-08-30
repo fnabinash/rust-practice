@@ -9,5 +9,20 @@ members = [
     "functions_02",
     
     # Write a function that checks if a number is prime.
-    "functions_03"
+    "functions_03",
+    
+    # Implement a function that returns the nth Fibonacci number.
+    "functions_04",
+    
+    # Write a function that reverses a string.
+    "functions_05",
+    
+    # Create a function that checks if a string is a palindrome.
+    "functions_06",
+    
+    # Implement a function that returns the maximum of two numbers.
+    "functions_07",
+    
+    # Write a function that calculates the greatest common divisor (GCD) of two numbers.
+    "functions_08"
 ]

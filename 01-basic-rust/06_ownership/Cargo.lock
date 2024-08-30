@@ -9,3 +9,19 @@ version = "0.1.0"
 [[package]]
 name = "ownership_02"
 version = "0.1.0"
+
+[[package]]
+name = "ownership_03"
+version = "0.1.0"
+
+[[package]]
+name = "ownership_04"
+version = "0.1.0"
+
+[[package]]
+name = "ownership_05"
+version = "0.1.0"
+
+[[package]]
+name = "ownership_06"
+version = "0.1.0"

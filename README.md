@@ -88,10 +88,10 @@ This repo contains 240+ exercises.
 
 - [X] Create a function that takes ownership of a string and prints it.
 - [X] Implement a function that borrows a string and returns its length.
-- [ ] Write a function that takes two borrowed strings and concatenates them.
-- [ ] Create a function that returns ownership of a string to the caller.
-- [ ] Implement a function that modifies a borrowed string using mutable references.
-- [ ] Write a program that demonstrates the use of multiple references.
+- [X] Write a function that takes two borrowed strings and concatenates them.
+- [X] Create a function that returns ownership of a string to the caller.
+- [X] Implement a function that modifies a borrowed string using mutable references.
+- [X] Write a program that demonstrates the use of multiple references.
 - [ ] Create a function that borrows an array and returns its sum.
 - [ ] Implement a program that shows how ownership changes when a variable is reassigned.
 - [ ] Write a function that takes ownership of a vector and returns its length.

@@ -7,7 +7,7 @@ struct Book {
 }
 
 fn main() {
-    let book = Book {
+    let book: Book = Book {
         title: "The Rust Programming Language".to_string(),
         author: "Steve Klabnik and Carol Nichols".to_string(),
         pages: 552

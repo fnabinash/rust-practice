@@ -18,5 +18,17 @@ members = [
     "ownership_05",
     
     # Write a program that demonstrates the use of multiple references.
-    "ownership_06"
+    "ownership_06",
+    
+    # Create a function that borrows an array and returns its sum.
+    "ownership_07",
+    
+    # Implement a program that shows how ownership changes when a variable is reassigned.
+    "ownership_08",
+    
+    # Write a function that takes ownership of a vector and returns its length.
+    "ownership_09",
+    
+    # Create a program that demonstrates the use of references in function parameters and return types.
+    "ownership_10"
 ]

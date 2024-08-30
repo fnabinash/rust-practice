@@ -24,5 +24,11 @@ members = [
     "functions_07",
     
     # Write a function that calculates the greatest common divisor (GCD) of two numbers.
-    "functions_08"
+    "functions_08",
+    
+    # Implement a function that calculates the sum of an array of numbers.
+    "functions_09",
+    
+    # Create a function that generates a random number within a specified range.
+    "functions_10"
 ]

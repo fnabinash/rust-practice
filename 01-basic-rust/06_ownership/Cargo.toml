@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a function that takes ownership of a string and prints it.
+    "ownership_01",
+    
+    # Implement a function that borrows a string and returns its length.
+    "ownership_02"
+]

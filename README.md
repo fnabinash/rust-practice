@@ -86,8 +86,8 @@ This repo contains 240+ exercises.
 
 #### Ownership and Borrowing (10%)
 
-- [ ] Create a function that takes ownership of a string and prints it.
-- [ ] Implement a function that borrows a string and returns its length.
+- [X] Create a function that takes ownership of a string and prints it.
+- [X] Implement a function that borrows a string and returns its length.
 - [ ] Write a function that takes two borrowed strings and concatenates them.
 - [ ] Create a function that returns ownership of a string to the caller.
 - [ ] Implement a function that modifies a borrowed string using mutable references.

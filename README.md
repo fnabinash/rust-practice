@@ -103,7 +103,7 @@ This repo contains 240+ exercises.
 
 #### Structs (12%)
 
-- [ ] Create a `struct` to represent a book with fields for title, author, and pages.
+- [X] Create a `struct` to represent a book with fields for title, author, and pages.
 - [ ] Implement a method for the book `struct` to display its details.
 - [ ] Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.
 - [ ] Create a `struct` to represent a rectangle and calculate its area.

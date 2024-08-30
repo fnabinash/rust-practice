@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a struct to represent a book with fields for title, author, and pages.
+    "structs_01"
+]

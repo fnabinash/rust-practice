@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a function that returns the square of a number.
+    "functions_01",
+    
+    # Implement a function that takes two numbers and returns their sum.
+    "functions_02",
+    
+    # Write a function that checks if a number is prime.
+    "functions_03"
+]

@@ -73,9 +73,9 @@ This repo contains 240+ exercises.
 
 #### Functions (7%)
 
-- [ ] Create a function that returns the square of a number.
-- [ ] Implement a function that takes two numbers and returns their sum.
-- [ ] Write a function that checks if a number is prime.
+- [X] Create a function that returns the square of a number.
+- [X] Implement a function that takes two numbers and returns their sum.
+- [X] Write a function that checks if a number is prime.
 - [ ] Implement a function that returns the nth Fibonacci number.
 - [ ] Write a function that reverses a string.
 - [ ] Create a function that checks if a string is a palindrome.

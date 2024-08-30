@@ -82,7 +82,7 @@ This repo contains 240+ exercises.
 - [X] Implement a function that returns the maximum of two numbers.
 - [X] Write a function that calculates the greatest common divisor (GCD) of two numbers.
 - [X] Implement a function that calculates the sum of an array of numbers.
-- [ ] Create a function that generates a random number within a specified range.
+- [X] Create a function that generates a random number within a specified range.
 
 #### Ownership and Borrowing (10%)
 

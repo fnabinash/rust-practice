@@ -6,7 +6,7 @@ This repo contains 240+ exercises.
 
 ## Structure
 
-- [ ] **Basic Rust (10%)**
+- [X] **Basic Rust (10%)**
   - (variables, mutability, Data types, Control flow, Functions, Ownership & borrowing)
 - [ ] **Intermediate Rust (20%)**
   - (Structs, Enums, Vectors, Hashmap, Error Handling, Traits, Iterators, Closures, Modules & Crates)
@@ -95,7 +95,7 @@ This repo contains 240+ exercises.
 - [X] Create a function that borrows an array and returns its sum.
 - [X] Implement a program that shows how ownership changes when a variable is reassigned.
 - [X] Write a function that takes ownership of a vector and returns its length.
-- [ ] Create a program that demonstrates the use of references in function parameters and return types.
+- [X] Create a program that demonstrates the use of references in function parameters and return types.
 
 ---
 

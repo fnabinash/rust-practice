@@ -21,3 +21,23 @@ version = "0.1.0"
 [[package]]
 name = "enums_05"
 version = "0.1.0"
+
+[[package]]
+name = "enums_06"
+version = "0.1.0"
+
+[[package]]
+name = "enums_07"
+version = "0.1.0"
+
+[[package]]
+name = "enums_08"
+version = "0.1.0"
+
+[[package]]
+name = "enums_09"
+version = "0.1.0"
+
+[[package]]
+name = "enums_10"
+version = "0.1.0"

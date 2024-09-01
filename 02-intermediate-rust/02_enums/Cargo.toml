@@ -15,5 +15,20 @@ members = [
     "enums_04",
     
     # Implement a program that uses an enum to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.
-    "enums_05"
+    "enums_05",
+    
+    # Write a program that uses an enum to represent different file types (Text, Binary, Image) and use pattern matching to process files based on their type.
+    "enums_06",
+    
+    # Create an enum to represent different weather conditions (Sunny, Rainy, Cloudy) and use pattern matching to display appropriate messages.
+    "enums_07",
+    
+    # Implement a program that uses an enum to represent the status of an order (Pending, Shipped, Delivered) and use pattern matching to update the status.
+    "enums_08",
+    
+    # Write a program that uses an enum to represent different error types (NotFound, PermissionDenied, Unknown) and use pattern matching to handle errors.
+    "enums_09",
+    
+    # Create an enum to represent different operations (Add, Subtract, Multiply, Divide) and use pattern matching to implement a basic calculator.
+    "enums_10"
 ]

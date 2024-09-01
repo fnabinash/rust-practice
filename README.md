@@ -110,8 +110,8 @@ This repo contains 240+ exercises.
 - [X] Implement a `struct` to represent a student with fields for name, age, and grades, and calculate the average grade.
 - [X] Write a program that creates a `struct` to represent a complex number and implements methods for addition and subtraction.
 - [X] Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
-- [ ] Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.
-- [ ] Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.
+- [X] Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.
+- [X] Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.
 - [ ] Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.
 
 #### Enums and Pattern Matching (14%)

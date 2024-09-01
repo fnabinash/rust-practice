@@ -21,5 +21,14 @@ members = [
     "structs_06",
     
     # Create a struct to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
-    "structs_07"
+    "structs_07",
+    
+    # Implement a struct to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.
+    "structs_08",
+    
+    # Write a program that creates a struct to represent a person with fields for name, age, and address, and implement methods to update the address.
+    "structs_09",
+    
+    # Create a struct to represent a circle with a field for radius, and implement methods to calculate the circumference and area.
+    "structs_10"
 ]

@@ -116,11 +116,11 @@ This repo contains 240+ exercises.
 
 #### Enums and Pattern Matching (14%)
 
-- [ ] Create an `enum` to represent traffic light states and use pattern matching to display messages.
-- [ ] Implement a program that uses an `enum` to represent different shapes (Circle, Square, Rectangle) and calculate their area.
-- [ ] Write a program that uses an `enum` to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.
-- [ ] Create an `enum` to represent different types of users (Admin, Guest, Registered) and use pattern matching to display messages based on user type.
-- [ ] Implement a program that uses an `enum` to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.
+- [X] Create an `enum` to represent traffic light states and use pattern matching to display messages.
+- [X] Implement a program that uses an `enum` to represent different shapes (Circle, Square, Rectangle) and calculate their area.
+- [X] Write a program that uses an `enum` to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.
+- [X] Create an `enum` to represent different types of users (Admin, Guest, Registered) and use pattern matching to display messages based on user type.
+- [X] Implement a program that uses an `enum` to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.
 - [ ] Write a program that uses an `enum` to represent different file types (Text, Binary, Image) and use pattern matching to process files based on their type.
 - [ ] Create an `enum` to represent different weather conditions (Sunny, Rainy, Cloudy) and use pattern matching to display appropriate messages.
 - [ ] Implement a program that uses an `enum` to represent the status of an order (Pending, Shipped, Delivered) and use pattern matching to update the status.

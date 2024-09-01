@@ -5,3 +5,27 @@ version = 3
 [[package]]
 name = "structs_01"
 version = "0.1.0"
+
+[[package]]
+name = "structs_02"
+version = "0.1.0"
+
+[[package]]
+name = "structs_03"
+version = "0.1.0"
+
+[[package]]
+name = "structs_04"
+version = "0.1.0"
+
+[[package]]
+name = "structs_05"
+version = "0.1.0"
+
+[[package]]
+name = "structs_06"
+version = "0.1.0"
+
+[[package]]
+name = "structs_07"
+version = "0.1.0"

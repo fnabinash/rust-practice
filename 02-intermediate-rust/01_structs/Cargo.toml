@@ -3,5 +3,23 @@ resolver = "2"
 
 members = [
     # Create a struct to represent a book with fields for title, author, and pages.
-    "structs_01"
+    "structs_01",
+    
+    # Implement a method for the book struct to display its details.
+    "structs_02",
+    
+    # Write a program that creates a struct to represent a point in 2D space and calculate the distance between two points.
+    "structs_03",
+    
+    # Create a struct to represent a rectangle and calculate its area.
+    "structs_04",
+    
+    # Implement a struct to represent a student with fields for name, age, and grades, and calculate the average grade.
+    "structs_05",
+    
+    # Write a program that creates a struct to represent a complex number and implements methods for addition and subtraction.
+    "structs_06",
+    
+    # Create a struct to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
+    "structs_07"
 ]

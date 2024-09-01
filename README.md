@@ -104,12 +104,12 @@ This repo contains 240+ exercises.
 #### Structs (12%)
 
 - [X] Create a `struct` to represent a book with fields for title, author, and pages.
-- [ ] Implement a method for the book `struct` to display its details.
-- [ ] Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.
-- [ ] Create a `struct` to represent a rectangle and calculate its area.
-- [ ] Implement a `struct` to represent a student with fields for name, age, and grades, and calculate the average grade.
-- [ ] Write a program that creates a `struct` to represent a complex number and implements methods for addition and subtraction.
-- [ ] Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
+- [X] Implement a method for the book `struct` to display its details.
+- [X] Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.
+- [X] Create a `struct` to represent a rectangle and calculate its area.
+- [X] Implement a `struct` to represent a student with fields for name, age, and grades, and calculate the average grade.
+- [X] Write a program that creates a `struct` to represent a complex number and implements methods for addition and subtraction.
+- [X] Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
 - [ ] Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.
 - [ ] Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.
 - [ ] Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.

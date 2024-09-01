@@ -112,7 +112,7 @@ This repo contains 240+ exercises.
 - [X] Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
 - [X] Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.
 - [X] Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.
-- [ ] Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.
+- [X] Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.
 
 #### Enums and Pattern Matching (14%)
 

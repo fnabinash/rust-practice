@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create an enum to represent traffic light states and use pattern matching to display messages.
+    "enums_01",
+    
+    # Implement a program that uses an enum to represent different shapes (Circle, Square, Rectangle) and calculate their area.
+    "enums_02",
+    
+    # Write a program that uses an enum to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.
+    "enums_03",
+    
+    # Create an enum to represent different types of users (Admin, Guest, Registered) and use pattern matching to display messages based on user type.
+    "enums_04",
+    
+    # Implement a program that uses an enum to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.
+    "enums_05"
+]

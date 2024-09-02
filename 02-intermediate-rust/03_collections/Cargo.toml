@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a program that adds and removes elements from a vector.
+    "collections_01",
+    
+    # Implement a program that finds the largest number in a vector.
+    "collections_02",
+    
+    # Write a program that sorts a vector of integers in ascending and descending order.
+    "collections_03",
+    
+    # Create a program that removes duplicate elements from a vector.
+    "collections_04",
+    
+    # Implement a program that uses a HashMap to count the occurrences of words in a text.
+    "collections_05",
+    
+    # Write a program that stores student grades in a HashMap and calculates the average grade.
+    "collections_06"
+]

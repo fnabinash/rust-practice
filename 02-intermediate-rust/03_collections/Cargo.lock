@@ -29,3 +29,15 @@ version = "0.1.0"
 [[package]]
 name = "collections_07"
 version = "0.1.0"
+
+[[package]]
+name = "collections_08"
+version = "0.1.0"
+
+[[package]]
+name = "collections_09"
+version = "0.1.0"
+
+[[package]]
+name = "collections_10"
+version = "0.1.0"

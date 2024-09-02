@@ -21,5 +21,14 @@ members = [
     "collections_06",
     
     # Create a program that stores user preferences in a HashMap and allows updating and retrieving preferences.
-    "collections_07"
+    "collections_07",
+
+    # Implement a program that uses a HashMap to group words by their first letter.
+    "collections_08",
+    
+    # Write a program that uses a HashMap to store and retrieve configuration settings.
+    "collections_09",
+    
+    # Create a program that uses a HashMap to implement a basic phone book with names and phone numbers.
+    "collections_10"
 ]

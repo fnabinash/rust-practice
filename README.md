@@ -136,9 +136,9 @@ This repo contains 240+ exercises.
 - [X] Implement a program that uses a `HashMap` to count the occurrences of words in a text.
 - [X] Write a program that stores student grades in a `HashMap` and calculates the average grade.
 - [X] Create a program that stores user preferences in a `HashMap` and allows updating and retrieving preferences.
-- [ ] Implement a program that uses a `HashMap` to group words by their first letter.
-- [ ] Write a program that uses a `HashMap` to store and retrieve configuration settings.
-- [ ] Create a program that uses a `HashMap` to implement a basic phone book with names and phone numbers.
+- [X] Implement a program that uses a `HashMap` to group words by their first letter.
+- [X] Write a program that uses a `HashMap` to store and retrieve configuration settings.
+- [X] Create a program that uses a `HashMap` to implement a basic phone book with names and phone numbers.
 
 #### Error Handling (21%)
 

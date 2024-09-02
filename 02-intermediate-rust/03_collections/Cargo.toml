@@ -18,5 +18,8 @@ members = [
     "collections_05",
     
     # Write a program that stores student grades in a HashMap and calculates the average grade.
-    "collections_06"
+    "collections_06",
+    
+    # Create a program that stores user preferences in a HashMap and allows updating and retrieving preferences.
+    "collections_07"
 ]

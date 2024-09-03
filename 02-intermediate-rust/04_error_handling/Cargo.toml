@@ -1,4 +1,34 @@
 [workspace]
 resolver = "2"
 
-members = []
+members = [
+    # Write a program that handles file reading errors and displays an appropriate message if the file is not found.
+    "error_handling_01",
+    
+    # Implement a function that returns a Result type and handles both success and error cases.
+    "error_handling_02",
+    
+    # Create a program that parses a string as an integer and handles invalid input with error messages.
+    "error_handling_03",
+    
+    # Write a function that attempts to open a file and returns a custom error type if the file cannot be opened.
+    "error_handling_04",
+    
+    # Implement a program that reads user input and handles errors if the input is not a valid number.
+    "error_handling_05",
+    
+    # Create a program that uses Option to handle missing values and displays a default value if a value is None.
+    "error_handling_06",
+    
+    # Write a program that attempts to divide two numbers and handles division by zero errors.
+    "error_handling_07",
+    
+    # Implement a function that performs a calculation and returns a Result type with a custom error message if the calculation fails.
+    "error_handling_08",
+    
+    # Create a program that reads a configuration file and handles errors if the file is missing or corrupted.
+    "error_handling_09",
+    
+    # Write a function that attempts to connect to a server and returns a custom error type if the connection fails.
+    "error_handling_10"
+]

@@ -142,16 +142,16 @@ This repo contains 240+ exercises.
 
 #### Error Handling (21%)
 
-- [ ] Write a program that handles file reading errors and displays an appropriate message if the file is not found.
-- [ ] Implement a function that returns a `Result` type and handles both success and error cases.
-- [ ] Create a program that parses a string as an integer and handles invalid input with error messages.
-- [ ] Write a function that attempts to open a file and returns a custom error type if the file cannot be opened.
-- [ ] Implement a program that reads user input and handles errors if the input is not a valid number.
-- [ ] Create a program that uses `Option` to handle missing values and displays a default value if a value is `None`.
-- [ ] Write a program that attempts to divide two numbers and handles division by zero errors.
-- [ ] Implement a function that performs a calculation and returns a `Result` type with a custom error message if the calculation fails.
-- [ ] Create a program that reads a configuration file and handles errors if the file is missing or corrupted.
-- [ ] Write a function that attempts to connect to a server and returns a custom error type if the connection fails.
+- [X] Write a program that handles file reading errors and displays an appropriate message if the file is not found.
+- [X] Implement a function that returns a `Result` type and handles both success and error cases.
+- [X] Create a program that parses a string as an integer and handles invalid input with error messages.
+- [X] Write a function that attempts to open a file and returns a custom error type if the file cannot be opened.
+- [X] Implement a program that reads user input and handles errors if the input is not a valid number.
+- [X] Create a program that uses `Option` to handle missing values and displays a default value if a value is `None`.
+- [X] Write a program that attempts to divide two numbers and handles division by zero errors.
+- [X] Implement a function that performs a calculation and returns a `Result` type with a custom error message if the calculation fails.
+- [X] Create a program that reads a configuration file and handles errors if the file is missing or corrupted.
+- [X] Write a function that attempts to connect to a server and returns a custom error type if the connection fails.
 
 #### Traits (24%)
 

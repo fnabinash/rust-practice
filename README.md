@@ -1,3 +1,5 @@
+![rust-practice-map](images/rust-practice-map.png)
+
 # Rust Practice
 
 This repository tracks my progress of learning Rust, focusing on building production-grade CLI tools. The exercises are structured to cover all essential Rust concepts, from basics like variables and control flow to advanced topics like asynchronous programming and unsafe Rust and contain tiny projects that teach how to build efficient and scalable production-ready CLI apps.

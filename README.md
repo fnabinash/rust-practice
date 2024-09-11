@@ -157,10 +157,10 @@ This repo contains 240+ exercises.
 
 #### Traits (24%)
 
-- [ ] Create a trait called `Printable` with a method `print` and implement it for different types (e.g., `struct`, `enum`).
-- [ ] Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.
-- [ ] Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).
-- [ ] Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.
+- [X] Create a trait called `Printable` with a method `print` and implement it for different types (e.g., `struct`, `enum`).
+- [X] Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.
+- [X] Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).
+- [X] Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.
 - [ ] Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
 - [ ] Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
 - [ ] Implement a trait called `Readable` with a method `read` and implement it for different file types (`TextFile`, `BinaryFile`, `ImageFile`).

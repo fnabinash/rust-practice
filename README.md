@@ -6,6 +6,10 @@ This repository tracks my progress of learning Rust, focusing on building produc
 
 This repo contains 240+ exercises.
 
+- **First time here? Say hello👋🏻 to everyone [here](https://github.com/fnabinash/rust-practice/discussions/5).**
+- **Also you can join the general discussion [here](https://github.com/fnabinash/rust-practice/discussions/1).**
+- **If you have any questions, feel free to ask in [Q&A](https://github.com/fnabinash/rust-practice/discussions/4) discussion tab.**
+
 ## Structure
 
 - [X] **Basic Rust (10%)**

@@ -156,16 +156,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Enums and Pattern Matching (14%)
 
--  [Create an `enum` to represent traffic light states and use pattern matching to display messages.]()
--  [Implement a program that uses an `enum` to represent different shapes (Circle, Square, Rectangle) and calculate their area.]()
--  [Write a program that uses an `enum` to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.]()
--  [Create an `enum` to represent different types of users (Admin, Guest, Registered) and use pattern matching to display messages based on user type.]()
--  [Implement a program that uses an `enum` to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.]()
--  [Write a program that uses an `enum` to represent different file types (Text, Binary, Image) and use pattern matching to process files based on their type.]()
--  [Create an `enum` to represent different weather conditions (Sunny, Rainy, Cloudy) and use pattern matching to display appropriate messages.]()
--  [Implement a program that uses an `enum` to represent the status of an order (Pending, Shipped, Delivered) and use pattern matching to update the status.]()
--  [Write a program that uses an `enum` to represent different error types (NotFound, PermissionDenied, Unknown) and use pattern matching to handle errors.]()
--  [Create an `enum` to represent different operations (Add, Subtract, Multiply, Divide) and use pattern matching to implement a basic calculator.]()
+-  [Create an `enum` to represent traffic light states and use pattern matching to display messages.](02-intermediate-rust/02_enums/enums_01/src/main.rs)
+-  [Implement a program that uses an `enum` to represent different shapes (Circle, Square, Rectangle) and calculate their area.](02-intermediate-rust/02_enums/enums_02/src/main.rs)
+-  [Write a program that uses an `enum` to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.](02-intermediate-rust/02_enums/enums_03/src/main.rs)
+-  [Create an `enum` to represent different types of users (Admin, Guest, Registered) and use pattern matching to display messages based on user type.](02-intermediate-rust/02_enums/enums_04/src/main.rs)
+-  [Implement a program that uses an `enum` to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.](02-intermediate-rust/02_enums/enums_05/src/main.rs)
+-  [Write a program that uses an `enum` to represent different file types (Text, Binary, Image) and use pattern matching to process files based on their type.](02-intermediate-rust/02_enums/enums_06/src/main.rs)
+-  [Create an `enum` to represent different weather conditions (Sunny, Rainy, Cloudy) and use pattern matching to display appropriate messages.](02-intermediate-rust/02_enums/enums_07/src/main.rs)
+-  [Implement a program that uses an `enum` to represent the status of an order (Pending, Shipped, Delivered) and use pattern matching to update the status.](02-intermediate-rust/02_enums/enums_08/src/main.rs)
+-  [Write a program that uses an `enum` to represent different error types (NotFound, PermissionDenied, Unknown) and use pattern matching to handle errors.](02-intermediate-rust/02_enums/enums_09/src/main.rs)
+-  [Create an `enum` to represent different operations (Add, Subtract, Multiply, Divide) and use pattern matching to implement a basic calculator.](02-intermediate-rust/02_enums/enums_10/src/main.rs)
 
 #### Collections (Vectors, HashMaps) (18%)
 

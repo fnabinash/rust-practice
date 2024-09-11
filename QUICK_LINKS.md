@@ -169,16 +169,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Collections (Vectors, HashMaps) (18%)
 
--  [Create a program that adds and removes elements from a vector.]()
--  [Implement a program that finds the largest number in a vector.]()
--  [Write a program that sorts a vector of integers in ascending and descending order.]()
--  [Create a program that removes duplicate elements from a vector.]()
--  [Implement a program that uses a `HashMap` to count the occurrences of words in a text.]()
--  [Write a program that stores student grades in a `HashMap` and calculates the average grade.]()
--  [Create a program that stores user preferences in a `HashMap` and allows updating and retrieving preferences.]()
--  [Implement a program that uses a `HashMap` to group words by their first letter.]()
--  [Write a program that uses a `HashMap` to store and retrieve configuration settings.]()
--  [Create a program that uses a `HashMap` to implement a basic phone book with names and phone numbers.]()
+-  [Create a program that adds and removes elements from a vector.](02-intermediate-rust/03_collections/collections_01/src/main.rs)
+-  [Implement a program that finds the largest number in a vector.](02-intermediate-rust/03_collections/collections_02/src/main.rs)
+-  [Write a program that sorts a vector of integers in ascending and descending order.](02-intermediate-rust/03_collections/collections_03/src/main.rs)
+-  [Create a program that removes duplicate elements from a vector.](02-intermediate-rust/03_collections/collections_04/src/main.rs)
+-  [Implement a program that uses a `HashMap` to count the occurrences of words in a text.](02-intermediate-rust/03_collections/collections_05/src/main.rs)
+-  [Write a program that stores student grades in a `HashMap` and calculates the average grade.](02-intermediate-rust/03_collections/collections_06/src/main.rs)
+-  [Create a program that stores user preferences in a `HashMap` and allows updating and retrieving preferences.](02-intermediate-rust/03_collections/collections_07/src/main.rs)
+-  [Implement a program that uses a `HashMap` to group words by their first letter.](02-intermediate-rust/03_collections/collections_08/src/main.rs)
+-  [Write a program that uses a `HashMap` to store and retrieve configuration settings.](02-intermediate-rust/03_collections/collections_09/src/main.rs)
+-  [Create a program that uses a `HashMap` to implement a basic phone book with names and phone numbers.](02-intermediate-rust/03_collections/collections_10/src/main.rs)
 
 #### Error Handling (21%)
 

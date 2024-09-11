@@ -195,10 +195,10 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Traits (24%)
 
--  [Create a trait called `Printable` with a method `print` and implement it for different types (e.g., `struct`, `enum`).]()
--  [Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.]()
--  [Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).]()
--  [Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.]()
+-  [Create a trait called `Printable` with a method `print` and implement it for different types (e.g., `struct`, `enum`).](02-intermediate-rust/05_traits/traits_01/src/main.rs)
+-  [Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.](02-intermediate-rust/05_traits/traits_02/src/main.rs)
+-  [Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).](02-intermediate-rust/05_traits/traits_03/src/main.rs)
+-  [Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.](02-intermediate-rust/05_traits/traits_04/src/main.rs)
 -  Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
 -  Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
 -  Implement a trait called `Readable` with a method `read` and implement it for different file types (`TextFile`, `BinaryFile`, `ImageFile`).

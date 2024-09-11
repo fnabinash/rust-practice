@@ -82,7 +82,7 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 - [ ] **Projects (30%)**
   - (Command-line tools, Advanced CLI tools, Package Building, Cross-platform development, Integration, Plugins & Systems)
 
-> You can quickly navigate to solutions using **[Quick Links]()**.
+> You can quickly navigate to solutions using **[Quick Links](https://github.com/fnabinash/rust-practice/blob/main/QUICK_LINKS.md)**.
 
 ## Exercises
 

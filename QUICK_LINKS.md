@@ -128,16 +128,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Ownership and Borrowing (10%)
 
--  [Create a function that takes ownership of a string and prints it.]()
--  [Implement a function that borrows a string and returns its length.]()
--  [Write a function that takes two borrowed strings and concatenates them.]()
--  [Create a function that returns ownership of a string to the caller.]()
--  [Implement a function that modifies a borrowed string using mutable references.]()
--  [Write a program that demonstrates the use of multiple references.]()
--  [Create a function that borrows an array and returns its sum.]()
--  [Implement a program that shows how ownership changes when a variable is reassigned.]()
--  [Write a function that takes ownership of a vector and returns its length.]()
--  [Create a program that demonstrates the use of references in function parameters and return types.]()
+-  [Create a function that takes ownership of a string and prints it.](01-basic-rust/06_ownership/ownership_01/src/main.rs)
+-  [Implement a function that borrows a string and returns its length.](01-basic-rust/06_ownership/ownership_02/src/main.rs)
+-  [Write a function that takes two borrowed strings and concatenates them.](01-basic-rust/06_ownership/ownership_03/src/main.rs)
+-  [Create a function that returns ownership of a string to the caller.](01-basic-rust/06_ownership/ownership_04/src/main.rs)
+-  [Implement a function that modifies a borrowed string using mutable references.](01-basic-rust/06_ownership/ownership_05/src/main.rs)
+-  [Write a program that demonstrates the use of multiple references.](01-basic-rust/06_ownership/ownership_06/src/main.rs)
+-  [Create a function that borrows an array and returns its sum.](01-basic-rust/06_ownership/ownership_07/src/main.rs)
+-  [Implement a program that shows how ownership changes when a variable is reassigned.](01-basic-rust/06_ownership/ownership_08/src/main.rs)
+-  [Write a function that takes ownership of a vector and returns its length.](01-basic-rust/06_ownership/ownership_09/src/main.rs)
+-  [Create a program that demonstrates the use of references in function parameters and return types.](01-basic-rust/06_ownership/ownership_10/src/main.rs)
 
 ### 2. **Intermediate Rust (20%)**
 

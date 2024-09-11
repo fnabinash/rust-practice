@@ -6,5 +6,8 @@ members = [
     "traits_01",
     
     # Write a program that creates a trait called Calculable with methods for addition, subtraction, multiplication, and division, and implement it for a struct representing a calculator.
-    "traits_02"
+    "traits_02",
+    
+    # Implement a trait called Drawable with a method draw and implement it for different shapes (Circle, Square, Rectangle).
+    "traits_03"
 ]

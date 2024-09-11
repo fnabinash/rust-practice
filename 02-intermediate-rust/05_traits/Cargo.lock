@@ -9,3 +9,7 @@ version = "0.1.0"
 [[package]]
 name = "traits_02"
 version = "0.1.0"
+
+[[package]]
+name = "traits_03"
+version = "0.1.0"

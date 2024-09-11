@@ -3,5 +3,8 @@ resolver = "2"
 
 members = [
     # Create a trait called Printable with a method print and implement it for different types (e.g., struct, enum).
-    "traits_01"
+    "traits_01",
+    
+    # Write a program that creates a trait called Calculable with methods for addition, subtraction, multiplication, and division, and implement it for a struct representing a calculator.
+    "traits_02"
 ]

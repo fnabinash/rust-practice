@@ -76,16 +76,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Variables and Mutability (1.5%)
 
--  [Swap two variables without using a third variable.]()
--  [Declare a constant and print its value.]()
--  [Create a mutable variable and change its value inside a loop.]()
--  [Shadow a variable and print both values.]()
--  [Create a program that calculates the area of a rectangle.]()
--  [Convert a string to an integer and print the result.]()
--  [Declare a variable with a tuple and access its elements.]()
--  [Create a program that doubles the value of a number using a mutable variable.]()
--  [Implement a program that changes a variable's value based on user input.]()
--  [Create a program that increments a counter variable each time a button is pressed.]()
+-  [Swap two variables without using a third variable.](01-basic-rust/02_variables/variables_01/src/main.rs)
+-  [Declare a constant and print its value.](01-basic-rust/02_variables/variables_02/src/main.rs)
+-  [Create a mutable variable and change its value inside a loop.](01-basic-rust/02_variables/variables_03/src/main.rs)
+-  [Shadow a variable and print both values.](01-basic-rust/02_variables/variables_04/src/main.rs)
+-  [Create a program that calculates the area of a rectangle.](01-basic-rust/02_variables/variables_05/src/main.rs)
+-  [Convert a string to an integer and print the result.](01-basic-rust/02_variables/variables_06/src/main.rs)
+-  [Declare a variable with a tuple and access its elements.](01-basic-rust/02_variables/variables_07/src/main.rs)
+-  [Create a program that doubles the value of a number using a mutable variable.](01-basic-rust/02_variables/variables_08/src/main.rs)
+-  [Implement a program that changes a variable's value based on user input.](01-basic-rust/02_variables/variables_09/src/main.rs)
+-  [Create a program that increments a counter variable each time a button is pressed.](01-basic-rust/02_variables/variables_10/src/main.rs)
 
 #### Data Types and Casting (3%)
 

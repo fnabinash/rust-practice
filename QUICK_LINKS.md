@@ -63,7 +63,7 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Hello, World! (0.5%)
 
--  [Print "Hello, World!" to the console.]()
+-  [Print "Hello, World!" to the console.](01-basic-rust/01_hello_world/hello_world_01/src/main.rs)
 -  [Modify the program to take user input and print "Hello, [name]!".]()
 -  [Create a program that prints a greeting based on the time of day.]()
 -  [Print a multi-line string using raw strings.]()

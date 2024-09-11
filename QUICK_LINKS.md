@@ -89,16 +89,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Data Types and Casting (3%)
 
--  [Convert a floating-point number to an integer.]()
--  [Parse a string as a number and perform arithmetic on it.]()
--  [Convert a number from one type to another and print the result.]()
--  [Create a program that determines the type of a variable.]()
--  [Implement a program that calculates the square root of a number.]()
--  [Create a program that converts Celsius to Fahrenheit.]()
--  [Convert a number to a string and concatenate it with another string.]()
--  [Write a program that casts an integer to a character.]()
--  [Convert a number from binary to decimal.]()
--  [Create a program that calculates the area of a circle using a floating-point number.]()
+-  [Convert a floating-point number to an integer.](01-basic-rust/03_data_types/data_types_01/src/main.rs)
+-  [Parse a string as a number and perform arithmetic on it.](01-basic-rust/03_data_types/data_types_02/src/main.rs)
+-  [Convert a number from one type to another and print the result.](01-basic-rust/03_data_types/data_types_03/src/main.rs)
+-  [Create a program that determines the type of a variable.](01-basic-rust/03_data_types/data_types_04/src/main.rs)
+-  [Implement a program that calculates the square root of a number.](01-basic-rust/03_data_types/data_types_05/src/main.rs)
+-  [Create a program that converts Celsius to Fahrenheit.](01-basic-rust/03_data_types/data_types_06/src/main.rs)
+-  [Convert a number to a string and concatenate it with another string.](01-basic-rust/03_data_types/data_types_07/src/main.rs)
+-  [Write a program that casts an integer to a character.](01-basic-rust/03_data_types/data_types_08/src/main.rs)
+-  [Convert a number from binary to decimal.](01-basic-rust/03_data_types/data_types_09/src/main.rs)
+-  [Create a program that calculates the area of a circle using a floating-point number.](01-basic-rust/03_data_types/data_types_10/src/main.rs)
 
 #### Control Flow (5%)
 

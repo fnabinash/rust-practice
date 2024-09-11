@@ -2,13 +2,74 @@
 
 # Rust Practice
 
-This repository tracks my progress of learning Rust, focusing on building production-grade CLI tools. The exercises are structured to cover all essential Rust concepts, from basics like variables and control flow to advanced topics like asynchronous programming and unsafe Rust and contain tiny projects that teach how to build efficient and scalable production-ready CLI apps.
+This repository tracks my progress of learning Rust, focusing on building production-grade CLI tools.
 
-This repo contains 240+ exercises.
+The exercises are structured to cover all essential Rust concepts, from basics like variables and control flow to advanced topics like asynchronous programming and unsafe Rust and contain tiny projects that teach how to build efficient and scalable production-ready CLI apps.
+
+> This repo contains 240+ exercises.
 
 - **First time here? Say hello👋🏻 to everyone [here](https://github.com/fnabinash/rust-practice/discussions/5).**
 - **Also you can join the general discussion [here](https://github.com/fnabinash/rust-practice/discussions/1).**
 - **If you have any questions, feel free to ask in [Q&A](https://github.com/fnabinash/rust-practice/discussions/4) discussion tab.**
+
+## Table of Contents
+
+1. [Structure](#structure)
+2. [Exercises](#exercises)
+    <details>
+      <summary>Basic Rust</summary>
+
+      <ol>
+      <li><a href="#hello-world-05">hello world</a></li>
+      <li><a href="#variables-and-mutability-15">variables and mutability</a></li>
+      <li><a href="#data-types-and-casting-3">data types</a></li>
+      <li><a href="#control-flow-5">control flow</a></li>
+      <li><a href="#functions-7">functions</a></li>
+      <li><a href="#ownership-and-borrowing-10">Ownership and borrowing</a></li>
+      </ol>
+    </details>
+
+    <details>
+      <summary>Intermediate Rust</summary>
+
+      <ol>
+      <li><a href="#structs-12">structs</a></li>
+      <li><a href="#enums-and-pattern-matching-14">enums</a></li>
+      <li><a href="#collections-vectors-hashmaps-18">collections</a></li>
+      <li><a href="#error-handling-21">error handling</a></li>
+      <li><a href="#traits-24">traits</a></li>
+      <li><a href="#iterators-and-closures-28">iterators and closures</a></li>
+      <li><a href="#modules-and-crates-30">modules and crates</a></li>
+      </ol>
+    </details>
+
+    <details>
+      <summary>Advanced Rust</summary>
+
+      <ol>
+      <li><a href="#concurrency-35">concurrency</a></li>
+      <li><a href="#asynchronous-programming-41">asynchronous programming</a></li>
+      <li><a href="#smart-pointers-box-rc-refcell-47">smart pointers</a></li>
+      <li><a href="#macros-54">macros</a></li>
+      <li><a href="#unsafe-rust-63">unsafe rust</a></li>
+      <li><a href="#lifetimes-and-generics-70">lifetimes and generics</a></li>
+      </ol>
+    </details>
+
+    <details>
+      <summary>Projects</summary>
+
+      <ol>
+      <li><a href="#command-line-tool-73">command line tool</a></li>
+      <li><a href="#advanced-cli-projects-78">advanced CLI projects</a></li>
+      <li><a href="#package-building-85">package building</a></li>
+      <li><a href="#cross-platform-development-91">cross-platform development</a></li>
+      <li><a href="#integration-plugins-and-systems-100">integrations, plugins and systems</a></li>
+      </ol>
+    </details>
+3. [Contributing](#contributing-)
+4. [License](#license-)
+5. [Acknowledgement](#acknowledgment-)
 
 ## Structure
 
@@ -18,8 +79,10 @@ This repo contains 240+ exercises.
   - (Structs, Enums, Vectors, Hashmap, Error Handling, Traits, Iterators, Closures, Modules & Crates)
 - [ ] **Advanced Rust(40%)**
   - (Concurrency, Async programming, Smart Pointers(Box, Rc, RefCell), Macros, Unsafe Rust, Lifetimes, Generics)
-- [ ] **CLI Projects (30%)**
+- [ ] **Projects (30%)**
   - (Command-line tools, Advanced CLI tools, Package Building, Cross-platform development, Integration, Plugins & Systems)
+
+> You can quickly navigate to solutions using **[Quick Links]()**.
 
 ## Exercises
 
@@ -282,7 +345,7 @@ This repo contains 240+ exercises.
 
 ---
 
-### 4. **CLI Projects (30%)**
+### 4. **Projects (30%)**
 
 #### Command-Line Tool (73%)
 
@@ -348,3 +411,19 @@ This repo contains 240+ exercises.
 - [ ] System Monitor Integrator: Build a CLI tool that integrates with system monitoring tools (e.g., Prometheus, Grafana).
 - [ ] Custom Shell: Create a CLI tool that acts as a custom shell with support for plugins and extensions.
 - [ ] Configuration Manager: Build a CLI tool that manages configuration files and integrates with other system tools.
+
+## Contributing 🤝
+
+Contributions are welcome! If you have any suggestions, improvements, or new exercises, feel free to open an issue or submit a pull request. Let's make this repository a valuable resource for everyone learning Rust.
+
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgment 🙏
+
+A big thank you to the Rust community and all the contributors who have helped make this repository better. Your support and feedback are greatly appreciated.
+
+## Contact 📬
+
+For any questions or feedback, you can reach out to me on [GitHub](https://github.com/fnabinash).

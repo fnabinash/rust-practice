@@ -115,16 +115,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Functions (7%)
 
--  [Create a function that returns the square of a number.]()
--  [Implement a function that takes two numbers and returns their sum.]()
--  [Write a function that checks if a number is prime.]()
--  [Implement a function that returns the nth Fibonacci number.]()
--  [Write a function that reverses a string.]()
--  [Create a function that checks if a string is a palindrome.]()
--  [Implement a function that returns the maximum of two numbers.]()
--  [Write a function that calculates the greatest common divisor (GCD) of two numbers.]()
--  [Implement a function that calculates the sum of an array of numbers.]()
--  [Create a function that generates a random number within a specified range.]()
+-  [Create a function that returns the square of a number.](01-basic-rust/05_functions/functions_01/src/main.rs)
+-  [Implement a function that takes two numbers and returns their sum.](01-basic-rust/05_functions/functions_02/src/main.rs)
+-  [Write a function that checks if a number is prime.](01-basic-rust/05_functions/functions_03/src/main.rs)
+-  [Implement a function that returns the nth Fibonacci number.](01-basic-rust/05_functions/functions_04/src/main.rs)
+-  [Write a function that reverses a string.](01-basic-rust/05_functions/functions_05/src/main.rs)
+-  [Create a function that checks if a string is a palindrome.](01-basic-rust/05_functions/functions_06/src/main.rs)
+-  [Implement a function that returns the maximum of two numbers.](01-basic-rust/05_functions/functions_07/src/main.rs)
+-  [Write a function that calculates the greatest common divisor (GCD) of two numbers.](01-basic-rust/05_functions/functions_08/src/main.rs)
+-  [Implement a function that calculates the sum of an array of numbers.](01-basic-rust/05_functions/functions_09/src/main.rs)
+-  [Create a function that generates a random number within a specified range.](01-basic-rust/05_functions/functions_10/src/main.rs)
 
 #### Ownership and Borrowing (10%)
 

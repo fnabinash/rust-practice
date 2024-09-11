@@ -143,16 +143,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Structs (12%)
 
--  [Create a `struct` to represent a book with fields for title, author, and pages.]()
--  [Implement a method for the book `struct` to display its details.]()
--  [Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.]()
--  [Create a `struct` to represent a rectangle and calculate its area.]()
--  [Implement a `struct` to represent a student with fields for name, age, and grades, and calculate the average grade.]()
--  [Write a program that creates a `struct` to represent a complex number and implements methods for addition and subtraction.]()
--  [Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.]()
--  [Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.]()
--  [Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.]()
--  [Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.]()
+-  [Create a `struct` to represent a book with fields for title, author, and pages.](02-intermediate-rust/01_structs/structs_01/src/main.rs)
+-  [Implement a method for the book `struct` to display its details.](02-intermediate-rust/01_structs/structs_02/src/main.rs)
+-  [Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.](02-intermediate-rust/01_structs/structs_03/src/main.rs)
+-  [Create a `struct` to represent a rectangle and calculate its area.](02-intermediate-rust/01_structs/structs_04/src/main.rs)
+-  [Implement a `struct` to represent a student with fields for name, age, and grades, and calculate the average grade.](02-intermediate-rust/01_structs/structs_05/src/main.rs)
+-  [Write a program that creates a `struct` to represent a complex number and implements methods for addition and subtraction.](02-intermediate-rust/01_structs/structs_06/src/main.rs)
+-  [Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.](02-intermediate-rust/01_structs/structs_07/src/main.rs)
+-  [Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.](02-intermediate-rust/01_structs/structs_08/src/main.rs)
+-  [Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.](02-intermediate-rust/01_structs/structs_09/src/main.rs)
+-  [Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.](02-intermediate-rust/01_structs/structs_10/src/main.rs)
 
 #### Enums and Pattern Matching (14%)
 

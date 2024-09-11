@@ -166,8 +166,6 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 - [X] Write a function that takes ownership of a vector and returns its length.
 - [X] Create a program that demonstrates the use of references in function parameters and return types.
 
----
-
 ### 2. **Intermediate Rust (20%)**
 
 #### Structs (12%)
@@ -261,8 +259,6 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 - [ ] Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON, XML) and use it in a project.
 - [ ] Create a program that uses a third-party crate (e.g., `serde`, `regex`) and organizes the code into modules.
 
----
-
 ### 3. **Advanced Rust(40%)**
 
 #### Concurrency (35%)
@@ -342,8 +338,6 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 - [ ] Implement a program that uses lifetimes to manage the scope of a borrowed value.
 - [ ] Create a program that uses generics to implement a custom collection type.
 - [ ] Write a program that uses lifetimes and generics to implement a flexible and reusable function.
-
----
 
 ### 4. **Projects (30%)**
 
@@ -426,4 +420,4 @@ A big thank you to the Rust community and all the contributors who have helped m
 
 ## Contact 📬
 
-For any questions or feedback, you can reach out to me on [GitHub](https://github.com/fnabinash).
+For any questions or feedback, you can reach out to me on [GitHub](https://github.com/fnabinash) or [Dev.to](https://dev.to/fnabinash).

@@ -182,16 +182,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Error Handling (21%)
 
--  [Write a program that handles file reading errors and displays an appropriate message if the file is not found.]()
--  [Implement a function that returns a `Result` type and handles both success and error cases.]()
--  [Create a program that parses a string as an integer and handles invalid input with error messages.]()
--  [Write a function that attempts to open a file and returns a custom error type if the file cannot be opened.]()
--  [Implement a program that reads user input and handles errors if the input is not a valid number.]()
--  [Create a program that uses `Option` to handle missing values and displays a default value if a value is `None`.]()
--  [Write a program that attempts to divide two numbers and handles division by zero errors.]()
--  [Implement a function that performs a calculation and returns a `Result` type with a custom error message if the calculation fails.]()
--  [Create a program that reads a configuration file and handles errors if the file is missing or corrupted.]()
--  [Write a function that attempts to connect to a server and returns a custom error type if the connection fails.]()
+-  [Write a program that handles file reading errors and displays an appropriate message if the file is not found.](02-intermediate-rust/04_error_handling/error_handling_01/src/main.rs)
+-  [Implement a function that returns a `Result` type and handles both success and error cases.](02-intermediate-rust/04_error_handling/error_handling_02/src/main.rs)
+-  [Create a program that parses a string as an integer and handles invalid input with error messages.](02-intermediate-rust/04_error_handling/error_handling_03/src/main.rs)
+-  [Write a function that attempts to open a file and returns a custom error type if the file cannot be opened.](02-intermediate-rust/04_error_handling/error_handling_04/src/main.rs)
+-  [Implement a program that reads user input and handles errors if the input is not a valid number.](02-intermediate-rust/04_error_handling/error_handling_05/src/main.rs)
+-  [Create a program that uses `Option` to handle missing values and displays a default value if a value is `None`.](02-intermediate-rust/04_error_handling/error_handling_06/src/main.rs)
+-  [Write a program that attempts to divide two numbers and handles division by zero errors.](02-intermediate-rust/04_error_handling/error_handling_07/src/main.rs)
+-  [Implement a function that performs a calculation and returns a `Result` type with a custom error message if the calculation fails.](02-intermediate-rust/04_error_handling/error_handling_08/src/main.rs)
+-  [Create a program that reads a configuration file and handles errors if the file is missing or corrupted.](02-intermediate-rust/04_error_handling/error_handling_09/src/main.rs)
+-  [Write a function that attempts to connect to a server and returns a custom error type if the connection fails.](02-intermediate-rust/04_error_handling/error_handling_10/src/main.rs)
 
 #### Traits (24%)
 

@@ -102,16 +102,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Control Flow (5%)
 
--  [Implement a program that checks if a number is even or odd.]()
--  [Write a simple program that uses `if-else` to compare two numbers.]()
--  [Create a calculator using a match statement.]()
--  [Implement a program that checks whether a character is a vowel or consonant.]()
--  [Write a program that checks if a number is positive, negative, or zero.]()
--  [Implement a program that finds the largest of three numbers.]()
--  [Create a program that simulates a basic traffic light system.]()
--  [Write a program that checks if a year is a leap year.]()
--  [Create a simple menu-driven program using a loop and match statement.]()
--  [Write a program that calculates the factorial of a number using a loop.]()
+-  [Implement a program that checks if a number is even or odd.](01-basic-rust/04_control_flow/control_flow_01/src/main.rs)
+-  [Write a simple program that uses `if-else` to compare two numbers.](01-basic-rust/04_control_flow/control_flow_02/src/main.rs)
+-  [Create a calculator using a match statement.](01-basic-rust/04_control_flow/control_flow_03/src/main.rs)
+-  [Implement a program that checks whether a character is a vowel or consonant.](01-basic-rust/04_control_flow/control_flow_04/src/main.rs)
+-  [Write a program that checks if a number is positive, negative, or zero.](01-basic-rust/04_control_flow/control_flow_05/src/main.rs)
+-  [Implement a program that finds the largest of three numbers.](01-basic-rust/04_control_flow/control_flow_06/src/main.rs)
+-  [Create a program that simulates a basic traffic light system.](01-basic-rust/04_control_flow/control_flow_07/src/main.rs)
+-  [Write a program that checks if a year is a leap year.](01-basic-rust/04_control_flow/control_flow_08/src/main.rs)
+-  [Create a simple menu-driven program using a loop and match statement.](01-basic-rust/04_control_flow/control_flow_09/src/main.rs)
+-  [Write a program that calculates the factorial of a number using a loop.](01-basic-rust/04_control_flow/control_flow_10/src/main.rs)
 
 #### Functions (7%)
 

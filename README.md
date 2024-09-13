@@ -14,7 +14,7 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 
 ## Table of Contents
 
-1. [Structure](#structure)
+1. [Structure](#folder-structure)
 2. [Exercises](#exercises)
     <details>
       <summary>Basic Rust</summary>
@@ -71,16 +71,29 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 4. [License](#license-)
 5. [Acknowledgement](#acknowledgment-)
 
-## Structure
+## Folder Structure
 
-- [X] **Basic Rust (10%)**
-  - (variables, mutability, Data types, Control flow, Functions, Ownership & borrowing)
-- [ ] **Intermediate Rust (20%)**
-  - (Structs, Enums, Vectors, Hashmap, Error Handling, Traits, Iterators, Closures, Modules & Crates)
-- [ ] **Advanced Rust(40%)**
-  - (Concurrency, Async programming, Smart Pointers(Box, Rc, RefCell), Macros, Unsafe Rust, Lifetimes, Generics)
-- [ ] **Projects (30%)**
-  - (Command-line tools, Advanced CLI tools, Package Building, Cross-platform development, Integration, Plugins & Systems)
+```
+├── 01-basic-rust
+│   └── 01_hello_world
+│       ├── Cargo.lock
+│       ├── Cargo.toml
+│       └── hello_world_01
+│           ├── Cargo.toml
+│           └── src
+│               └── main.rs
+├── 02-intermediate-rust
+├── 03-advanced-rust
+├── 04-projects
+├──images
+│   └── rust-practice-map.png
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── QUICK_LINKS.md
+├── README.md
+└── SECURITY.md
+```
 
 > You can quickly navigate to solutions using **[Quick Links](https://github.com/fnabinash/rust-practice/blob/main/QUICK_LINKS.md)**.
 

@@ -74,23 +74,23 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 ## Folder Structure
 
 ```
-├── 01-basic-rust
-│   └── 01_hello_world
+├── 01-basic-rust                            // Level - Represent difficulty level
+│   └── 01_hello_world                       // Topic - Represent topics under that level (a cargo workspace)
 │       ├── Cargo.lock
 │       ├── Cargo.toml
-│       └── hello_world_01
+│       └── hello_world_01                   // Exercise - Each topic contains 10 exercises (members of the workspace)
 │           ├── Cargo.toml
 │           └── src
-│               └── main.rs
+│               └── main.rs                  // Solution
 ├── 02-intermediate-rust
 ├── 03-advanced-rust
 ├── 04-projects
-├──images
-│   └── rust-practice-map.png
+├──images                                   // Contains images used in README file
+│   └── rust-practice-map.png               // Mind map used in README file
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── QUICK_LINKS.md
+├── QUICK_LINKS.md                         // Contains direct links to the solution of every exercise
 ├── README.md
 └── SECURITY.md
 ```
@@ -150,7 +150,7 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 - [X] Implement a program that finds the largest of three numbers.
 - [X] Create a program that simulates a basic traffic light system.
 - [X] Write a program that checks if a year is a leap year.
-- [X] Create a simple menu-driven program using a loop and match statement.
+- [X] Create a simple menu-driven program using a loop-and-match statement.
 - [X] Write a program that calculates the factorial of a number using a loop.
 
 #### Functions (7%)

@@ -14,7 +14,7 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 
 ## Table of Contents
 
-1. [Structure](#folder-structure)
+1. [Folder Structure](#folder-structure)
 2. [Exercises](#exercises)
     <details>
       <summary>Basic Rust</summary>

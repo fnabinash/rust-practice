@@ -73,15 +73,15 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 
 ## Folder Structure
 
-```
-├── 01-basic-rust                            // Level - Represent difficulty level
-│   └── 01_hello_world                       // Topic - Represent topics under that level (a cargo workspace)
+```  
+├── 01-basic-rust                           // Level - Represent difficulty level
+│   └── 01_hello_world                      // Topic - Represent topics under that level (a cargo workspace)
 │       ├── Cargo.lock
 │       ├── Cargo.toml
-│       └── hello_world_01                   // Exercise - Each topic contains 10 exercises (members of the workspace)
+│       └── hello_world_01                  // Exercise - Each topic contains 10 exercises (members of the workspace)
 │           ├── Cargo.toml
 │           └── src
-│               └── main.rs                  // Solution
+│               └── main.rs                 // Solution
 ├── 02-intermediate-rust
 ├── 03-advanced-rust
 ├── 04-projects
@@ -90,7 +90,7 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── QUICK_LINKS.md                         // Contains direct links to the solution of every exercise
+├── QUICK_LINKS.md                          // Contains direct links to the solution of every exercise
 ├── README.md
 └── SECURITY.md
 ```

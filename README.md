@@ -260,9 +260,9 @@ This repo is divided in 3 types of folder.
 - [X] Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
 - [X] Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
 - [X] Implement a trait called `Readable` with a method `read` and implement it for different file types.
-- [ ] Write a program that creates a trait called `Savable` with a method `save` and implement it for a `struct` representing a game.
-- [ ] Implement a trait called `Updatable` with a method `update` and implement it for different data types (`i32`, `f64`, `String`).
-- [ ] Write a program that creates a trait called `Convertible` with methods for converting data between different formats, and implement it for a `struct` representing a currency converter.
+- [ ]  Create a trait called Filterable with a method filter that filters elements from a collection of structs representing products (Product { name, price, in_stock }).
+- [ ] Create a trait called StateTransition with a method transition that takes an charachter and based on his score change his level in  GameLevel (with levels like Beginner, Intermediate, and Expert).
+- [ ] Create a trait called Loggable with a method log that takes an object and logs its state.
 
 #### Iterators and Closures (28%)
 

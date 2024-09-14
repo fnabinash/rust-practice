@@ -18,5 +18,8 @@ members = [
     "traits_05",
 
     # Write a program that creates a trait called Cloneable with a method clone and implement it for a struct representing a document.
-    "traits_06"
+    "traits_06",
+    
+    # Implement a trait called Readable with a method read and implement it for different file types.
+    "traits_07"
 ]

@@ -199,12 +199,14 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 -  [Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.](02-intermediate-rust/05_traits/traits_02/src/main.rs)
 -  [Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).](02-intermediate-rust/05_traits/traits_03/src/main.rs)
 -  [Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.](02-intermediate-rust/05_traits/traits_04/src/main.rs)
--  Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
--  Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
--  Implement a trait called `Readable` with a method `read` and implement it for different file types (`TextFile`, `BinaryFile`, `ImageFile`).
--  Write a program that creates a trait called `Savable` with a method `save` and implement it for a `struct` representing a game.
--  Implement a trait called `Updatable` with a method `update` and implement it for different data types (`i32`, `f64`, `String`).
--  Write a program that creates a trait called `Convertible` with methods for converting data between different formats, and implement it for a `struct` representing a currency converter.
+
+
+-  [Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).](02-intermediate-rust/05_traits/traits_05/src/main.rs)
+-  [Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.](02-intermediate-rust/05_traits/traits_06/src/main.rs)
+-  [Implement a trait called `Readable` with a method `read` and implement it for different file types (`TextFile`, `BinaryFile`, `ImageFile`).](02-intermediate-rust/05_traits/traits_07/src/main.rs)
+-  [Create a trait called Filterable with a method filter that filters elements from a collection of structs representing products (Product { name, price, in_stock }).](02-intermediate-rust/05_traits/traits_08/src/main.rs)
+-  [Create a trait called StateTransition with a method transition that takes an charachter and based on his score change his level in GameLevel (with levels like Beginner, Intermediate, and Expert).](02-intermediate-rust/05_traits/traits_09/src/main.rs)
+-  [Create a trait called Loggable with a method log that takes an object and logs its state.](02-intermediate-rust/05_traits/traits_10/src/main.rs)
 
 #### Iterators and Closures (28%)
 

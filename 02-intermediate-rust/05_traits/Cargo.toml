@@ -27,5 +27,8 @@ members = [
     "traits_08",
     
     # Create a trait called StateTransition with a method transition that takes an charachter and based on his score change his level in GameLevel (with levels like Beginner, Intermediate, and Expert).
-    "traits_09"
+    "traits_09",
+    
+    # Create a trait called Loggable with a method log that takes an object and logs its state.
+    "traits_10"
 ]

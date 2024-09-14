@@ -15,5 +15,8 @@ members = [
     "traits_04",
     
     # Implement a trait called Comparable with a method compare and implement it for different types (i32, f64, String).
-    "traits_05"
+    "traits_05",
+
+    # Write a program that creates a trait called Cloneable with a method clone and implement it for a struct representing a document.
+    "traits_06"
 ]

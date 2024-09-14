@@ -257,9 +257,9 @@ This repo is divided in 3 types of folder.
 - [X] Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.
 - [X] Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).
 - [X] Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.
-- [ ] Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
-- [ ] Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
-- [ ] Implement a trait called `Readable` with a method `read` and implement it for different file types (`TextFile`, `BinaryFile`, `ImageFile`).
+- [X] Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
+- [X] Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
+- [X] Implement a trait called `Readable` with a method `read` and implement it for different file types.
 - [ ] Write a program that creates a trait called `Savable` with a method `save` and implement it for a `struct` representing a game.
 - [ ] Implement a trait called `Updatable` with a method `update` and implement it for different data types (`i32`, `f64`, `String`).
 - [ ] Write a program that creates a trait called `Convertible` with methods for converting data between different formats, and implement it for a `struct` representing a currency converter.

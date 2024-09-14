@@ -21,5 +21,8 @@ members = [
     "traits_06",
     
     # Implement a trait called Readable with a method read and implement it for different file types.
-    "traits_07"
+    "traits_07",
+    
+    # Create a trait called Filterable with a method filter that filters elements from a collection of structs representing products (Product { name, price, in_stock }).
+    "traits_08"
 ]

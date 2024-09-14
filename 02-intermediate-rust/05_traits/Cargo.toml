@@ -12,5 +12,8 @@ members = [
     "traits_03",
     
     # Write a program that creates a trait called Serializable with methods for serializing and deserializing data, and implement it for a struct representing a user.
-    "traits_04"
+    "traits_04",
+    
+    # Implement a trait called Comparable with a method compare and implement it for different types (i32, f64, String).
+    "traits_05"
 ]

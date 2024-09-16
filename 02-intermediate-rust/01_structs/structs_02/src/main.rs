@@ -1,13 +1,17 @@
 // Implement a method for the book struct to display its details.
 
-// To get rid of warnings, so annoying.
-#[allow(dead_code)]
-
-#[derive(Debug)]
 struct Book {
     title: String,
     author: String,
     pages: u32
+}
+
+impl Book {
+    fn display_details(&self) {
+        println!("Title: {}", self.title);
+        println!("Author: {}", self.author);
+        println!("Pages: {}", self.pages);
+    }
 }
 
 fn main() {
@@ -16,5 +20,5 @@ fn main() {
         author: "Jim Blandy, Jason Orendorff and Leonora F.S. Tindall".to_string(),
         pages: 736
     };
-    println!("{book:?}");
+    book.display_details();
 }

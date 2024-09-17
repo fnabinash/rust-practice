@@ -72,22 +72,22 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 5. [Acknowledgement](#acknowledgment-)
 
 ## Folder Structure
-This repo is divided in 3 types of folder.
+This repo is divided into 3 types of folders.
 1. **Levels**
-    - Level indicate difficulty of exercises.
+    - Level indicates the difficulty of exercises.
     - e.g. Basic, Intermediate, Advanced, Projects
 2. **Topics**
     - Each level contains multiple topics.
     - Each topic is a cargo workspace.
     - e.g. `variables`, `functions`, `enums`, `traits` ...
 3. **Exercises**
-    - Each topics contains 10 exercises.
+    - Each topic contains 10 exercises.
     - Each exercise is a member of that workspace.
     - e.g. `variables_01`, `variables_02`, `variables_03` ...
 
-#### Other Folders and Files
+### Other Folders and Files
 1. **Image Folder**
-    - It contains images that are used in `README.md` file.
+    - It contains images that are used in the `README.md` file.
 2. **Quick Links**
     - Quick links is a file, that contains links to solutions for all exercises(i.e. links to `src/main.rs`).
 

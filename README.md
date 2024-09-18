@@ -2,77 +2,48 @@
 
 # Rust Practice
 
-This repository tracks my progress of learning Rust, focusing on building production-grade CLI tools.
+A collection of 240+ exercises to learn and practice building production-grade CLI tools in Rust.
 
-The exercises are structured to cover all essential Rust concepts, from basics like variables and control flow to advanced topics like asynchronous programming and unsafe Rust and contain tiny projects that teach how to build efficient and scalable production-ready CLI apps.
+After cloning the repo to your local machine delete the [Instrcutions](#instructions) & [folder structure](#folder-structure) section. It is just to guide you on "How to fork, clone and practice exercise?".
 
-> This repo contains 240+ exercises.
+## Instructions
 
-- **First time here? Say hello👋🏻 to everyone [here](https://github.com/fnabinash/rust-practice/discussions/5).**
-- **Check out the [updates & Announcements](https://github.com/fnabinash/rust-practice/discussions/17) tab for latest insights.**
-- **If you have any questions, feel free to ask in [Q&A](https://github.com/fnabinash/rust-practice/discussions/4) discussion tab.**
+To practice and track your progress, follow these steps.
 
-## Table of Contents
+1. Fork the Repo.
+2. Clone it to your local machine.
 
-1. [Folder Structure](#folder-structure)
-2. [Exercises](#exercises)
-    <details>
-      <summary>Basic Rust</summary>
+```bash
+git clone https://github.com/YOUR_USERNAME/rust-practice.git
+cd rust-practice
+```
 
-      <ol>
-      <li><a href="#hello-world-05">hello world</a></li>
-      <li><a href="#variables-and-mutability-15">variables and mutability</a></li>
-      <li><a href="#data-types-and-casting-3">data types</a></li>
-      <li><a href="#control-flow-5">control flow</a></li>
-      <li><a href="#functions-7">functions</a></li>
-      <li><a href="#ownership-and-borrowing-10">Ownership and borrowing</a></li>
-      </ol>
-    </details>
+3. Switch to the practice branch.
 
-    <details>
-      <summary>Intermediate Rust</summary>
+```bash
+git switch practice
+```
 
-      <ol>
-      <li><a href="#structs-12">structs</a></li>
-      <li><a href="#enums-and-pattern-matching-14">enums</a></li>
-      <li><a href="#collections-vectors-hashmaps-18">collections</a></li>
-      <li><a href="#error-handling-21">error handling</a></li>
-      <li><a href="#traits-24">traits</a></li>
-      <li><a href="#iterators-and-closures-28">iterators and closures</a></li>
-      <li><a href="#modules-and-crates-30">modules and crates</a></li>
-      </ol>
-    </details>
+4. Do exercises.
 
-    <details>
-      <summary>Advanced Rust</summary>
+Before you start doing exercises, I recomend you to read `00-must-read-before-practice` file. ([link](./00-must-read-before-practice/practice.md)).
 
-      <ol>
-      <li><a href="#concurrency-35">concurrency</a></li>
-      <li><a href="#asynchronous-programming-41">asynchronous programming</a></li>
-      <li><a href="#smart-pointers-box-rc-refcell-47">smart pointers</a></li>
-      <li><a href="#macros-54">macros</a></li>
-      <li><a href="#unsafe-rust-63">unsafe rust</a></li>
-      <li><a href="#lifetimes-and-generics-70">lifetimes and generics</a></li>
-      </ol>
-    </details>
+That file gives you the clear instructions "How to do exercises effecticely?".
 
-    <details>
-      <summary>Projects</summary>
+5. Track your progress.
 
-      <ol>
-      <li><a href="#command-line-tool-73">command line tool</a></li>
-      <li><a href="#advanced-cli-projects-78">advanced CLI projects</a></li>
-      <li><a href="#package-building-85">package building</a></li>
-      <li><a href="#cross-platform-development-91">cross-platform development</a></li>
-      <li><a href="#integration-plugins-and-systems-100">integrations, plugins and systems</a></li>
-      </ol>
-    </details>
-3. [Contributing](#contributing-)
-4. [License](#license-)
-5. [Acknowledgement](#acknowledgment-)
+After succesfully completing a exercise, tick the exercise on this `README.md` file.
+
+For example, you just finished the first exercise of `hello-world`, to mark it done;
+
+- Go to `README.md` file
+- Navigate to first exercise
+- replace the space with `X` i.e. [ ] become [X].
 
 ## Folder Structure
+
 This repo is divided into 3 types of folders.
+
 1. **Levels**
     - Level indicates the difficulty of exercises.
     - e.g. Basic, Intermediate, Advanced, Projects
@@ -86,6 +57,7 @@ This repo is divided into 3 types of folders.
     - e.g. `variables_01`, `variables_02`, `variables_03` ...
 
 ### Other Folders and Files
+
 1. **Image Folder**
     - It contains images that are used in the `README.md` file.
 2. **Quick Links**
@@ -113,7 +85,62 @@ This repo is divided into 3 types of folders.
 └── SECURITY.md
 ```
 
-> You can quickly navigate to solutions using **[Quick Links](https://github.com/fnabinash/rust-practice/blob/main/QUICK_LINKS.md)**.
+> You can quickly navigate to any exercise use **[Quick Links](./QUICK_LINKS.md)**.
+
+## Exercises
+
+  <details>
+    <summary>1. Basic Rust</summary>
+
+  <ol>
+  <li><a href="#hello-world-05">hello world</a></li>
+  <li><a href="#variables-and-mutability-15">variables and mutability</a></li>
+  <li><a href="#data-types-and-casting-3">data types</a></li>
+  <li><a href="#control-flow-5">control flow</a></li>
+  <li><a href="#functions-7">functions</a></li>
+  <li><a href="#ownership-and-borrowing-10">Ownership and borrowing</a></li>
+  </ol>
+  </details>
+
+  <details>
+    <summary>2. Intermediate Rust</summary>
+
+  <ol>
+  <li><a href="#structs-12">structs</a></li>
+  <li><a href="#enums-and-pattern-matching-14">enums</a></li>
+  <li><a href="#collections-vectors-hashmaps-18">collections</a></li>
+  <li><a href="#error-handling-21">error handling</a></li>
+  <li><a href="#traits-24">traits</a></li>
+  <li><a href="#iterators-and-closures-28">iterators and closures</a></li>
+  <li><a href="#modules-and-crates-30">modules and crates</a></li>
+  </ol>
+  </details>
+
+  <details>
+    <summary>3. Advanced Rust</summary>
+
+  <ol>
+  <li><a href="#concurrency-35">concurrency</a></li>
+  <li><a href="#asynchronous-programming-41">asynchronous programming</a></li>
+  <li><a href="#smart-pointers-box-rc-refcell-47">smart pointers</a></li>
+  <li><a href="#macros-54">macros</a></li>
+  <li><a href="#unsafe-rust-63">unsafe rust</a></li>
+  <li><a href="#lifetimes-and-generics-70">lifetimes and generics</a></li>
+  </ol>
+  </details>
+
+  <details>
+    <summary>4. Projects</summary>
+
+  <ol>
+  <li><a href="#command-line-tool-73">command line tool</a></li>
+  <li><a href="#advanced-cli-projects-78">advanced CLI projects</a></li>
+  <li><a href="#package-building-85">package building</a></li>
+  <li><a href="#cross-platform-development-91">cross-platform development</a></li>
+  <li><a href="#integration-plugins-and-systems-100">integrations, plugins and systems</a></li>
+  </ol>
+  </details>
+
 
 ## Exercises
 
@@ -121,148 +148,148 @@ This repo is divided into 3 types of folders.
 
 #### Hello, World! (0.5%)
 
-- [X] Print "Hello, World!" to the console.
-- [X] Modify the program to take user input and print "Hello, [name]!".
-- [X] Create a program that prints a greeting based on the time of day.
-- [X] Print a multi-line string using raw strings.
-- [X] Format a string with multiple variables and print it.
-- [X] Print a list of numbers from 1 to 10
-- [X] Print the length of a given string.
-- [X] Print the result of basic arithmetic operations.
-- [X] Print a countdown from 10 to 1
-- [X] Create a program that prints a quote using escape characters.
+- [ ] Print "Hello, World!" to the console.
+- [ ] Modify the program to take user input and print "Hello, [name]!".
+- [ ] Create a program that prints a greeting based on the time of day.
+- [ ] Print a multi-line string using raw strings.
+- [ ] Format a string with multiple variables and print it.
+- [ ] Print a list of numbers from 1 to 10
+- [ ] Print the length of a given string.
+- [ ] Print the result of basic arithmetic operations.
+- [ ] Print a countdown from 10 to 1
+- [ ] Create a program that prints a quote using escape characters.
 
 #### Variables and Mutability (1.5%)
 
-- [X] Swap two variables without using a third variable.
-- [X] Declare a constant and print its value.
-- [X] Create a mutable variable and change its value inside a loop.
-- [X] Shadow a variable and print both values.
-- [X] Create a program that calculates the area of a rectangle.
-- [X] Convert a string to an integer and print the result.
-- [X] Declare a variable with a tuple and access its elements.
-- [X] Create a program that doubles the value of a number using a mutable variable.
-- [X] Implement a program that changes a variable's value based on user input.
-- [X] Create a program that increments a counter variable each time a button is pressed.
+- [ ] Swap two variables without using a third variable.
+- [ ] Declare a constant and print its value.
+- [ ] Create a mutable variable and change its value inside a loop.
+- [ ] Shadow a variable and print both values.
+- [ ] Create a program that calculates the area of a rectangle.
+- [ ] Convert a string to an integer and print the result.
+- [ ] Declare a variable with a tuple and access its elements.
+- [ ] Create a program that doubles the value of a number using a mutable variable.
+- [ ] Implement a program that changes a variable's value based on user input.
+- [ ] Create a program that increments a counter variable each time a button is pressed.
 
 #### Data Types and Casting (3%)
 
-- [X] Convert a floating-point number to an integer.
-- [X] Parse a string as a number and perform arithmetic on it.
-- [X] Convert a number from one type to another and print the result.
-- [X] Create a program that determines the type of a variable.
-- [X] Implement a program that calculates the square root of a number.
-- [X] Create a program that converts Celsius to Fahrenheit.
-- [X] Convert a number to a string and concatenate it with another string.
-- [X] Write a program that casts an integer to a character.
-- [X] Convert a number from binary to decimal.
-- [X] Create a program that calculates the area of a circle using a floating-point number.
+- [ ] Convert a floating-point number to an integer.
+- [ ] Parse a string as a number and perform arithmetic on it.
+- [ ] Convert a number from one type to another and print the result.
+- [ ] Create a program that determines the type of a variable.
+- [ ] Implement a program that calculates the square root of a number.
+- [ ] Create a program that converts Celsius to Fahrenheit.
+- [ ] Convert a number to a string and concatenate it with another string.
+- [ ] Write a program that casts an integer to a character.
+- [ ] Convert a number from binary to decimal.
+- [ ] Create a program that calculates the area of a circle using a floating-point number.
 
 #### Control Flow (5%)
 
-- [X] Implement a program that checks if a number is even or odd.
-- [X] Write a simple program that uses `if-else` to compare two numbers.
-- [X] Create a calculator using a match statement.
-- [X] Implement a program that checks whether a character is a vowel or consonant.
-- [X] Write a program that checks if a number is positive, negative, or zero.
-- [X] Implement a program that finds the largest of three numbers.
-- [X] Create a program that simulates a basic traffic light system.
-- [X] Write a program that checks if a year is a leap year.
-- [X] Create a simple menu-driven program using a loop-and-match statement.
-- [X] Write a program that calculates the factorial of a number using a loop.
+- [ ] Implement a program that checks if a number is even or odd.
+- [ ] Write a simple program that uses `if-else` to compare two numbers.
+- [ ] Create a calculator using a match statement.
+- [ ] Implement a program that checks whether a character is a vowel or consonant.
+- [ ] Write a program that checks if a number is positive, negative, or zero.
+- [ ] Implement a program that finds the largest of three numbers.
+- [ ] Create a program that simulates a basic traffic light system.
+- [ ] Write a program that checks if a year is a leap year.
+- [ ] Create a simple menu-driven program using a loop-and-match statement.
+- [ ] Write a program that calculates the factorial of a number using a loop.
 
 #### Functions (7%)
 
-- [X] Create a function that returns the square of a number.
-- [X] Implement a function that takes two numbers and returns their sum.
-- [X] Write a function that checks if a number is prime.
-- [X] Implement a function that returns the nth Fibonacci number.
-- [X] Write a function that reverses a string.
-- [X] Create a function that checks if a string is a palindrome.
-- [X] Implement a function that returns the maximum of two numbers.
-- [X] Write a function that calculates the greatest common divisor (GCD) of two numbers.
-- [X] Implement a function that calculates the sum of an array of numbers.
-- [X] Create a function that generates a random number within a specified range.
+- [ ] Create a function that returns the square of a number.
+- [ ] Implement a function that takes two numbers and returns their sum.
+- [ ] Write a function that checks if a number is prime.
+- [ ] Implement a function that returns the nth Fibonacci number.
+- [ ] Write a function that reverses a string.
+- [ ] Create a function that checks if a string is a palindrome.
+- [ ] Implement a function that returns the maximum of two numbers.
+- [ ] Write a function that calculates the greatest common divisor (GCD) of two numbers.
+- [ ] Implement a function that calculates the sum of an array of numbers.
+- [ ] Create a function that generates a random number within a specified range.
 
 #### Ownership and Borrowing (10%)
 
-- [X] Create a function that takes ownership of a string and prints it.
-- [X] Implement a function that borrows a string and returns its length.
-- [X] Write a function that takes two borrowed strings and concatenates them.
-- [X] Create a function that returns ownership of a string to the caller.
-- [X] Implement a function that modifies a borrowed string using mutable references.
-- [X] Write a program that demonstrates the use of multiple references.
-- [X] Create a function that borrows an array and returns its sum.
-- [X] Implement a program that shows how ownership changes when a variable is reassigned.
-- [X] Write a function that takes ownership of a vector and returns its length.
-- [X] Create a program that demonstrates the use of references in function parameters and return types.
+- [ ] Create a function that takes ownership of a string and prints it.
+- [ ] Implement a function that borrows a string and returns its length.
+- [ ] Write a function that takes two borrowed strings and concatenates them.
+- [ ] Create a function that returns ownership of a string to the caller.
+- [ ] Implement a function that modifies a borrowed string using mutable references.
+- [ ] Write a program that demonstrates the use of multiple references.
+- [ ] Create a function that borrows an array and returns its sum.
+- [ ] Implement a program that shows how ownership changes when a variable is reassigned.
+- [ ] Write a function that takes ownership of a vector and returns its length.
+- [ ] Create a program that demonstrates the use of references in function parameters and return types.
 
 ### 2. **Intermediate Rust (20%)**
 
 #### Structs (12%)
 
-- [X] Create a `struct` to represent a book with fields for title, author, and pages.
-- [X] Implement a method for the book `struct` to display its details.
-- [X] Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.
-- [X] Create a `struct` to represent a rectangle and calculate its area.
-- [X] Implement a `struct` to represent a student with fields for name, age, and grades, and calculate the average grade.
-- [X] Write a program that creates a `struct` to represent a complex number and implements methods for addition and subtraction.
-- [X] Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
-- [X] Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.
-- [X] Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.
-- [X] Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.
+- [ ] Create a `struct` to represent a book with fields for title, author, and pages.
+- [ ] Implement a method for the book `struct` to display its details.
+- [ ] Write a program that creates a `struct` to represent a point in 2D space and calculate the distance between two points.
+- [ ] Create a `struct` to represent a rectangle and calculate its area.
+- [ ] Implement a `struct` to represent a student with fields for name, age, and grades, and calculate the average grade.
+- [ ] Write a program that creates a `struct` to represent a complex number and implements methods for addition and subtraction.
+- [ ] Create a `struct` to represent a car with fields for make, model, and year, and implement methods to start and stop the car.
+- [ ] Implement a `struct` to represent a bank account with fields for account number, balance, and owner, and create methods to deposit and withdraw money.
+- [ ] Write a program that creates a `struct` to represent a person with fields for name, age, and address, and implement methods to update the address.
+- [ ] Create a `struct` to represent a circle with a field for radius, and implement methods to calculate the circumference and area.
 
 #### Enums and Pattern Matching (14%)
 
-- [X] Create an `enum` to represent traffic light states and use pattern matching to display messages.
-- [X] Implement a program that uses an `enum` to represent different shapes (Circle, Square, Rectangle) and calculate their area.
-- [X] Write a program that uses an `enum` to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.
-- [X] Create an `enum` to represent different types of users (Admin, Guest, Registered) and use pattern matching to display messages based on user type.
-- [X] Implement a program that uses an `enum` to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.
-- [X] Write a program that uses an `enum` to represent different file types (Text, Binary, Image) and use pattern matching to process files based on their type.
-- [X] Create an `enum` to represent different weather conditions (Sunny, Rainy, Cloudy) and use pattern matching to display appropriate messages.
-- [X] Implement a program that uses an `enum` to represent the status of an order (Pending, Shipped, Delivered) and use pattern matching to update the status.
-- [X] Write a program that uses an `enum` to represent different error types (NotFound, PermissionDenied, Unknown) and use pattern matching to handle errors.
-- [X] Create an `enum` to represent different operations (Add, Subtract, Multiply, Divide) and use pattern matching to implement a basic calculator.
+- [ ] Create an `enum` to represent traffic light states and use pattern matching to display messages.
+- [ ] Implement a program that uses an `enum` to represent different shapes (Circle, Square, Rectangle) and calculate their area.
+- [ ] Write a program that uses an `enum` to represent the result of a calculation (Success, Error) and uses pattern matching to handle both cases.
+- [ ] Create an `enum` to represent different types of users (Admin, Guest, Registered) and use pattern matching to display messages based on user type.
+- [ ] Implement a program that uses an `enum` to represent different payment methods (CreditCard, PayPal, Cash) and calculate the total cost based on the payment method.
+- [ ] Write a program that uses an `enum` to represent different file types (Text, Binary, Image) and use pattern matching to process files based on their type.
+- [ ] Create an `enum` to represent different weather conditions (Sunny, Rainy, Cloudy) and use pattern matching to display appropriate messages.
+- [ ] Implement a program that uses an `enum` to represent the status of an order (Pending, Shipped, Delivered) and use pattern matching to update the status.
+- [ ] Write a program that uses an `enum` to represent different error types (NotFound, PermissionDenied, Unknown) and use pattern matching to handle errors.
+- [ ] Create an `enum` to represent different operations (Add, Subtract, Multiply, Divide) and use pattern matching to implement a basic calculator.
 
 #### Collections (Vectors, HashMaps) (18%)
 
-- [X] Create a program that adds and removes elements from a vector.
-- [X] Implement a program that finds the largest number in a vector.
-- [X] Write a program that sorts a vector of integers in ascending and descending order.
-- [X] Create a program that removes duplicate elements from a vector.
-- [X] Implement a program that uses a `HashMap` to count the occurrences of words in a text.
-- [X] Write a program that stores student grades in a `HashMap` and calculates the average grade.
-- [X] Create a program that stores user preferences in a `HashMap` and allows updating and retrieving preferences.
-- [X] Implement a program that uses a `HashMap` to group words by their first letter.
-- [X] Write a program that uses a `HashMap` to store and retrieve configuration settings.
-- [X] Create a program that uses a `HashMap` to implement a basic phone book with names and phone numbers.
+- [ ] Create a program that adds and removes elements from a vector.
+- [ ] Implement a program that finds the largest number in a vector.
+- [ ] Write a program that sorts a vector of integers in ascending and descending order.
+- [ ] Create a program that removes duplicate elements from a vector.
+- [ ] Implement a program that uses a `HashMap` to count the occurrences of words in a text.
+- [ ] Write a program that stores student grades in a `HashMap` and calculates the average grade.
+- [ ] Create a program that stores user preferences in a `HashMap` and allows updating and retrieving preferences.
+- [ ] Implement a program that uses a `HashMap` to group words by their first letter.
+- [ ] Write a program that uses a `HashMap` to store and retrieve configuration settings.
+- [ ] Create a program that uses a `HashMap` to implement a basic phone book with names and phone numbers.
 
 #### Error Handling (21%)
 
-- [X] Write a program that handles file reading errors and displays an appropriate message if the file is not found.
-- [X] Implement a function that returns a `Result` type and handles both success and error cases.
-- [X] Create a program that parses a string as an integer and handles invalid input with error messages.
-- [X] Write a function that attempts to open a file and returns a custom error type if the file cannot be opened.
-- [X] Implement a program that reads user input and handles errors if the input is not a valid number.
-- [X] Create a program that uses `Option` to handle missing values and displays a default value if a value is `None`.
-- [X] Write a program that attempts to divide two numbers and handles division by zero errors.
-- [X] Implement a function that performs a calculation and returns a `Result` type with a custom error message if the calculation fails.
-- [X] Create a program that reads a configuration file and handles errors if the file is missing or corrupted.
-- [X] Write a function that attempts to connect to a server and returns a custom error type if the connection fails.
+- [ ] Write a program that handles file reading errors and displays an appropriate message if the file is not found.
+- [ ] Implement a function that returns a `Result` type and handles both success and error cases.
+- [ ] Create a program that parses a string as an integer and handles invalid input with error messages.
+- [ ] Write a function that attempts to open a file and returns a custom error type if the file cannot be opened.
+- [ ] Implement a program that reads user input and handles errors if the input is not a valid number.
+- [ ] Create a program that uses `Option` to handle missing values and displays a default value if a value is `None`.
+- [ ] Write a program that attempts to divide two numbers and handles division by zero errors.
+- [ ] Implement a function that performs a calculation and returns a `Result` type with a custom error message if the calculation fails.
+- [ ] Create a program that reads a configuration file and handles errors if the file is missing or corrupted.
+- [ ] Write a function that attempts to connect to a server and returns a custom error type if the connection fails.
 
 #### Traits (24%)
 
-- [X] Create a trait called `Printable` with a method `print` and implement it for different types (e.g., `struct`, `enum`).
-- [X] Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.
-- [X] Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).
-- [X] Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.
-- [X] Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
-- [X] Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
-- [X] Implement a trait called `Readable` with a method `read` and implement it for different file types.
-- [X]  Create a trait called Filterable with a method filter that filters elements from a collection of structs representing products (Product { name, price, in_stock }).
-- [X] Create a trait called StateTransition with a method transition that takes an charachter and based on his score change his level in  GameLevel (with levels like Beginner, Intermediate, and Expert).
-- [X] Create a trait called Loggable with a method log that takes an object and logs its state.
+- [ ] Create a trait called `Printable` with a method `print` and implement it for different types (e.g., `struct`, `enum`).
+- [ ] Write a program that creates a trait called `Calculable` with methods for addition, subtraction, multiplication, and division, and implement it for a `struct` representing a calculator.
+- [ ] Implement a trait called `Drawable` with a method `draw` and implement it for different shapes (`Circle`, `Square`, `Rectangle`).
+- [ ] Write a program that creates a trait called `Serializable` with methods for serializing and deserializing data, and implement it for a `struct` representing a user.
+- [ ] Implement a trait called `Comparable` with a method `compare` and implement it for different types (`i32`, `f64`, `String`).
+- [ ] Write a program that creates a trait called `Cloneable` with a method `clone` and implement it for a `struct` representing a document.
+- [ ] Implement a trait called `Readable` with a method `read` and implement it for different file types.
+- [ ]  Create a trait called Filterable with a method filter that filters elements from a collection of structs representing products (Product { name, price, in_stock }).
+- [ ] Create a trait called StateTransition with a method transition that takes an charachter and based on his score change his level in  GameLevel (with levels like Beginner, Intermediate, and Expert).
+- [ ] Create a trait called Loggable with a method log that takes an object and logs its state.
 
 #### Iterators and Closures (28%)
 
@@ -287,7 +314,7 @@ This repo is divided into 3 types of folders.
 - [ ] Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.
 - [ ] Create a crate for common utilities (e.g., logging, configuration) and use it in a project.
 - [ ] Implement a program that creates a module to organize functions for working with dates and times and use it in a main program.
-- [ ] Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON, XML) and use it in a project.
+- [ ] Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON,  ML) and use it in a project.
 - [ ] Create a program that uses a third-party crate (e.g., `serde`, `regex`) and organizes the code into modules.
 
 ### 3. **Advanced Rust(40%)**
@@ -436,19 +463,3 @@ This repo is divided into 3 types of folders.
 - [ ] System Monitor Integrator: Build a CLI tool that integrates with system monitoring tools (e.g., Prometheus, Grafana).
 - [ ] Custom Shell: Create a CLI tool that acts as a custom shell with support for plugins and extensions.
 - [ ] Configuration Manager: Build a CLI tool that manages configuration files and integrates with other system tools.
-
-## Contributing 🤝
-
-Contributions are welcome! If you have any suggestions, improvements, or new exercises, feel free to open an issue or submit a pull request. Let's make this repository a valuable resource for everyone learning Rust.
-
-## License 📜
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgment 🙏
-
-A big thank you to the Rust community and all the contributors who have helped make this repository better. Your support and feedback are greatly appreciated.
-
-## Contact 📬
-
-For any questions or feedback, you can reach out to me on [GitHub](https://github.com/fnabinash) or [Dev.to](https://dev.to/fnabinash).

@@ -26,18 +26,18 @@ git switch practice
 
 4. Do exercises.
 
-Before you start doing exercises, I recomend you to read `00-must-read-before-practice` file. ([link](./00-must-read-before-practice/practice.md)).
+Before you start doing exercises, I recommend you to read the `00-must-read-before-practice` file. ([link](./00-must-read-before-practice/practice.md)).
 
-That file gives you the clear instructions "How to do exercises effecticely?".
+That file gives you clear instructions on "How to do exercises effectively?".
 
 5. Track your progress.
 
-After succesfully completing a exercise, tick the exercise on this `README.md` file.
+After successfully completing an exercise, tick the exercise on this `README.md` file.
 
 For example, you just finished the first exercise of `hello-world`, to mark it done;
 
 - Go to `README.md` file
-- Navigate to first exercise
+- Navigate to the first exercise
 - replace the space with `X` i.e. [ ] become [X].
 
 ## Folder Structure

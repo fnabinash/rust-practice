@@ -4,7 +4,7 @@
 
 A collection of 240+ exercises to learn and practice building production-grade CLI tools in Rust.
 
-After cloning the repo to your local machine delete the [Instrcutions](#instructions) & [folder structure](#folder-structure) section. It is just to guide you on "How to fork, clone and practice exercise?".
+After cloning the repo to your local machine remove the [Instrcutions](#instructions) & [folder structure](#folder-structure) section. It is just to guide you on "How to fork, clone and practice exercise?".
 
 ## Instructions
 
@@ -85,7 +85,7 @@ This repo is divided into 3 types of folders.
 └── SECURITY.md
 ```
 
-> You can quickly navigate to any exercise use **[Quick Links](./QUICK_LINKS.md)**.
+> You can quickly navigate to any exercise using **[Quick Links](./QUICK_LINKS.md)**.
 
 ## Exercises
 

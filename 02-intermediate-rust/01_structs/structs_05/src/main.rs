@@ -3,18 +3,17 @@
 struct Student {
     name: String,
     age: u8,
-    grades: Vec<u32>
+    grades: Vec<f32>
 }
 
 impl Student {
-    fn get_avg_grades(&self) -> u32 {
-        let mut sum: u32 = 0;
-        let len: u32 = self.grades.len() as u32;
+    fn get_avg_grades(&self) -> f32 {
+        let mut sum: f32 = 0.0;
+        let len = self.grades.len() as f32;
 
         for grade in &self.grades {
-            sum += grade;
+            sum += grade;        
         }
-
         sum / len
     }
 }
@@ -23,9 +22,12 @@ fn main() {
     let student: Student = Student {
         name: "Kamlesh".to_string(),
         age: 13,
-        grades: vec![45, 56, 78, 32, 99]
+        grades: vec![45.0, 56.5, 78.6, 32.6, 100.0]
     };
 
-    let avg_grade: u32 = student.get_avg_grades();
+    let avg_grade: f32 = student.get_avg_grades();
     println!("Average grade of {:?} of age {} is {}.", student.name, student.age, avg_grade);
 }
+
+
+

@@ -11,6 +11,7 @@ The exercises are structured to cover all essential Rust concepts, from basics l
 - **First time here? Say hello👋🏻 to everyone [here](https://github.com/fnabinash/rust-practice/discussions/5).**
 - **Check out the [updates & Announcements](https://github.com/fnabinash/rust-practice/discussions/17) tab for latest insights.**
 - **If you have any questions, feel free to ask in [Q&A](https://github.com/fnabinash/rust-practice/discussions/4) discussion tab.**
+- **To practice yourself, please navigate to the [practice](https://github.com/fnabinash/rust-practice/tree/practice) branch.**
 
 ## Table of Contents
 

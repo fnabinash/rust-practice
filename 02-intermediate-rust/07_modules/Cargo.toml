@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a module to organize functions for mathematical operations and use it in a main program.
+    "modules_01",
+    
+    # Implement a program that uses a module to organize functions for file handling and use it in a main program.
+    "modules_02",
+    
+    # Write a program that creates a module to organize functions for string processing and use it in a main program.
+    "modules_03",
+    
+    # Create a module to organize functions for error handling and use it in a main program.
+    "modules_04",
+    
+    # Implement a program that uses a module to organize functions for working with collections (Vector, HashMap) and use it in a main program.
+    "modules_05",
+    
+    # Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.
+    "modules_06",
+    
+    # Create a crate for common utilities (e.g., logging, configuration) and use it in a project.
+    "modules_07",
+    
+    # Implement a program that creates a module to organize functions for working with dates and times and use it in a main program.
+    "modules_08",
+    
+    # Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON, ML) and use it in a project.
+    "modules_09",
+    
+    # Create a program that uses a third-party crate (e.g., serde, regex) and organizes the code into modules.
+    "modules_10"
+]

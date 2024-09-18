@@ -6,7 +6,7 @@ Thank you for your interest in contributing to **rust-practice**! This repositor
 
 ### 1. Fork the Repository
 
-Start by forking the [rust-practice](https://github.com/implabinash/rust-practice) repository. This will create a copy of the repository under your GitHub account.
+Start by forking the [rust-practice](https://github.com/fnabinash/rust-practice) repository. This will create a copy of the repository under your GitHub account.
 
 ### 2. Clone Your Fork
 
@@ -52,7 +52,7 @@ git push origin feature-name
 
 ### 8. Submit a Pull Request
 
-Go to the original repository and submit a pull request (PR) from your forked branch to the `main` branch of `implabinash/rust-practice`. In the PR description, please explain what changes you've made and why they are necessary.
+Go to the original repository and submit a pull request (PR) from your forked branch to the `main` branch of `fnabinash/rust-practice`. In the PR description, please explain what changes you've made and why they are necessary.
 
 ### 9. Review Process
 

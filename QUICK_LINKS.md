@@ -264,16 +264,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Smart Pointers (Box, Rc, RefCell) (47%)
 
-- [Write a program that uses `Box` to create a linked list.]()
-- [Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.]()
-- [Create a program that uses `RefCell` to modify data inside a `struct` with shared ownership.]()
-- [Write a program that uses `Box` to create a recursive data structure (e.g., a binary tree).]()
-- [Implement a program that uses `Rc` to share a configuration object between multiple threads.]()
-- [Create a program that uses `RefCell` to implement interior mutability in a `struct`.]()
-- [Write a program that uses `Rc` and `RefCell` together to create a graph data structure.]()
-- [Implement a program that uses `Box` to store a trait object and call methods on it dynamically.]()
-- [Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.]()
-- [Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.]()
+- [Write a program that uses `Box` to create a linked list.](03-advanced-rust/03_smart_pointers/smart_pointers_01/src/main.rs)
+- [Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.](03-advanced-rust/03_smart_pointers/smart_pointers_02/src/main.rs)
+- [Create a program that uses `RefCell` to modify data inside a `struct` with shared ownership.](03-advanced-rust/03_smart_pointers/smart_pointers_03/src/main.rs)
+- [Write a program that uses `Box` to create a recursive data structure (e.g., a binary tree).](03-advanced-rust/03_smart_pointers/smart_pointers_04/src/main.rs)
+- [Implement a program that uses `Rc` to share a configuration object between multiple threads.](03-advanced-rust/03_smart_pointers/smart_pointers_05/src/main.rs)
+- [Create a program that uses `RefCell` to implement interior mutability in a `struct`.](03-advanced-rust/03_smart_pointers/smart_pointers_06/src/main.rs)
+- [Write a program that uses `Rc` and `RefCell` together to create a graph data structure.](03-advanced-rust/03_smart_pointers/smart_pointers_07/src/main.rs)
+- [Implement a program that uses `Box` to store a trait object and call methods on it dynamically.](03-advanced-rust/03_smart_pointers/smart_pointers_08/src/main.rs)
+- [Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.](03-advanced-rust/03_smart_pointers/smart_pointers_09/src/main.rs)
+- [Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.](03-advanced-rust/03_smart_pointers/smart_pointers_10/src/main.rs)
 
 #### Macros (54%)
 

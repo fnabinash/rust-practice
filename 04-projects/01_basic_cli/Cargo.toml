@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a simple CLI tool that greets the user with their name.
+    "basic_cli_01",
+    
+    # Implement a CLI tool that fetches weather information from an API.
+    "basic_cli_02",
+    
+    # Write a CLI tool that performs basic file operations (e.g., create, read, write, delete).
+    "basic_cli_03",
+    
+    # Create a CLI tool that interacts with a database to store and retrieve data.
+    "basic_cli_04",
+    
+    # Implement a CLI tool that performs basic arithmetic operations with command-line arguments.
+    "basic_cli_05",
+    
+    # Write a CLI tool that parses JSON data from a file and displays it in a readable format.
+    "basic_cli_06",
+    
+    # Create a CLI tool that downloads files from the internet and saves them locally.
+    "basic_cli_07",
+    
+    # Implement a CLI tool that converts data between different formats (e.g., CSV to JSON).
+    "basic_cli_08",
+    
+    # Write a CLI tool that manages a to-do list with add, remove, and list operations.
+    "basic_cli_09",
+    
+    # Create a CLI tool that interacts with a web API to send and receive data.
+    "basic_cli_10"
+]

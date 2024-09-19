@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Write a program that uses threads to perform multiple calculations in parallel.
+    "concurrency_01",
+    
+    # Implement a program that spawns multiple threads to process a large array and combines the results.
+    "concurrency_02",
+    
+    # Create a program that uses channels to send messages between threads.
+    "concurrency_03",
+    
+    # Implement a program that uses a thread pool to manage and execute multiple tasks concurrently.
+    "concurrency_04",
+    
+    # Write a program that uses Arc (atomic reference counting) to share data between threads safely.
+    "concurrency_05",
+    
+    # Create a program that uses Mutex to protect shared data from race conditions.
+    "concurrency_06",
+    
+    # Implement a program that uses RwLock to allow multiple readers or one writer at a time.
+    "concurrency_07",
+    
+    # Write a program that uses threads to download multiple files concurrently.
+    "concurrency_08",
+    
+    # Create a program that implements a simple producer-consumer pattern using threads and channels.
+    "concurrency_09",
+    
+    # Implement a program that uses threads to simulate a basic chat server where multiple clients can send and receive messages concurrently.
+    "concurrency_10"
+]

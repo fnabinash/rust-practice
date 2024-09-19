@@ -251,16 +251,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Asynchronous Programming (41%)
 
-- [Write an asynchronous program that fetches data from a web API using `async/await`.]()
-- [Implement a program that performs multiple HTTP requests concurrently using `async/await`.]()
-- [Create an asynchronous program that reads and writes to a file without blocking the main thread.]()
-- [Write a program that uses asynchronous functions to perform a long-running task in the background.]()
-- [Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.]()
-- [Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.]()
-- [Write a program that performs multiple database queries concurrently using asynchronous functions.]()
-- [Implement an asynchronous program that streams data from a source and processes it in real-time.]()
-- [Create an asynchronous program that handles multiple client connections to a server concurrently.]()
-- [Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).]()
+- [Write an asynchronous program that fetches data from a web API using `async/await`.](03-advanced-rust/02_async/async_01/src/main.rs)
+- [Implement a program that performs multiple HTTP requests concurrently using `async/await`.](03-advanced-rust/02_async/async_02/src/main.rs)
+- [Create an asynchronous program that reads and writes to a file without blocking the main thread.](03-advanced-rust/02_async/async_03/src/main.rs)
+- [Write a program that uses asynchronous functions to perform a long-running task in the background.](03-advanced-rust/02_async/async_04/src/main.rs)
+- [Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.](03-advanced-rust/02_async/async_05/src/main.rs)
+- [Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.](03-advanced-rust/02_async/async_06/src/main.rs)
+- [Write a program that performs multiple database queries concurrently using asynchronous functions.](03-advanced-rust/02_async/async_07/src/main.rs)
+- [Implement an asynchronous program that streams data from a source and processes it in real-time.](03-advanced-rust/02_async/async_08/src/main.rs)
+- [Create an asynchronous program that handles multiple client connections to a server concurrently.](03-advanced-rust/02_async/async_09/src/main.rs)
+- [Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).](03-advanced-rust/02_async/async_10/src/main.rs)
 
 #### Smart Pointers (Box, Rc, RefCell) (47%)
 

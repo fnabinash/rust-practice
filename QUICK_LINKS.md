@@ -357,16 +357,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Cross-Platform Development (91%)
 
-- [Multi-OS CLI Tool: Create a CLI tool that runs on Windows, macOS, and Linux with platform-specific features.]()
-- [Cross-Platform File Watcher: Build a CLI tool that watches for file changes on different operating systems.]()
-- [Universal Package Manager: Create a CLI tool that works with multiple package managers (e.g., apt, brew, chocolatey).]()
-- [Portable CLI Tool: Build a CLI tool that requires no installation and runs from a USB drive.]()
-- [Cross-Platform Logger: Create a CLI tool that logs system events across different operating systems.]()
-- [Environment Configuration Tool: Build a CLI tool that configures environment variables for different OSs.]()
-- [Cross-Platform Process Monitor: Create a CLI tool that monitors system processes on multiple operating systems.]()
-- [Universal Installer: Build a CLI tool that installs software packages across different platforms.]()
-- [Multi-OS Backup Tool: Create a CLI tool that performs backups on different operating systems.]()
-- [Cross-Platform Clipboard Manager: Build a CLI tool that manages the clipboard across different operating systems.]()
+- [Multi-OS CLI Tool: Create a CLI tool that runs on Windows, macOS, and Linux with platform-specific features.](04-projects/04_cross_platform/cross_platform_01/src/main.rs)
+- [Cross-Platform File Watcher: Build a CLI tool that watches for file changes on different operating systems.](04-projects/04_cross_platform/cross_platform_02/src/main.rs)
+- [Universal Package Manager: Create a CLI tool that works with multiple package managers (e.g., apt, brew, chocolatey).](04-projects/04_cross_platform/cross_platform_03/src/main.rs)
+- [Portable CLI Tool: Build a CLI tool that requires no installation and runs from a USB drive.](04-projects/04_cross_platform/cross_platform_04/src/main.rs)
+- [Cross-Platform Logger: Create a CLI tool that logs system events across different operating systems.](04-projects/04_cross_platform/cross_platform_05/src/main.rs)
+- [Environment Configuration Tool: Build a CLI tool that configures environment variables for different OSs.](04-projects/04_cross_platform/cross_platform_06/src/main.rs)
+- [Cross-Platform Process Monitor: Create a CLI tool that monitors system processes on multiple operating systems.](04-projects/04_cross_platform/cross_platform_07/src/main.rs)
+- [Universal Installer: Build a CLI tool that installs software packages across different platforms.](04-projects/04_cross_platform/cross_platform_08/src/main.rs)
+- [Multi-OS Backup Tool: Create a CLI tool that performs backups on different operating systems.](04-projects/04_cross_platform/cross_platform_09/src/main.rs)
+- [Cross-Platform Clipboard Manager: Build a CLI tool that manages the clipboard across different operating systems.](04-projects/04_cross_platform/cross_platform_10/src/main.rs)
 
 #### Integration, Plugins, and Systems (100%)
 

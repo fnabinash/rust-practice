@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Basic Packager: Create a CLI tool that packages a Rust project into a binary for distribution.
+    "package_building_01",
+    
+    # Cross-Compiler: Build a CLI tool that cross-compiles a Rust project for different platforms.
+    "package_building_02",
+    
+    # Installer Generator: Create a CLI tool that generates an installer for a Rust application.
+    "package_building_03",
+    
+    # Tarball Creator: Build a CLI tool that packages a project into a tarball with optional compression.
+    "package_building_04",
+    
+    # Binary Size Analyzer: Create a CLI tool that analyzes and reports the size of a compiled binary.
+    "package_building_05",
+    
+    # Release Packager: Build a CLI tool that automates the creation of release packages with versioning.
+    "package_building_06",
+    
+    # Installer Validator: Create a CLI tool that verifies the integrity and correctness of an installer.
+    "package_building_07",
+    
+    # Package Signer: Build a CLI tool that signs packages with a cryptographic signature.
+    "package_building_08",
+    
+    # Deb/RPM Package Creator: Create a CLI tool that builds a Debian or RPM package from a Rust project.
+    "package_building_09",
+    
+    # Multi-Platform Installer: Build a CLI tool that generates installers for multiple platforms (e.g., Windows, macOS, Linux).
+    "package_building_10"
+]

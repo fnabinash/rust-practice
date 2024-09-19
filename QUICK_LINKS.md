@@ -303,16 +303,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Lifetimes and Generics (70%)
 
-- [Write a program that uses lifetimes to ensure references are valid.]()
-- [Implement a function that uses generics to work with multiple data types.]()
-- [Create a program that uses lifetimes and generics together to create a flexible data structure.]()
-- [Write a function that returns a reference with a lifetime annotation.]()
-- [Implement a generic function that works with any type that implements a specific trait.]()
-- [Create a program that uses lifetimes to manage references in a data structure.]()
-- [Write a generic function that returns the larger of two values.]()
-- [Implement a program that uses lifetimes to manage the scope of a borrowed value.]()
-- [Create a program that uses generics to implement a custom collection type.]()
-- [Write a program that uses lifetimes and generics to implement a flexible and reusable function.]()
+- [Write a program that uses lifetimes to ensure references are valid.](03-advanced-rust/06_lifetimes/lifetimes_01/src/main.rs)
+- [Implement a function that uses generics to work with multiple data types.](03-advanced-rust/06_lifetimes/lifetimes_02/src/main.rs)
+- [Create a program that uses lifetimes and generics together to create a flexible data structure.](03-advanced-rust/06_lifetimes/lifetimes_03/src/main.rs)
+- [Write a function that returns a reference with a lifetime annotation.](03-advanced-rust/06_lifetimes/lifetimes_04/src/main.rs)
+- [Implement a generic function that works with any type that implements a specific trait.](03-advanced-rust/06_lifetimes/lifetimes_05/src/main.rs)
+- [Create a program that uses lifetimes to manage references in a data structure.](03-advanced-rust/06_lifetimes/lifetimes_06/src/main.rs)
+- [Write a generic function that returns the larger of two values.](03-advanced-rust/06_lifetimes/lifetimes_07/src/main.rs)
+- [Implement a program that uses lifetimes to manage the scope of a borrowed value.](03-advanced-rust/06_lifetimes/lifetimes_08/src/main.rs)
+- [Create a program that uses generics to implement a custom collection type.](03-advanced-rust/06_lifetimes/lifetimes_09/src/main.rs)
+- [Write a program that uses lifetimes and generics to implement a flexible and reusable function.](03-advanced-rust/06_lifetimes/lifetimes_10/src/main.rs)
 
 ### 4. **Projects (30%)**
 

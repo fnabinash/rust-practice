@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Write a program that uses Box to create a linked list.
+    "smart_pointers_01",
+    
+    # Implement a program that uses Rc to create a tree data structure with shared ownership of nodes.
+    "smart_pointers_02",
+    
+    # Create a program that uses RefCell to modify data inside a struct with shared ownership.
+    "smart_pointers_03",
+    
+    # Write a program that uses Box to create a recursive data structure (e.g., a binary tree).
+    "smart_pointers_04",
+    
+    # Implement a program that uses Rc to share a configuration object between multiple threads.
+    "smart_pointers_05",
+    
+    # Create a program that uses RefCell to implement interior mutability in a struct.
+    "smart_pointers_06",
+    
+    # Write a program that uses Rc and RefCell together to create a graph data structure.
+    "smart_pointers_07",
+    
+    # Implement a program that uses Box to store a trait object and call methods on it dynamically.
+    "smart_pointers_08",
+    
+    # Create a program that uses Rc to manage a list of subscribers in a publish-subscribe pattern.
+    "smart_pointers_09",
+    
+    # Write a program that uses RefCell to dynamically update a data structure while maintaining shared ownership.
+    "smart_pointers_10"
+]

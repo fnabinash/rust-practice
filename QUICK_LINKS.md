@@ -1,6 +1,6 @@
 # Quick Links
 
-It contains the links to `src/main.rs` files of every exercise, so that you can quickly navigate to solution of any exercises.
+It contains the direct links to `src/main.rs` files of every exercise, so that you can quickly navigate to any exercises.
 
 ## Table of Contents
 

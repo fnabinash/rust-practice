@@ -277,16 +277,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Macros (54%)
 
-- [Write a simple macro that prints "Hello, Macro!" to the console.]()
-- [Implement a macro that calculates the square of a number.]()
-- [Create a macro that generates getter and setter methods for a `struct`.]()
-- [Write a macro that repeats a block of code a specified number of times.]()
-- [Implement a macro that generates a match statement for an `enum` with multiple variants.]()
-- [Create a macro that generates a function to create a new instance of a `struct`.]()
-- [Write a macro that implements a trait for a `struct`.]()
-- [Implement a macro that creates a vector with a specified number of elements.]()
-- [Create a macro that performs compile-time checks on a `struct` field.]()
-- [Write a macro that generates code for a custom `Debug` implementation for a `struct`.]()
+- [Write a simple macro that prints "Hello, Macro!" to the console.](03-advanced-rust/04_macros/macros_01/src/main.rs)
+- [Implement a macro that calculates the square of a number.](03-advanced-rust/04_macros/macros_02/src/main.rs)
+- [Create a macro that generates getter and setter methods for a `struct`.](03-advanced-rust/04_macros/macros_03/src/main.rs)
+- [Write a macro that repeats a block of code a specified number of times.](03-advanced-rust/04_macros/macros_04/src/main.rs)
+- [Implement a macro that generates a match statement for an `enum` with multiple variants.](03-advanced-rust/04_macros/macros_05/src/main.rs)
+- [Create a macro that generates a function to create a new instance of a `struct`.](03-advanced-rust/04_macros/macros_06/src/main.rs)
+- [Write a macro that implements a trait for a `struct`.](03-advanced-rust/04_macros/macros_07/src/main.rs)
+- [Implement a macro that creates a vector with a specified number of elements.](03-advanced-rust/04_macros/macros_08/src/main.rs)
+- [Create a macro that performs compile-time checks on a `struct` field.](03-advanced-rust/04_macros/macros_09/src/main.rs)
+- [Write a macro that generates code for a custom `Debug` implementation for a `struct`.](03-advanced-rust/04_macros/macros_10/src/main.rs)
 
 #### Unsafe Rust (63%)
 

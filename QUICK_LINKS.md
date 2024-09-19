@@ -344,16 +344,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Package Building (85%)
 
-- [Basic Packager: Create a CLI tool that packages a Rust project into a binary for distribution.]()
-- [Cross-Compiler: Build a CLI tool that cross-compiles a Rust project for different platforms.]()
-- [Installer Generator: Create a CLI tool that generates an installer for a Rust application.]()
-- [Tarball Creator: Build a CLI tool that packages a project into a tarball with optional compression.]()
-- [Binary Size Analyzer: Create a CLI tool that analyzes and reports the size of a compiled binary.]()
-- [Release Packager: Build a CLI tool that automates the creation of release packages with versioning.]()
-- [Installer Validator: Create a CLI tool that verifies the integrity and correctness of an installer.]()
-- [Package Signer: Build a CLI tool that signs packages with a cryptographic signature.]()
-- [Deb/RPM Package Creator: Create a CLI tool that builds a Debian or RPM package from a Rust project.]()
-- [Multi-Platform Installer: Build a CLI tool that generates installers for multiple platforms (e.g., Windows, macOS, Linux).]()
+- [Basic Packager: Create a CLI tool that packages a Rust project into a binary for distribution.](04-projects/03_package_building/package_building_01/src/main.rs)
+- [Cross-Compiler: Build a CLI tool that cross-compiles a Rust project for different platforms.](04-projects/03_package_building/package_building_02/src/main.rs)
+- [Installer Generator: Create a CLI tool that generates an installer for a Rust application.](04-projects/03_package_building/package_building_03/src/main.rs)
+- [Tarball Creator: Build a CLI tool that packages a project into a tarball with optional compression.](04-projects/03_package_building/package_building_04/src/main.rs)
+- [Binary Size Analyzer: Create a CLI tool that analyzes and reports the size of a compiled binary.](04-projects/03_package_building/package_building_05/src/main.rs)
+- [Release Packager: Build a CLI tool that automates the creation of release packages with versioning.](04-projects/03_package_building/package_building_06/src/main.rs)
+- [Installer Validator: Create a CLI tool that verifies the integrity and correctness of an installer.](04-projects/03_package_building/package_building_07/src/main.rs)
+- [Package Signer: Build a CLI tool that signs packages with a cryptographic signature.](04-projects/03_package_building/package_building_08/src/main.rs)
+- [Deb/RPM Package Creator: Create a CLI tool that builds a Debian or RPM package from a Rust project.](04-projects/03_package_building/package_building_09/src/main.rs)
+- [Multi-Platform Installer: Build a CLI tool that generates installers for multiple platforms (e.g., Windows, macOS, Linux).](04-projects/03_package_building/package_building_10/src/main.rs)
 
 #### Cross-Platform Development (91%)
 

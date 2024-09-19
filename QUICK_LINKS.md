@@ -331,16 +331,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Advanced CLI Projects (78%)
 
-- [File Searcher: Create a CLI tool that recursively searches for files by name in a directory.]()
-- [Process Manager: Build a CLI tool to list and manage system processes (e.g., kill processes).]()
-- [Database CRUD: Create a CLI tool that performs basic CRUD operations on a SQLite database.]()
-- [Config File Parser: Build a CLI tool that reads and edits configuration files (e.g., JSON, TOML).]()
-- [API Client: Create a CLI tool that interacts with a REST API to fetch and display data.]()
-- [Log Analyzer: Build a CLI tool to parse and analyze log files, providing statistics and error reports.]()
-- [Markdown to HTML Converter: Create a CLI tool that converts Markdown files into HTML.]()
-- [Task Runner: Build a CLI tool that schedules and runs predefined tasks (like a simple cron job).]()
-- [Backup Manager: Create a CLI tool to automate the backup of files to a specified location.]()
-- [Git Helper: Build a CLI tool that wraps common Git commands to simplify version control tasks.]()
+- [File Searcher: Create a CLI tool that recursively searches for files by name in a directory.](04-projects/02_advanced_cli/advanced_cli_01/src/main.rs)
+- [Process Manager: Build a CLI tool to list and manage system processes (e.g., kill processes).](04-projects/02_advanced_cli/advanced_cli_02/src/main.rs)
+- [Database CRUD: Create a CLI tool that performs basic CRUD operations on a SQLite database.](04-projects/02_advanced_cli/advanced_cli_03/src/main.rs)
+- [Config File Parser: Build a CLI tool that reads and edits configuration files (e.g., JSON, TOML).](04-projects/02_advanced_cli/advanced_cli_04/src/main.rs)
+- [API Client: Create a CLI tool that interacts with a REST API to fetch and display data.](04-projects/02_advanced_cli/advanced_cli_05/src/main.rs)
+- [Log Analyzer: Build a CLI tool to parse and analyze log files, providing statistics and error reports.](04-projects/02_advanced_cli/advanced_cli_06/src/main.rs)
+- [Markdown to HTML Converter: Create a CLI tool that converts Markdown files into HTML.](04-projects/02_advanced_cli/advanced_cli_07/src/main.rs)
+- [Task Runner: Build a CLI tool that schedules and runs predefined tasks (like a simple cron job).](04-projects/02_advanced_cli/advanced_cli_08/src/main.rs)
+- [Backup Manager: Create a CLI tool to automate the backup of files to a specified location.](04-projects/02_advanced_cli/advanced_cli_09/src/main.rs)
+- [Git Helper: Build a CLI tool that wraps common Git commands to simplify version control tasks.](04-projects/02_advanced_cli/advanced_cli_10/src/main.rs)
 
 #### Package Building (85%)
 

@@ -318,16 +318,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Command-Line Tool (73%)
 
-- [Create a simple CLI tool that greets the user with their name.]()
-- [Implement a CLI tool that fetches weather information from an API.]()
-- [Write a CLI tool that performs basic file operations (e.g., create, read, write, delete).]()
-- [Create a CLI tool that interacts with a database to store and retrieve data.]()
-- [Implement a CLI tool that performs basic arithmetic operations with command-line arguments.]()
-- [Write a CLI tool that parses JSON data from a file and displays it in a readable format.]()
-- [Create a CLI tool that downloads files from the internet and saves them locally.]()
-- [Implement a CLI tool that converts data between different formats (e.g., CSV to JSON).]()
-- [Write a CLI tool that manages a to-do list with add, remove, and list operations.]()
-- [Create a CLI tool that interacts with a web API to send and receive data.]()
+- [Create a simple CLI tool that greets the user with their name.](04-projects/01_basic_cli/basic_cli_01/src/main.rs)
+- [Implement a CLI tool that fetches weather information from an API.](04-projects/01_basic_cli/basic_cli_02/src/main.rs)
+- [Write a CLI tool that performs basic file operations (e.g., create, read, write, delete).](04-projects/01_basic_cli/basic_cli_03/src/main.rs)
+- [Create a CLI tool that interacts with a database to store and retrieve data.](04-projects/01_basic_cli/basic_cli_04/src/main.rs)
+- [Implement a CLI tool that performs basic arithmetic operations with command-line arguments.](04-projects/01_basic_cli/basic_cli_05/src/main.rs)
+- [Write a CLI tool that parses JSON data from a file and displays it in a readable format.](04-projects/01_basic_cli/basic_cli_06/src/main.rs)
+- [Create a CLI tool that downloads files from the internet and saves them locally.](04-projects/01_basic_cli/basic_cli_07/src/main.rs)
+- [Implement a CLI tool that converts data between different formats (e.g., CSV to JSON).](04-projects/01_basic_cli/basic_cli_08/src/main.rs)
+- [Write a CLI tool that manages a to-do list with add, remove, and list operations.](04-projects/01_basic_cli/basic_cli_09/src/main.rs)
+- [Create a CLI tool that interacts with a web API to send and receive data.](04-projects/01_basic_cli/basic_cli_10/src/main.rs)
 
 #### Advanced CLI Projects (78%)
 

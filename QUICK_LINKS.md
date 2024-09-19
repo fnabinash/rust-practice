@@ -210,173 +210,173 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Iterators and Closures (28%)
 
--  Create a program that uses an iterator to sum all elements in a vector.
--  Implement a program that filters out even numbers from a vector using an iterator.
--  Write a program that maps a vector of integers to their squares using an iterator.
--  Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
--  Implement a program that creates a custom iterator for a `struct` representing a range of numbers.
--  Write a program that chains multiple iterators to process a vector of numbers.
--  Create a program that uses a closure to sort a vector of integers in descending order.
--  Implement a program that uses a closure to filter a vector of strings based on their length.
--  Write a program that uses a closure to find the maximum value in a vector of integers.
--  Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.
+- [Create a program that uses an iterator to sum all elements in a vector.](02-intermediate-rust/06_iterators/iterators_01/src/main.rs)
+- [Implement a program that filters out even numbers from a vector using an iterator.](02-intermediate-rust/06_iterators/iterators_02/src/main.rs)
+- [Write a program that maps a vector of integers to their squares using an iterator.](02-intermediate-rust/06_iterators/iterators_03/src/main.rs)
+- [Create a program that uses an iterator to find the first element in a vector that satisfies a condition.](02-intermediate-rust/06_iterators/iterators_04/src/main.rs)
+- [Implement a program that creates a custom iterator for a `struct` representing a range of numbers.](02-intermediate-rust/06_iterators/iterators_05/src/main.rs)
+- [Write a program that chains multiple iterators to process a vector of numbers.](02-intermediate-rust/06_iterators/iterators_06/src/main.rs)
+- [Create a program that uses a closure to sort a vector of integers in descending order.](02-intermediate-rust/06_iterators/iterators_07/src/main.rs)
+- [Implement a program that uses a closure to filter a vector of strings based on their length.](02-intermediate-rust/06_iterators/iterators_08/src/main.rs)
+- [Write a program that uses a closure to find the maximum value in a vector of integers.](02-intermediate-rust/06_iterators/iterators_09/src/main.rs)
+- [Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.](02-intermediate-rust/06_iterators/iterators_10/src/main.rs)
 
 #### Modules and Crates (30%)
 
--  Create a module to organize functions for mathematical operations and use it in a main program.
--  Implement a program that uses a module to organize functions for file handling and use it in a main program.
--  Write a program that creates a module to organize functions for string processing and use it in a main program.
--  Create a module to organize functions for error handling and use it in a main program.
--  Implement a program that uses a module to organize functions for working with collections (`Vector`, `HashMap`) and use it in a main program.
--  Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.
--  Create a crate for common utilities (e.g., logging, configuration) and use it in a project.
--  Implement a program that creates a module to organize functions for working with dates and times and use it in a main program.
--  Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON, XML) and use it in a project.
--  Create a program that uses a third-party crate (e.g., `serde`, `regex`) and organizes the code into modules.
+- [Create a module to organize functions for mathematical operations and use it in a main program.]()
+- [Implement a program that uses a module to organize functions for file handling and use it in a main program.]()
+- [Write a program that creates a module to organize functions for string processing and use it in a main program.]()
+- [Create a module to organize functions for error handling and use it in a main program.]()
+- [Implement a program that uses a module to organize functions for working with collections (`Vector`, `HashMap`) and use it in a main program.]()
+- [Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.]()
+- [Create a crate for common utilities (e.g., logging, configuration) and use it in a project.]()
+- [Implement a program that creates a module to organize functions for working with dates and times and use it in a main program.]()
+- [Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON, XML) and use it in a project.]()
+- [Create a program that uses a third-party crate (e.g., `serde`, `regex`) and organizes the code into modules.]()
 
 ### 3. **Advanced Rust(40%)**
 
 #### Concurrency (35%)
 
--  Write a program that uses threads to perform multiple calculations in parallel.
--  Implement a program that spawns multiple threads to process a large array and combines the results.
--  Create a program that uses channels to send messages between threads.
--  Implement a program that uses a thread pool to manage and execute multiple tasks concurrently.
--  Write a program that uses `Arc` (atomic reference counting) to share data between threads safely.
--  Create a program that uses `Mutex` to protect shared data from race conditions.
--  Implement a program that uses `RwLock` to allow multiple readers or one writer at a time.
--  Write a program that uses threads to download multiple files concurrently.
--  Create a program that implements a simple producer-consumer pattern using threads and channels.
--  Implement a program that uses threads to simulate a basic chat server where multiple clients can send and receive messages concurrently.
+- [Write a program that uses threads to perform multiple calculations in parallel.]()
+- [Implement a program that spawns multiple threads to process a large array and combines the results.]()
+- [Create a program that uses channels to send messages between threads.]()
+- [Implement a program that uses a thread pool to manage and execute multiple tasks concurrently.]()
+- [Write a program that uses `Arc` (atomic reference counting) to share data between threads safely.]()
+- [Create a program that uses `Mutex` to protect shared data from race conditions.]()
+- [Implement a program that uses `RwLock` to allow multiple readers or one writer at a time.]()
+- [Write a program that uses threads to download multiple files concurrently.]()
+- [Create a program that implements a simple producer-consumer pattern using threads and channels.]()
+- [Implement a program that uses threads to simulate a basic chat server where multiple clients can send and receive messages concurrently.]()
 
 #### Asynchronous Programming (41%)
 
--  Write an asynchronous program that fetches data from a web API using `async/await`.
--  Implement a program that performs multiple HTTP requests concurrently using `async/await`.
--  Create an asynchronous program that reads and writes to a file without blocking the main thread.
--  Write a program that uses asynchronous functions to perform a long-running task in the background.
--  Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.
--  Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.
--  Write a program that performs multiple database queries concurrently using asynchronous functions.
--  Implement an asynchronous program that streams data from a source and processes it in real-time.
--  Create an asynchronous program that handles multiple client connections to a server concurrently.
--  Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).
+- [Write an asynchronous program that fetches data from a web API using `async/await`.]()
+- [Implement a program that performs multiple HTTP requests concurrently using `async/await`.]()
+- [Create an asynchronous program that reads and writes to a file without blocking the main thread.]()
+- [Write a program that uses asynchronous functions to perform a long-running task in the background.]()
+- [Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.]()
+- [Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.]()
+- [Write a program that performs multiple database queries concurrently using asynchronous functions.]()
+- [Implement an asynchronous program that streams data from a source and processes it in real-time.]()
+- [Create an asynchronous program that handles multiple client connections to a server concurrently.]()
+- [Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).]()
 
 #### Smart Pointers (Box, Rc, RefCell) (47%)
 
--  Write a program that uses `Box` to create a linked list.
--  Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.
--  Create a program that uses `RefCell` to modify data inside a `struct` with shared ownership.
--  Write a program that uses `Box` to create a recursive data structure (e.g., a binary tree).
--  Implement a program that uses `Rc` to share a configuration object between multiple threads.
--  Create a program that uses `RefCell` to implement interior mutability in a `struct`.
--  Write a program that uses `Rc` and `RefCell` together to create a graph data structure.
--  Implement a program that uses `Box` to store a trait object and call methods on it dynamically.
--  Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.
--  Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.
+- [Write a program that uses `Box` to create a linked list.]()
+- [Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.]()
+- [Create a program that uses `RefCell` to modify data inside a `struct` with shared ownership.]()
+- [Write a program that uses `Box` to create a recursive data structure (e.g., a binary tree).]()
+- [Implement a program that uses `Rc` to share a configuration object between multiple threads.]()
+- [Create a program that uses `RefCell` to implement interior mutability in a `struct`.]()
+- [Write a program that uses `Rc` and `RefCell` together to create a graph data structure.]()
+- [Implement a program that uses `Box` to store a trait object and call methods on it dynamically.]()
+- [Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.]()
+- [Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.]()
 
 #### Macros (54%)
 
--  Write a simple macro that prints "Hello, Macro!" to the console.
--  Implement a macro that calculates the square of a number.
--  Create a macro that generates getter and setter methods for a `struct`.
--  Write a macro that repeats a block of code a specified number of times.
--  Implement a macro that generates a match statement for an `enum` with multiple variants.
--  Create a macro that generates a function to create a new instance of a `struct`.
--  Write a macro that implements a trait for a `struct`.
--  Implement a macro that creates a vector with a specified number of elements.
--  Create a macro that performs compile-time checks on a `struct` field.
--  Write a macro that generates code for a custom `Debug` implementation for a `struct`.
+- [Write a simple macro that prints "Hello, Macro!" to the console.]()
+- [Implement a macro that calculates the square of a number.]()
+- [Create a macro that generates getter and setter methods for a `struct`.]()
+- [Write a macro that repeats a block of code a specified number of times.]()
+- [Implement a macro that generates a match statement for an `enum` with multiple variants.]()
+- [Create a macro that generates a function to create a new instance of a `struct`.]()
+- [Write a macro that implements a trait for a `struct`.]()
+- [Implement a macro that creates a vector with a specified number of elements.]()
+- [Create a macro that performs compile-time checks on a `struct` field.]()
+- [Write a macro that generates code for a custom `Debug` implementation for a `struct`.]()
 
 #### Unsafe Rust (63%)
 
--  Write a program that uses raw pointers to access and modify memory.
--  Implement a program that uses unsafe code to call a C function from Rust.
--  Create a program that uses unsafe code to implement a custom memory allocator.
--  Write a program that uses unsafe code to bypass Rust's borrowing rules and modify data.
--  Implement a program that uses unsafe code to create a custom smart pointer.
--  Create a program that uses unsafe code to implement a linked list with raw pointers.
--  Write a program that uses unsafe code to optimize a performance-critical section of code.
--  Implement a program that uses unsafe code to implement a custom trait for a foreign type.
--  Create a program that uses unsafe code to directly access hardware registers.
--  Write a program that uses unsafe code to create a low-level system library.
+- [Write a program that uses raw pointers to access and modify memory.]()
+- [Implement a program that uses unsafe code to call a C function from Rust.]()
+- [Create a program that uses unsafe code to implement a custom memory allocator.]()
+- [Write a program that uses unsafe code to bypass Rust's borrowing rules and modify data.]()
+- [Implement a program that uses unsafe code to create a custom smart pointer.]()
+- [Create a program that uses unsafe code to implement a linked list with raw pointers.]()
+- [Write a program that uses unsafe code to optimize a performance-critical section of code.]()
+- [Implement a program that uses unsafe code to implement a custom trait for a foreign type.]()
+- [Create a program that uses unsafe code to directly access hardware registers.]()
+- [Write a program that uses unsafe code to create a low-level system library.]()
 
 #### Lifetimes and Generics (70%)
 
--  Write a program that uses lifetimes to ensure references are valid.
--  Implement a function that uses generics to work with multiple data types.
--  Create a program that uses lifetimes and generics together to create a flexible data structure.
--  Write a function that returns a reference with a lifetime annotation.
--  Implement a generic function that works with any type that implements a specific trait.
--  Create a program that uses lifetimes to manage references in a data structure.
--  Write a generic function that returns the larger of two values.
--  Implement a program that uses lifetimes to manage the scope of a borrowed value.
--  Create a program that uses generics to implement a custom collection type.
--  Write a program that uses lifetimes and generics to implement a flexible and reusable function.
+- [Write a program that uses lifetimes to ensure references are valid.]()
+- [Implement a function that uses generics to work with multiple data types.]()
+- [Create a program that uses lifetimes and generics together to create a flexible data structure.]()
+- [Write a function that returns a reference with a lifetime annotation.]()
+- [Implement a generic function that works with any type that implements a specific trait.]()
+- [Create a program that uses lifetimes to manage references in a data structure.]()
+- [Write a generic function that returns the larger of two values.]()
+- [Implement a program that uses lifetimes to manage the scope of a borrowed value.]()
+- [Create a program that uses generics to implement a custom collection type.]()
+- [Write a program that uses lifetimes and generics to implement a flexible and reusable function.]()
 
 ### 4. **Projects (30%)**
 
 #### Command-Line Tool (73%)
 
--  Create a simple CLI tool that greets the user with their name.
--  Implement a CLI tool that fetches weather information from an API.
--  Write a CLI tool that performs basic file operations (e.g., create, read, write, delete).
--  Create a CLI tool that interacts with a database to store and retrieve data.
--  Implement a CLI tool that performs basic arithmetic operations with command-line arguments.
--  Write a CLI tool that parses JSON data from a file and displays it in a readable format.
--  Create a CLI tool that downloads files from the internet and saves them locally.
--  Implement a CLI tool that converts data between different formats (e.g., CSV to JSON).
--  Write a CLI tool that manages a to-do list with add, remove, and list operations.
--  Create a CLI tool that interacts with a web API to send and receive data.
+- [Create a simple CLI tool that greets the user with their name.]()
+- [Implement a CLI tool that fetches weather information from an API.]()
+- [Write a CLI tool that performs basic file operations (e.g., create, read, write, delete).]()
+- [Create a CLI tool that interacts with a database to store and retrieve data.]()
+- [Implement a CLI tool that performs basic arithmetic operations with command-line arguments.]()
+- [Write a CLI tool that parses JSON data from a file and displays it in a readable format.]()
+- [Create a CLI tool that downloads files from the internet and saves them locally.]()
+- [Implement a CLI tool that converts data between different formats (e.g., CSV to JSON).]()
+- [Write a CLI tool that manages a to-do list with add, remove, and list operations.]()
+- [Create a CLI tool that interacts with a web API to send and receive data.]()
 
 #### Advanced CLI Projects (78%)
 
--  File Searcher: Create a CLI tool that recursively searches for files by name in a directory.
--  Process Manager: Build a CLI tool to list and manage system processes (e.g., kill processes).
--  Database CRUD: Create a CLI tool that performs basic CRUD operations on a SQLite database.
--  Config File Parser: Build a CLI tool that reads and edits configuration files (e.g., JSON, TOML).
--  API Client: Create a CLI tool that interacts with a REST API to fetch and display data.
--  Log Analyzer: Build a CLI tool to parse and analyze log files, providing statistics and error reports.
--  Markdown to HTML Converter: Create a CLI tool that converts Markdown files into HTML.
--  Task Runner: Build a CLI tool that schedules and runs predefined tasks (like a simple cron job).
--  Backup Manager: Create a CLI tool to automate the backup of files to a specified location.
--  Git Helper: Build a CLI tool that wraps common Git commands to simplify version control tasks.
+- [File Searcher: Create a CLI tool that recursively searches for files by name in a directory.]()
+- [Process Manager: Build a CLI tool to list and manage system processes (e.g., kill processes).]()
+- [Database CRUD: Create a CLI tool that performs basic CRUD operations on a SQLite database.]()
+- [Config File Parser: Build a CLI tool that reads and edits configuration files (e.g., JSON, TOML).]()
+- [API Client: Create a CLI tool that interacts with a REST API to fetch and display data.]()
+- [Log Analyzer: Build a CLI tool to parse and analyze log files, providing statistics and error reports.]()
+- [Markdown to HTML Converter: Create a CLI tool that converts Markdown files into HTML.]()
+- [Task Runner: Build a CLI tool that schedules and runs predefined tasks (like a simple cron job).]()
+- [Backup Manager: Create a CLI tool to automate the backup of files to a specified location.]()
+- [Git Helper: Build a CLI tool that wraps common Git commands to simplify version control tasks.]()
 
 #### Package Building (85%)
 
--  Basic Packager: Create a CLI tool that packages a Rust project into a binary for distribution.
--  Cross-Compiler: Build a CLI tool that cross-compiles a Rust project for different platforms.
--  Installer Generator: Create a CLI tool that generates an installer for a Rust application.
--  Tarball Creator: Build a CLI tool that packages a project into a tarball with optional compression.
--  Binary Size Analyzer: Create a CLI tool that analyzes and reports the size of a compiled binary.
--  Release Packager: Build a CLI tool that automates the creation of release packages with versioning.
--  Installer Validator: Create a CLI tool that verifies the integrity and correctness of an installer.
--  Package Signer: Build a CLI tool that signs packages with a cryptographic signature.
--  Deb/RPM Package Creator: Create a CLI tool that builds a Debian or RPM package from a Rust project.
--  Multi-Platform Installer: Build a CLI tool that generates installers for multiple platforms (e.g., Windows, macOS, Linux).
+- [Basic Packager: Create a CLI tool that packages a Rust project into a binary for distribution.]()
+- [Cross-Compiler: Build a CLI tool that cross-compiles a Rust project for different platforms.]()
+- [Installer Generator: Create a CLI tool that generates an installer for a Rust application.]()
+- [Tarball Creator: Build a CLI tool that packages a project into a tarball with optional compression.]()
+- [Binary Size Analyzer: Create a CLI tool that analyzes and reports the size of a compiled binary.]()
+- [Release Packager: Build a CLI tool that automates the creation of release packages with versioning.]()
+- [Installer Validator: Create a CLI tool that verifies the integrity and correctness of an installer.]()
+- [Package Signer: Build a CLI tool that signs packages with a cryptographic signature.]()
+- [Deb/RPM Package Creator: Create a CLI tool that builds a Debian or RPM package from a Rust project.]()
+- [Multi-Platform Installer: Build a CLI tool that generates installers for multiple platforms (e.g., Windows, macOS, Linux).]()
 
 #### Cross-Platform Development (91%)
 
--  Multi-OS CLI Tool: Create a CLI tool that runs on Windows, macOS, and Linux with platform-specific features.
--  Cross-Platform File Watcher: Build a CLI tool that watches for file changes on different operating systems.
--  Universal Package Manager: Create a CLI tool that works with multiple package managers (e.g., apt, brew, chocolatey).
--  Portable CLI Tool: Build a CLI tool that requires no installation and runs from a USB drive.
--  Cross-Platform Logger: Create a CLI tool that logs system events across different operating systems.
--  Environment Configuration Tool: Build a CLI tool that configures environment variables for different OSs.
--  Cross-Platform Process Monitor: Create a CLI tool that monitors system processes on multiple operating systems.
--  Universal Installer: Build a CLI tool that installs software packages across different platforms.
--  Multi-OS Backup Tool: Create a CLI tool that performs backups on different operating systems.
--  Cross-Platform Clipboard Manager: Build a CLI tool that manages the clipboard across different operating systems.
+- [Multi-OS CLI Tool: Create a CLI tool that runs on Windows, macOS, and Linux with platform-specific features.]()
+- [Cross-Platform File Watcher: Build a CLI tool that watches for file changes on different operating systems.]()
+- [Universal Package Manager: Create a CLI tool that works with multiple package managers (e.g., apt, brew, chocolatey).]()
+- [Portable CLI Tool: Build a CLI tool that requires no installation and runs from a USB drive.]()
+- [Cross-Platform Logger: Create a CLI tool that logs system events across different operating systems.]()
+- [Environment Configuration Tool: Build a CLI tool that configures environment variables for different OSs.]()
+- [Cross-Platform Process Monitor: Create a CLI tool that monitors system processes on multiple operating systems.]()
+- [Universal Installer: Build a CLI tool that installs software packages across different platforms.]()
+- [Multi-OS Backup Tool: Create a CLI tool that performs backups on different operating systems.]()
+- [Cross-Platform Clipboard Manager: Build a CLI tool that manages the clipboard across different operating systems.]()
 
 #### Integration, Plugins, and Systems (100%)
 
--  Plugin System: Create a CLI tool that supports plugins, allowing users to extend its functionality.
--  API Gateway: Build a CLI tool that acts as a gateway for integrating with multiple APIs.
--  Task Scheduler: Create a CLI tool that schedules and runs tasks at specified intervals, integrating with system cron jobs.
--  Messaging Queue Client: Build a CLI tool that interacts with a message queue system (e.g., RabbitMQ, Kafka).
--  Service Integrator: Create a CLI tool that integrates with cloud services (e.g., AWS, GCP) and performs tasks.
--  Database Migrator: Build a CLI tool that manages database migrations and integrates with different database systems.
--  CI/CD Pipeline Integrator: Create a CLI tool that integrates with CI/CD systems like Jenkins or GitHub Actions.
--  System Monitor Integrator: Build a CLI tool that integrates with system monitoring tools (e.g., Prometheus, Grafana).
--  Custom Shell: Create a CLI tool that acts as a custom shell with support for plugins and extensions.
--  Configuration Manager: Build a CLI tool that manages configuration files and integrates with other system tools.
+- [Plugin System: Create a CLI tool that supports plugins, allowing users to extend its functionality.]()
+- [API Gateway: Build a CLI tool that acts as a gateway for integrating with multiple APIs.]()
+- [Task Scheduler: Create a CLI tool that schedules and runs tasks at specified intervals, integrating with system cron jobs.]()
+- [Messaging Queue Client: Build a CLI tool that interacts with a message queue system (e.g., RabbitMQ, Kafka).]()
+- [Service Integrator: Create a CLI tool that integrates with cloud services (e.g., AWS, GCP) and performs tasks.]()
+- [Database Migrator: Build a CLI tool that manages database migrations and integrates with different database systems.]()
+- [CI/CD Pipeline Integrator: Create a CLI tool that integrates with CI/CD systems like Jenkins or GitHub Actions.]()
+- [System Monitor Integrator: Build a CLI tool that integrates with system monitoring tools (e.g., Prometheus, Grafana).]()
+- [Custom Shell: Create a CLI tool that acts as a custom shell with support for plugins and extensions.]()
+- [Configuration Manager: Build a CLI tool that manages configuration files and integrates with other system tools.]()

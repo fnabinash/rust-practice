@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Plugin System: Create a CLI tool that supports plugins, allowing users to extend its functionality.
+    "integrations_01",
+    
+    # API Gateway: Build a CLI tool that acts as a gateway for integrating with multiple APIs.
+    "integrations_02",
+    
+    # Task Scheduler: Create a CLI tool that schedules and runs tasks at specified intervals, integrating with system cron jobs.
+    "integrations_03",
+    
+    # Messaging Queue Client: Build a CLI tool that interacts with a message queue system (e.g., RabbitMQ, Kafka).
+    "integrations_04",
+    
+    # Service Integrator: Create a CLI tool that integrates with cloud services (e.g., AWS, GCP) and performs tasks.
+    "integrations_05",
+    
+    # Database Migrator: Build a CLI tool that manages database migrations and integrates with different database systems.
+    "integrations_06",
+    
+    # CI/CD Pipeline Integrator: Create a CLI tool that integrates with CI/CD systems like Jenkins or GitHub Actions.
+    "integrations_07",
+    
+    # System Monitor Integrator: Build a CLI tool that integrates with system monitoring tools (e.g., Prometheus, Grafana).
+    "integrations_08",
+    
+    # Custom Shell: Create a CLI tool that acts as a custom shell with support for plugins and extensions.
+    "integrations_09",
+    
+    # Configuration Manager: Build a CLI tool that manages configuration files and integrates with other system tools.
+    "integrations_10"
+]

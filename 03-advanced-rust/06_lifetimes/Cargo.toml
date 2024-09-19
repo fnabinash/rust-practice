@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Write a program that uses lifetimes to ensure references are valid.
+    "lifetimes_01",
+    
+    # Implement a function that uses generics to work with multiple data types.
+    "lifetimes_02",
+    
+    # Create a program that uses lifetimes and generics together to create a flexible data structure.
+    "lifetimes_03",
+    
+    # Write a function that returns a reference with a lifetime annotation.
+    "lifetimes_04",
+    
+    # Implement a generic function that works with any type that implements a specific trait.
+    "lifetimes_05",
+    
+    #  Create a program that uses lifetimes to manage references in a data structure.
+    "lifetimes_06",
+    
+    # Write a generic function that returns the larger of two values.
+    "lifetimes_07",
+    
+    # Implement a program that uses lifetimes to manage the scope of a borrowed value.
+    "lifetimes_08",
+    
+    # Create a program that uses generics to implement a custom collection type.
+    "lifetimes_09",
+    
+    # Write a program that uses lifetimes and generics to implement a flexible and reusable function.
+    "lifetimes_10"
+]

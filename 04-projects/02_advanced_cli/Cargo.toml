@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # File Searcher: Create a CLI tool that recursively searches for files by name in a directory.
+    "advanced_cli_01",
+    
+    # Process Manager: Build a CLI tool to list and manage system processes (e.g., kill processes).
+    "advanced_cli_02",
+    
+    # Database CRUD: Create a CLI tool that performs basic CRUD operations on a SQLite database.
+    "advanced_cli_03",
+    
+    # Config File Parser: Build a CLI tool that reads and edits configuration files (e.g., JSON, TOML).
+    "advanced_cli_04",
+    
+    # API Client: Create a CLI tool that interacts with a REST API to fetch and display data.
+    "advanced_cli_05",
+    
+    # Log Analyzer: Build a CLI tool to parse and analyze log files, providing statistics and error reports.
+    "advanced_cli_06",
+    
+    # Markdown to HTML Converter: Create a CLI tool that converts Markdown files into HTML.
+    "advanced_cli_07",
+    
+    # Task Runner: Build a CLI tool that schedules and runs predefined tasks (like a simple cron job).
+    "advanced_cli_08",
+    
+    # Backup Manager: Create a CLI tool to automate the backup of files to a specified location.
+    "advanced_cli_09",
+    
+    # Git Helper: Build a CLI tool that wraps common Git commands to simplify version control tasks.
+    "advanced_cli_10"
+]

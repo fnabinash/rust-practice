@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Write a program that uses raw pointers to access and modify memory.
+    "unsafe_01",
+    
+    # Implement a program that uses unsafe code to call a C function from Rust.
+    "unsafe_02",
+    
+    # Create a program that uses unsafe code to implement a custom memory allocator.
+    "unsafe_03",
+    
+    # Write a program that uses unsafe code to bypass Rust's borrowing rules and modify data.
+    "unsafe_04",
+    
+    # Implement a program that uses unsafe code to create a custom smart pointer.
+    "unsafe_05",
+    
+    # Create a program that uses unsafe code to implement a linked list with raw pointers.
+    "unsafe_06",
+    
+    # Write a program that uses unsafe code to optimize a performance-critical section of code.
+    "unsafe_07",
+    
+    # Implement a program that uses unsafe code to implement a custom trait for a foreign type.
+    "unsafe_08",
+    
+    # Create a program that uses unsafe code to directly access hardware registers.
+    "unsafe_09",
+    
+    # Write a program that uses unsafe code to create a low-level system library.
+    "unsafe_10"
+]

@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Multi-OS CLI Tool: Create a CLI tool that runs on Windows, macOS, and Linux with platform-specific features.
+    "cross_platform_01",
+    
+    # Cross-Platform File Watcher: Build a CLI tool that watches for file changes on different operating systems.
+    "cross_platform_02",
+    
+    # Universal Package Manager: Create a CLI tool that works with multiple package managers (e.g., apt, brew, chocolatey).
+    "cross_platform_03",
+    
+    # Portable CLI Tool: Build a CLI tool that requires no installation and runs from a USB drive.
+    "cross_platform_04",
+    
+    # Cross-Platform Logger: Create a CLI tool that logs system events across different operating systems.
+    "cross_platform_05",
+    
+    # Environment Configuration Tool: Build a CLI tool that configures environment variables for different OSs.
+    "cross_platform_06",
+    
+    # Cross-Platform Process Monitor: Create a CLI tool that monitors system processes on multiple operating systems.
+    "cross_platform_07",
+    
+    # Universal Installer: Build a CLI tool that installs software packages across different platforms.
+    "cross_platform_08",
+    
+    # Multi-OS Backup Tool: Create a CLI tool that performs backups on different operating systems.
+    "cross_platform_09",
+    
+    # Cross-Platform Clipboard Manager: Build a CLI tool that manages the clipboard across different operating systems.
+    "cross_platform_10"
+]

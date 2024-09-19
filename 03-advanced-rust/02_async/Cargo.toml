@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Write an asynchronous program that fetches data from a web API using async/await.
+    "async_01",
+    
+    # Implement a program that performs multiple HTTP requests concurrently using async/await.
+    "async_02",
+    
+    # Create an asynchronous program that reads and writes to a file without blocking the main thread.
+    "async_03",
+    
+    # Write a program that uses asynchronous functions to perform a long-running task in the background.
+    "async_04",
+    
+    # Implement a program that uses tokio or async-std to create an asynchronous TCP server.
+    "async_05",
+    
+    # Create an asynchronous program that simulates a delay using tokio::time::sleep or similar.
+    "async_06",
+    
+    # Write a program that performs multiple database queries concurrently using asynchronous functions.
+    "async_07",
+    
+    # Implement an asynchronous program that streams data from a source and processes it in real-time.
+    "async_08",
+    
+    # Create an asynchronous program that handles multiple client connections to a server concurrently.
+    "async_09",
+    
+    # Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).
+    "async_10"
+]

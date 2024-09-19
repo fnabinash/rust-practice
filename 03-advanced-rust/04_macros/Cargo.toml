@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Write a simple macro that prints "Hello, Macro!" to the console.
+    "macros_01",
+    
+    # Implement a macro that calculates the square of a number.
+    "macros_02",
+    
+    # Create a macro that generates getter and setter methods for a struct.
+    "macros_03",
+    
+    # Write a macro that repeats a block of code a specified number of times.
+    "macros_04",
+    
+    # Implement a macro that generates a match statement for an enum with multiple variants.
+    "macros_05",
+    
+    # Create a macro that generates a function to create a new instance of a struct.
+    "macros_06",
+    
+    # Write a macro that implements a trait for a struct.
+    "macros_07",
+    
+    # Implement a macro that creates a vector with a specified number of elements.
+    "macros_08",
+    
+    # Create a macro that performs compile-time checks on a struct field.
+    "macros_09",
+    
+    # Write a macro that generates code for a custom Debug implementation for a struct.
+    "macros_10"
+]

@@ -290,16 +290,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Unsafe Rust (63%)
 
-- [Write a program that uses raw pointers to access and modify memory.]()
-- [Implement a program that uses unsafe code to call a C function from Rust.]()
-- [Create a program that uses unsafe code to implement a custom memory allocator.]()
-- [Write a program that uses unsafe code to bypass Rust's borrowing rules and modify data.]()
-- [Implement a program that uses unsafe code to create a custom smart pointer.]()
-- [Create a program that uses unsafe code to implement a linked list with raw pointers.]()
-- [Write a program that uses unsafe code to optimize a performance-critical section of code.]()
-- [Implement a program that uses unsafe code to implement a custom trait for a foreign type.]()
-- [Create a program that uses unsafe code to directly access hardware registers.]()
-- [Write a program that uses unsafe code to create a low-level system library.]()
+- [Write a program that uses raw pointers to access and modify memory.](03-advanced-rust/05_unsafe/unsafe_01/src/main.rs)
+- [Implement a program that uses unsafe code to call a C function from Rust.](03-advanced-rust/05_unsafe/unsafe_02/src/main.rs)
+- [Create a program that uses unsafe code to implement a custom memory allocator.](03-advanced-rust/05_unsafe/unsafe_03/src/main.rs)
+- [Write a program that uses unsafe code to bypass Rust's borrowing rules and modify data.](03-advanced-rust/05_unsafe/unsafe_04/src/main.rs)
+- [Implement a program that uses unsafe code to create a custom smart pointer.](03-advanced-rust/05_unsafe/unsafe_05/src/main.rs)
+- [Create a program that uses unsafe code to implement a linked list with raw pointers.](03-advanced-rust/05_unsafe/unsafe_06/src/main.rs)
+- [Write a program that uses unsafe code to optimize a performance-critical section of code.](03-advanced-rust/05_unsafe/unsafe_07/src/main.rs)
+- [Implement a program that uses unsafe code to implement a custom trait for a foreign type.](03-advanced-rust/05_unsafe/unsafe_08/src/main.rs)
+- [Create a program that uses unsafe code to directly access hardware registers.](03-advanced-rust/05_unsafe/unsafe_09/src/main.rs)
+- [Write a program that uses unsafe code to create a low-level system library.](03-advanced-rust/05_unsafe/unsafe_10/src/main.rs)
 
 #### Lifetimes and Generics (70%)
 

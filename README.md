@@ -40,7 +40,7 @@ For example, you just finished the first exercise of `hello-world`, to mark it d
 
 - Go to `README.md` file
 - Navigate to the first exercise
-- replace the space with `X` i.e. [ ] become [X]. (e.g. `- [ ] Print "Hello, World!" to the console.` become `- [X] Print "Hello, World!" to the console.`)
+- replace the space with `X` i.e. [ ] become [X].
 
 ## Folder Structure
 

@@ -1,77 +1,76 @@
-# Contributing to rust-practice
+# Contributing to Rust Practice
 
-Thank you for your interest in contributing to **rust-practice**! This repository is a journey towards mastering Rust, specifically focusing on building production-grade CLI tools. Contributions are welcome, whether it's improving existing exercises, adding new ones, or helping refine the documentation.
+Thank you for considering contributing to Rust Practice! To ensure a smooth and collaborative process, please take a moment to review the following guidelines.
 
-## How to Contribute
+## Branch Structure and Rules
 
-### 1. Fork the Repository
+We use multiple branches for different purposes. Here’s a breakdown of the branch structure:
 
-Start by forking the [rust-practice](https://github.com/fnabinash/rust-practice) repository. This will create a copy of the repository under your GitHub account.
+1. **Main Branches:**
+   - **main**: This branch contains the stable version of the repository.
+   - **main-dev**: Development for features and updates related to the solution branch.
 
-### 2. Clone Your Fork
+2. **Practice Branches:**
+   - **practice**: Contains exercises for users to practice. This is a stable branch.
+   - **practice-dev**: Development for the practice branch.
 
-Clone the forked repository to your local machine:
+### General Rules:
+- **Never push directly to the `main` or `practice` branches**. All work should be done in the respective `dev` branches.
+- Always submit your changes via a Pull Request (PR) to the relevant `dev` branch (either `main-dev` or `practice-dev`).
+- Your PR will be reviewed, and if it follows the guidelines, it will be merged into the appropriate branch.
 
-```bash
-git clone https://github.com/YOUR_USERNAME/rust-practice.git
-cd rust-practice
-```
+## Pull Request Guidelines
 
-### 3. Create a New Branch
+Before creating a PR, ensure the following:
 
-Create a new branch for your contribution. It's good practice to name your branch after the feature or issue you're working on:
+1. **Create an Issue First**: 
+   - For new features or bug fixes, please open an issue first to discuss your proposed changes.
+   - Reference the issue number in your PR (e.g., `Fixes #issue_number`).
 
-```bash
-git checkout -b feature-name
-```
+2. **Update Your Branch**:
+   - Make sure your branch is up-to-date with the latest changes from the target `dev` branch (either `main-dev` or `practice-dev`).
+   - Pull the latest commits before submitting your PR:
+     ```bash
+     git pull origin main-dev
+     # or
+     git pull origin practice-dev
+     ```
 
-### 4. Make Your Changes
+3. **Follow the PR Template**:
+   - When creating a PR, fill out the [Pull Request Template](PULL_REQUEST_TEMPLATE.md).
+   - Make sure your PR provides a clear and concise explanation of what you are adding or fixing.
 
-Make the necessary changes to the code, documentation, or exercises. Be sure to follow any existing coding styles and guidelines.
+4. **Review and Testing**:
+   - Ensure that all tests pass on your local machine.
+   - If applicable, add or update any tests related to your changes.
 
-### 5. Test Your Changes
+5. **No Rules, No PR**:
+   - PRs that do not follow the guidelines will be marked as invalid and closed immediately.
 
-If applicable, test your changes to ensure they work as expected. This is especially important for code contributions.
+## Issue Reporting Guidelines
 
-### 6. Commit Your Changes
+When reporting bugs or requesting features, please:
 
-Commit your changes with a descriptive commit message:
+1. **Check Existing Issues**:
+   - Before creating a new issue, search the issue tracker to see if the issue has already been reported or is being worked on.
 
-```bash
-git add .
-git commit -m "Description of changes"
-```
+2. **Follow the Issue Template**:
+   - When opening a new issue, please follow the [Issue Template](ISSUE_TEMPLATE.md) provided in the repository.
 
-### 7. Push Your Changes
+## Submitting Code
 
-Push your changes to your forked repository:
+1. **Commit Messages**:
+   - Use meaningful commit messages that describe the purpose of each change. Example:
+   - If you are confused then look into the commit history, and you will get an idea of how to write a good commit message.
 
-```bash
-git push origin feature-name
-```
+2. **Test Your Changes**:
+   - Before submitting a PR, ensure that all changes are thoroughly tested.
 
-### 8. Submit a Pull Request
+3. **Keep Your PR Small**:
+   - If you are adding multiple features, break them into separate PRs.
 
-Go to the original repository and submit a pull request (PR) from your forked branch to the `main` branch of `fnabinash/rust-practice`. In the PR description, please explain what changes you've made and why they are necessary.
+## Review Process
 
-### 9. Review Process
-
-Your pull request will be reviewed by the repository maintainers. They may suggest changes or improvements. Please be responsive to feedback and make any necessary adjustments.
-
-### 10. Merge
-
-Once your pull request is approved, it will be merged into the `main` branch. Congratulations, you've contributed to the rust-practice repository!
-
-## Code of Conduct
-
-Please note that this project is governed by a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you agree to adhere to it.
-
-## Reporting Issues
-
-If you find any issues or bugs, please open an issue in the repository. Provide as much detail as possible, including steps to reproduce the issue.
-
-## Feedback
-
-We welcome feedback and suggestions! If you have ideas on how to improve the repository, feel free to open an issue or start a discussion.
-
-Thank you for contributing to **rust-practice**! Your help is greatly appreciated.
+- After submitting a PR, the repository maintainers will review your changes.
+- If changes are requested, please update your PR promptly.
+- Only after all rules are met will the PR be merged.

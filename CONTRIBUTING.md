@@ -37,7 +37,7 @@ Before creating a PR, ensure the following:
      ```
 
 3. **Follow the PR Template**:
-   - When creating a PR, fill out the [Pull Request Template](PULL_REQUEST_TEMPLATE.md).
+   - When creating a PR, fill out the [Pull Request Template](.github/PULL_REQUEST_TEMPLATE.md).
    - Make sure your PR provides a clear and concise explanation of what you are adding or fixing.
 
 4. **Review and Testing**:
@@ -55,7 +55,7 @@ When reporting bugs or requesting features, please:
    - Before creating a new issue, search the issue tracker to see if the issue has already been reported or is being worked on.
 
 2. **Follow the Issue Template**:
-   - When opening a new issue, please follow the [Issue Template](ISSUE_TEMPLATE.md) provided in the repository.
+   - When opening a new issue, please follow the [Issue Template](.github/ISSUE_TEMPLATE) provided in the repository.
 
 ## Submitting Code
 

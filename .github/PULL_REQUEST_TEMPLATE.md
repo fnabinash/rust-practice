@@ -12,7 +12,7 @@ Please include a summary of the changes and the related issue (if applicable). E
 
 ### Checklist:
 
-- [ ] I have read the [contribution guidelines](CONTRIBUTING.md).
+- [ ] I have read the [contribution guidelines](../CONTRIBUTING.md).
 - [ ] I have added a descriptive title.
 - [ ] All tests pass locally on my machine.
 

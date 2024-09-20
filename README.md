@@ -6,6 +6,8 @@ A collection of 240+ exercises to learn and practice building production-grade C
 
 After cloning the repo to your local machine remove the [Instrcutions](#instructions) & [folder structure](#folder-structure) section. It is just to guide you on "How to fork, clone and practice exercise?".
 
+---
+
 ## Instructions
 
 To practice and track your progress, follow these steps.
@@ -38,7 +40,7 @@ For example, you just finished the first exercise of `hello-world`, to mark it d
 
 - Go to `README.md` file
 - Navigate to the first exercise
-- replace the space with `X` i.e. [ ] become [X].
+- replace the space with `X` i.e. [ ] become [X]. (e.g. `- [ ] Print "Hello, World!" to the console.` become `- [X] Print "Hello, World!" to the console.`)
 
 ## Folder Structure
 
@@ -86,6 +88,8 @@ This repo is divided into 3 types of folders.
 ```
 
 > You can quickly navigate to any exercise using **[Quick Links](./QUICK_LINKS.md)**.
+
+---
 
 ## Exercises
 

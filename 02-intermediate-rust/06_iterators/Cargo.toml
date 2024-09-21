@@ -3,5 +3,8 @@ resolver = "2"
 
 members = [
     # Create a program that uses an iterator to sum all elements in a vector.
-    "iterators_01"
+    "iterators_01",
+    
+    # Implement a program that filters out even numbers from a vector using an iterator.
+    "iterators_02"
 ]

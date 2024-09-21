@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "iterators_01"
 version = "0.1.0"
+
+[[package]]
+name = "iterators_02"
+version = "0.1.0"

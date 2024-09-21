@@ -267,8 +267,8 @@ This repo is divided into 3 types of folders.
 
 #### Iterators and Closures (28%)
 
-- [ ] Create a program that uses an iterator to sum all elements in a vector.
-- [ ] Implement a program that filters out even numbers from a vector using an iterator.
+- [X] Create a program that uses an iterator to sum all elements in a vector.
+- [X] Implement a program that filters out even numbers from a vector using an iterator.
 - [ ] Write a program that maps a vector of integers to their squares using an iterator.
 - [ ] Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
 - [ ] Implement a program that creates a custom iterator for a `struct` representing a range of numbers.

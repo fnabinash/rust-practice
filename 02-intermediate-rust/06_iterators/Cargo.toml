@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a program that uses an iterator to sum all elements in a vector.
+    "iterators_01"
+]

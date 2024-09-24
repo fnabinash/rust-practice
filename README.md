@@ -12,27 +12,27 @@ After cloning the repo to your local machine remove the [Instrcutions](#instruct
 
 To practice and track your progress, follow these steps.
 
-1. Fork the Repo.
-2. Clone it to your local machine.
+1. **Fork the Repo.**
+2. **Clone it to your local machine.**
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/rust-practice.git
 cd rust-practice
 ```
 
-3. Switch to the practice branch.
+3. **Switch to the practice branch.**
 
 ```bash
 git switch practice
 ```
 
-4. Do exercises.
+4. **Do exercises.**
 
 Before you start doing exercises, I recommend you to read the `00-must-read-before-practice` file. ([link](./00-must-read-before-practice/practice.md)).
 
 That file gives you clear instructions on "How to do exercises effectively?".
 
-5. Track your progress.
+5. **Track your progress.**
 
 After successfully completing an exercise, tick the exercise on this `README.md` file.
 
@@ -41,6 +41,12 @@ For example, you just finished the first exercise of `hello-world`, to mark it d
 - Go to `README.md` file
 - Navigate to the first exercise
 - replace the space with `X` i.e. [ ] become [X].
+
+6. **Share your solution with the community.**
+
+Go to the [solutions discussion tab](https://github.com/fnabinash/rust-practice/discussions/25) and share your unique solutions with the community so that others who are looking for the solutions can be thankful for you.
+
+Also, if you need any kind of assistance, go to that discussion and ask questions.
 
 ## Folder Structure
 

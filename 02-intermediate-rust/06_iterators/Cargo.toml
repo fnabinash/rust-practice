@@ -6,5 +6,11 @@ members = [
     "iterators_01",
     
     # Implement a program that filters out even numbers from a vector using an iterator.
-    "iterators_02"
+    "iterators_02",
+    
+    # Write a program that maps a vector of integers to their squares using an iterator.
+    "iterators_03",
+    
+    # Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
+    "iterators_04"
 ]

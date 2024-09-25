@@ -12,5 +12,8 @@ members = [
     "iterators_03",
     
     # Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
-    "iterators_04"
+    "iterators_04",
+    
+    # Implement a program that creates a custom iterator for a struct representing a range of numbers.
+    "iterators_05"
 ]

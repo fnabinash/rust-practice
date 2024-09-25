@@ -24,5 +24,8 @@ members = [
     "iterators_07",
     
     # Implement a program that uses a closure to filter a vector of strings based on their length.
-    "iterators_08"
+    "iterators_08",
+    
+    # Write a program that uses a closure to find the maximum value in a vector of integers.
+    "iterators_09"
 ]

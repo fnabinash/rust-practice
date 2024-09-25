@@ -27,5 +27,8 @@ members = [
     "iterators_08",
     
     # Write a program that uses a closure to find the maximum value in a vector of integers.
-    "iterators_09"
+    "iterators_09",
+    
+    # Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.
+    "iterators_10"
 ]

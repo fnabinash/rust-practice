@@ -210,16 +210,16 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 #### Iterators and Closures (28%)
 
--  Create a program that uses an iterator to sum all elements in a vector.
--  Implement a program that filters out even numbers from a vector using an iterator.
--  Write a program that maps a vector of integers to their squares using an iterator.
--  Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
--  Implement a program that creates a custom iterator for a `struct` representing a range of numbers.
--  Write a program that chains multiple iterators to process a vector of numbers.
--  Create a program that uses a closure to sort a vector of integers in descending order.
--  Implement a program that uses a closure to filter a vector of strings based on their length.
--  Write a program that uses a closure to find the maximum value in a vector of integers.
--  Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.
+-  [Create a program that uses an iterator to sum all elements in a vector.](02-intermediate-rust/06_iterators/iterators_01/src/main.rs)
+-  [Implement a program that filters out even numbers from a vector using an iterator.](02-intermediate-rust/06_iterators/iterators_02/src/main.rs)
+-  [Write a program that maps a vector of integers to their squares using an iterator.](02-intermediate-rust/06_iterators/iterators_03/src/main.rs)
+-  [Create a program that uses an iterator to find the first element in a vector that satisfies a condition.](02-intermediate-rust/06_iterators/iterators_04/src/main.rs)
+-  [Implement a program that creates a custom iterator for a `struct` representing a range of numbers.](02-intermediate-rust/06_iterators/iterators_05/src/main.rs)
+-  [Write a program that chains multiple iterators to process a vector of numbers.](02-intermediate-rust/06_iterators/iterators_06/src/main.rs)
+-  [Create a program that uses a closure to sort a vector of integers in descending order.](02-intermediate-rust/06_iterators/iterators_07/src/main.rs)
+-  [Implement a program that uses a closure to filter a vector of strings based on their length.](02-intermediate-rust/06_iterators/iterators_08/src/main.rs)
+-  [Write a program that uses a closure to find the maximum value in a vector of integers.](02-intermediate-rust/06_iterators/iterators_09/src/main.rs)
+-  [Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.](02-intermediate-rust/06_iterators/iterators_10/src/main.rs)
 
 #### Modules and Crates (30%)
 

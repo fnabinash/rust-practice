@@ -267,16 +267,16 @@ This repo is divided into 3 types of folders.
 
 #### Iterators and Closures (28%)
 
-- [ ] Create a program that uses an iterator to sum all elements in a vector.
-- [ ] Implement a program that filters out even numbers from a vector using an iterator.
-- [ ] Write a program that maps a vector of integers to their squares using an iterator.
-- [ ] Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
-- [ ] Implement a program that creates a custom iterator for a `struct` representing a range of numbers.
-- [ ] Write a program that chains multiple iterators to process a vector of numbers.
-- [ ] Create a program that uses a closure to sort a vector of integers in descending order.
-- [ ] Implement a program that uses a closure to filter a vector of strings based on their length.
-- [ ] Write a program that uses a closure to find the maximum value in a vector of integers.
-- [ ] Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.
+- [X] Create a program that uses an iterator to sum all elements in a vector.
+- [X] Implement a program that filters out even numbers from a vector using an iterator.
+- [X] Write a program that maps a vector of integers to their squares using an iterator.
+- [X] Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
+- [X] Implement a program that creates a custom iterator for a `struct` representing a range of numbers.
+- [X] Write a program that chains multiple iterators to process a vector of numbers.
+- [X] Create a program that uses a closure to sort a vector of integers in descending order.
+- [X] Implement a program that uses a closure to filter a vector of strings based on their length.
+- [X] Write a program that uses a closure to find the maximum value in a vector of integers.
+- [X] Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.
 
 #### Modules and Crates (30%)
 

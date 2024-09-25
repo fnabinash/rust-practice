@@ -1,0 +1,34 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # Create a program that uses an iterator to sum all elements in a vector.
+    "iterators_01",
+    
+    # Implement a program that filters out even numbers from a vector using an iterator.
+    "iterators_02",
+    
+    # Write a program that maps a vector of integers to their squares using an iterator.
+    "iterators_03",
+    
+    # Create a program that uses an iterator to find the first element in a vector that satisfies a condition.
+    "iterators_04",
+    
+    # Implement a program that creates a custom iterator for a struct representing a range of numbers.
+    "iterators_05",
+    
+    # Write a program that chains multiple iterators to process a vector of numbers.
+    "iterators_06",
+    
+    # Create a program that uses a closure to sort a vector of integers in descending order.
+    "iterators_07",
+    
+    # Implement a program that uses a closure to filter a vector of strings based on their length.
+    "iterators_08",
+    
+    # Write a program that uses a closure to find the maximum value in a vector of integers.
+    "iterators_09",
+    
+    # Create a program that uses a closure to generate a sequence of numbers and returns the result as a vector.
+    "iterators_10"
+]

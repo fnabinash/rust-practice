@@ -21,3 +21,7 @@ version = "0.1.0"
 [[package]]
 name = "iterators_05"
 version = "0.1.0"
+
+[[package]]
+name = "iterators_06"
+version = "0.1.0"

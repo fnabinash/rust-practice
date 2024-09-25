@@ -21,5 +21,8 @@ members = [
     "iterators_06",
     
     # Create a program that uses a closure to sort a vector of integers in descending order.
-    "iterators_07"
+    "iterators_07",
+    
+    # Implement a program that uses a closure to filter a vector of strings based on their length.
+    "iterators_08"
 ]

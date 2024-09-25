@@ -18,5 +18,8 @@ members = [
     "iterators_05",
     
     # Write a program that chains multiple iterators to process a vector of numbers.
-    "iterators_06"
+    "iterators_06",
+    
+    # Create a program that uses a closure to sort a vector of integers in descending order.
+    "iterators_07"
 ]

@@ -1,4 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = []
+members = [
+    # Create a module to organize functions for mathematical operations and use it in a main program.
+    "modules_01"
+]

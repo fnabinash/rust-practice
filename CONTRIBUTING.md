@@ -4,20 +4,30 @@ Thank you for considering contributing to Rust Practice! To ensure a smooth and 
 
 ## Branch Structure and Rules
 
-We use multiple branches for different purposes. Here’s a breakdown of the branch structure:
-
-1. **Main Branches:**
-   - **main**: This branch contains the stable version of the repository.
-   - **main-dev**: Development for features and updates related to the solution branch.
-
-2. **Practice Branches:**
-   - **practice**: Contains exercises for users to practice. This is a stable branch.
-   - **practice-dev**: Development for the practice branch.
+All contributors are required to create their own branches for changes.
 
 ### General Rules:
-- **Never push directly to the `main` or `practice` branches**. All work should be done in the respective `dev` branches.
-- Always submit your changes via a Pull Request (PR) to the relevant `dev` branch (either `main-dev` or `practice-dev`).
+- **Never push directly to the `main` or `practice` branches**.
+- All work should be done in a **separate branch** created from the relevant base branch (`main` or `practice`).
+- Always submit your changes via a Pull Request (PR) to the relevant base branch (`main` or `practice`).
 - Your PR will be reviewed, and if it follows the guidelines, it will be merged into the appropriate branch.
+
+### Creating a Branch:
+1. **Checkout the Latest Branch**:
+   - Before starting your work, ensure that your local `main` or `practice` branch is up-to-date:
+     ```bash
+     git checkout main
+     git pull origin main
+     # or
+     git checkout practice
+     git pull origin practice
+     ```
+
+2. **Create a New Branch**:
+   - Create a new branch for your work based on the latest branch:
+     ```bash
+     git checkout -b your-feature-branch
+     ```
 
 ## Pull Request Guidelines
 
@@ -28,12 +38,12 @@ Before creating a PR, ensure the following:
    - Reference the issue number in your PR (e.g., `Fixes #issue_number`).
 
 2. **Update Your Branch**:
-   - Make sure your branch is up-to-date with the latest changes from the target `dev` branch (either `main-dev` or `practice-dev`).
+   - Make sure your branch is up-to-date with the latest changes from the target branch (`main` or `practice`).
    - Pull the latest commits before submitting your PR:
      ```bash
-     git pull origin main-dev
+     git pull origin main
      # or
-     git pull origin practice-dev
+     git pull origin practice
      ```
 
 3. **Follow the PR Template**:
@@ -61,7 +71,7 @@ When reporting bugs or requesting features, please:
 
 1. **Commit Messages**:
    - Use meaningful commit messages that describe the purpose of each change. Example:
-   - If you are confused then look into the commit history, and you will get an idea of how to write a good commit message.
+   - If you are confused, check the commit history for examples of good commit messages.
 
 2. **Test Your Changes**:
    - Before submitting a PR, ensure that all changes are thoroughly tested.

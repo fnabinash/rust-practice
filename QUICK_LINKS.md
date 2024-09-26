@@ -224,8 +224,8 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 #### Modules and Crates (30%)
 
 -  [Create a module to organize functions for mathematical operations and use it in a main program.](02-intermediate-rust/07_modules/modules_01/src/main.rs)
--  Implement a program that uses a module to organize functions for file handling and use it in a main program.
--  Write a program that creates a module to organize functions for string processing and use it in a main program.
+-  [Implement a program that uses a module to organize functions for file handling and use it in a main program.](02-intermediate-rust/07_modules/modules_02/src/main.rs)
+-  [Write a program that creates a module to organize functions for string processing and use it in a main program.](02-intermediate-rust/07_modules/modules_03/src/main.rs)
 -  Create a module to organize functions for error handling and use it in a main program.
 -  Implement a program that uses a module to organize functions for working with collections (`Vector`, `HashMap`) and use it in a main program.
 -  Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.

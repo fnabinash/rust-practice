@@ -1,4 +1,4 @@
-// Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.
+// Create a library crate with a module `utils` containing utility functions.
 
 fn main() {
     println!("Hello, world!");

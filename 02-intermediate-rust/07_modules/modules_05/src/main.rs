@@ -1,4 +1,4 @@
-// Implement a program that uses a module to organize functions for working with collections (Vector, HashMap) and use it in a main program.
+// Experiment with `pub` to control visibility of functions and structs.
 
 fn main() {
     println!("Hello, world!");

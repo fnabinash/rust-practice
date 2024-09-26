@@ -1,4 +1,4 @@
-// Create a crate for common utilities (e.g., logging, configuration) and use it in a project.
+// Create a binary crate that uses the library crate you made.
 
 fn main() {
     println!("Hello, world!");

@@ -1,4 +1,4 @@
-// Implement a program that creates a module to organize functions for working with dates and times and use it in a main program.
+// Re-export items from a submodule to the parent module using `pub use`.
 
 fn main() {
     println!("Hello, world!");

@@ -1,4 +1,4 @@
-// Create a program that uses a third-party crate (e.g., serde, regex) and organizes the code into modules.
+// Use Cargo feature flags to conditionally compile different modules.
 
 fn main() {
     println!("Hello, world!");

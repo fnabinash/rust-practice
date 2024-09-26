@@ -1,4 +1,4 @@
-// Create a module to organize functions for error handling and use it in a main program.
+// Create a module `geometry` with submodules `shapes` and `operations`.
 
 fn main() {
     println!("Hello, world!");

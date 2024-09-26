@@ -6,5 +6,8 @@ members = [
     "modules_01",
     
     # Implement a program that uses a module to organize functions for file handling and use it in a main program.
-    "modules_02"
+    "modules_02",
+    
+    # Write a program that creates a module to organize functions for string processing and use it in a main program.
+    "modules_03"
 ]

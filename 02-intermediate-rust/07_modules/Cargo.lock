@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "modules_01"
 version = "0.1.0"
+
+[[package]]
+name = "modules_02"
+version = "0.1.0"

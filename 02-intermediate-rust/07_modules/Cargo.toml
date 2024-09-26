@@ -3,5 +3,8 @@ resolver = "2"
 
 members = [
     # Create a module to organize functions for mathematical operations and use it in a main program.
-    "modules_01"
+    "modules_01",
+    
+    # Implement a program that uses a module to organize functions for file handling and use it in a main program.
+    "modules_02"
 ]

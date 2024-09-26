@@ -281,8 +281,8 @@ This repo is divided into 3 types of folders.
 #### Modules and Crates (30%)
 
 - [X] Create a module to organize functions for mathematical operations and use it in a main program.
-- [ ] Implement a program that uses a module to organize functions for file handling and use it in a main program.
-- [ ] Write a program that creates a module to organize functions for string processing and use it in a main program.
+- [X] Implement a program that uses a module to organize functions for file handling and use it in a main program.
+- [X] Write a program that creates a module to organize functions for string processing and use it in a main program.
 - [ ] Create a module to organize functions for error handling and use it in a main program.
 - [ ] Implement a program that uses a module to organize functions for working with collections (`Vector`, `HashMap`) and use it in a main program.
 - [ ] Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.

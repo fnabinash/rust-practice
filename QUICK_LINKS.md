@@ -226,13 +226,13 @@ It contains the direct links to `src/main.rs` files of every exercise, so that y
 - [Create a module to organize functions for mathematical operations and use it in a main program.](02-intermediate-rust/07_modules/modules_01/src/main.rs)
 - [Implement a program that uses a module to organize functions for file handling and use it in a main program.](02-intermediate-rust/07_modules/modules_02/src/main.rs)
 - [Write a program that creates a module to organize functions for string processing and use it in a main program.](02-intermediate-rust/07_modules/modules_03/src/main.rs)
-- [Create a module to organize functions for error handling and use it in a main program.](02-intermediate-rust/07_modules/modules_04/src/main.rs)
-- [Implement a program that uses a module to organize functions for working with collections (`Vector`, `HashMap`) and use it in a main program.](02-intermediate-rust/07_modules/modules_05/src/main.rs)
-- [Write a program that creates a module to organize functions for networking (e.g., making HTTP requests) and use it in a main program.](02-intermediate-rust/07_modules/modules_06/src/main.rs)
-- [Create a crate for common utilities (e.g., logging, configuration) and use it in a project.](02-intermediate-rust/07_modules/modules_07/src/main.rs)
-- [Implement a program that creates a module to organize functions for working with dates and times and use it in a main program.](02-intermediate-rust/07_modules/modules_08/src/main.rs)
-- [Write a program that creates a crate to provide a library of functions for data serialization (e.g., JSON, XML) and use it in a project.](02-intermediate-rust/07_modules/modules_09/src/main.rs)
-- [Create a program that uses a third-party crate (e.g., `serde`, `regex`) and organizes the code into modules.](02-intermediate-rust/07_modules/modules_10/src/main.rs)
+- [Create a module `geometry` with submodules `shapes` and `operations`.](02-intermediate-rust/07_modules/modules_04/src/main.rs)
+- [Experiment with `pub` to control visibility of functions and structs.](02-intermediate-rust/07_modules/modules_05/src/main.rs)
+- [Create a library crate with a module `utils` containing utility functions.](02-intermediate-rust/07_modules/modules_06/src/main.rs)
+- [Create a binary crate that uses the library crate you made.](02-intermediate-rust/07_modules/modules_07/src/main.rs)
+- [Re-export items from a submodule to the parent module using `pub use`.](02-intermediate-rust/07_modules/modules_08/src/main.rs)
+- [Write integration tests for your library crate in the `tests` directory.](02-intermediate-rust/07_modules/modules_09/src/main.rs)
+- [Use Cargo feature flags to conditionally compile different modules.](02-intermediate-rust/07_modules/modules_10/src/main.rs)
 
 ### 3. **Advanced Rust(40%)**
 

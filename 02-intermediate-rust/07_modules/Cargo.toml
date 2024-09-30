@@ -9,5 +9,8 @@ members = [
     "modules_02",
     
     # Write a program that creates a module to organize functions for string processing and use it in a main program.
-    "modules_03"
+    "modules_03",
+
+    # Create a module geometry with submodules shapes and operations.
+    "modules_04"
 ]

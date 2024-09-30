@@ -226,7 +226,7 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 -  [Create a module to organize functions for mathematical operations and use it in a main program.](02-intermediate-rust/07_modules/modules_01/src/main.rs)
 -  [Implement a program that uses a module to organize functions for file handling and use it in a main program.](02-intermediate-rust/07_modules/modules_02/src/main.rs)
 -  [Write a program that creates a module to organize functions for string processing and use it in a main program.](02-intermediate-rust/07_modules/modules_03/src/main.rs)
-- Create a module `geometry` with submodules `shapes` and `operations`.
+- [Create a module `geometry` with submodules `shapes` and `operations`.](02-intermediate-rust/07_modules/modules_04/src/main.rs)
 - Experiment with `pub` to control visibility of functions and structs.
 - Create a library crate with a module `utils` containing utility functions.
 - Create a binary crate that uses the library crate you made.

@@ -283,7 +283,7 @@ This repo is divided into 3 types of folders.
 - [X] Create a module to organize functions for mathematical operations and use it in a main program.
 - [X] Implement a program that uses a module to organize functions for file handling and use it in a main program.
 - [X] Write a program that creates a module to organize functions for string processing and use it in a main program.
-- [ ] Create a module `geometry` with submodules `shapes` and `operations`.
+- [X] Create a module `geometry` with submodules `shapes` and `operations`.
 - [ ] Experiment with `pub` to control visibility of functions and structs.
 - [ ] Create a library crate with a module `utils` containing utility functions.
 - [ ] Create a binary crate that uses the library crate you made.

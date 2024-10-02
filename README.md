@@ -284,9 +284,9 @@ This repo is divided into 3 types of folders.
 - [X] Implement a program that uses a module to organize functions for file handling and use it in a main program.
 - [X] Write a program that creates a module to organize functions for string processing and use it in a main program.
 - [X] Create a module `geometry` with submodules `shapes` and `operations`.
-- [ ] Experiment with `pub` to control visibility of functions and structs.
-- [ ] Create a library crate with a module `utils` containing utility functions.
-- [ ] Create a binary crate that uses the library crate you made.
+- [X] Experiment with `pub` to control visibility of functions and structs.
+- [X] Create a library crate with a module `utils` containing utility functions.
+- [X] Create a binary crate that uses the library crate you made.
 - [ ] Re-export items from a submodule to the parent module using `pub use`.
 - [ ] Write integration tests for your library crate in the `tests` directory.
 - [ ] Use Cargo feature flags to conditionally compile different modules.

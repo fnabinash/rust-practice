@@ -287,8 +287,8 @@ This repo is divided into 3 types of folders.
 - [X] Experiment with `pub` to control visibility of functions and structs.
 - [X] Create a library crate with a module `utils` containing utility functions.
 - [X] Create a binary crate that uses the library crate you made.
-- [ ] Re-export items from a submodule to the parent module using `pub use`.
-- [ ] Write integration tests for your library crate in the `tests` directory.
+- [X] Re-export items from a submodule to the parent module using `pub use`.
+- [X] Write integration tests for your library crate in the `tests` directory.
 - [ ] Use Cargo feature flags to conditionally compile different modules.
 
 ### 3. **Advanced Rust(40%)**

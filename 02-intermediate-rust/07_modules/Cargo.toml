@@ -24,5 +24,8 @@ members = [
     "modules_07",
     
     # Re-export items from a submodule to the parent module using pub use.
-    "modules_08"
+    "modules_08",
+    
+    # Write integration tests for your library crate in the tests directory.
+    "modules_09"
 ]

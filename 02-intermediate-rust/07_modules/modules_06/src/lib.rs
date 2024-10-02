@@ -1,6 +1,6 @@
 // Create a library crate with a module utils containing utility functions.
 
-mod utils;
+pub mod utils;
 
 #[cfg(test)]
 mod tests {

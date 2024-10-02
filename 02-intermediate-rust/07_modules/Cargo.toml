@@ -18,5 +18,8 @@ members = [
     "modules_05",
     
     # Create a library crate with a module utils containing utility functions.
-    "modules_06"
+    "modules_06",
+    
+    # Create a binary crate that uses the library crate you made.
+    "modules_07"
 ]

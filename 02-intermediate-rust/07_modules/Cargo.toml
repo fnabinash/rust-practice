@@ -12,5 +12,8 @@ members = [
     "modules_03",
 
     # Create a module geometry with submodules shapes and operations.
-    "modules_04"
+    "modules_04",
+    
+    # Experiment with pub to control visibility of functions and structs.
+    "modules_05"
 ]

@@ -15,5 +15,8 @@ members = [
     "modules_04",
     
     # Experiment with pub to control visibility of functions and structs.
-    "modules_05"
+    "modules_05",
+    
+    # Create a library crate with a module utils containing utility functions.
+    "modules_06"
 ]

@@ -21,5 +21,8 @@ members = [
     "modules_06",
     
     # Create a binary crate that uses the library crate you made.
-    "modules_07"
+    "modules_07",
+    
+    # Re-export items from a submodule to the parent module using pub use.
+    "modules_08"
 ]

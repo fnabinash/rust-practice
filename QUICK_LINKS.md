@@ -230,8 +230,8 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 - [Experiment with `pub` to control visibility of functions and structs.](02-intermediate-rust/07_modules/modules_05/src/main.rs)
 - [Create a library crate with a module `utils` containing utility functions.](02-intermediate-rust/07_modules/modules_06/src/lib.rs)
 - [Create a binary crate that uses the library crate you made.](02-intermediate-rust/07_modules/modules_07/src/main.rs)
-- Re-export items from a submodule to the parent module using `pub use`.
-- Write integration tests for your library crate in the `tests` directory.
+- [Re-export items from a submodule to the parent module using `pub use`.](02-intermediate-rust/07_modules/modules_08/src/main.rs)
+- [Write integration tests for your library crate in the `tests` directory.](02-intermediate-rust/07_modules/modules_09/src/lib.rs)
 - Use Cargo feature flags to conditionally compile different modules.
 
 ### 3. **Advanced Rust(40%)**

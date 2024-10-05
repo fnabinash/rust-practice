@@ -27,5 +27,8 @@ members = [
     "modules_08",
     
     # Write integration tests for your library crate in the tests directory.
-    "modules_09"
+    "modules_09",
+    
+    # Use Cargo feature flags to conditionally compile different modules.
+    "modules_10"
 ]

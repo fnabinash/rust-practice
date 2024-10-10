@@ -3,5 +3,8 @@ resolver = "2"
 
 members = [
     # Write a program that uses threads to perform multiple calculations in parallel.
-    "concurrency_01"
+    "concurrency_01",
+    
+    # Implement a program that spawns multiple threads to process a large array and combines the results.
+    "concurrency_02"
 ]

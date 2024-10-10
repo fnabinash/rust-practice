@@ -5,3 +5,7 @@ version = 3
 [[package]]
 name = "concurrency_01"
 version = "0.1.0"
+
+[[package]]
+name = "concurrency_02"
+version = "0.1.0"

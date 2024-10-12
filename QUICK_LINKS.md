@@ -37,8 +37,8 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
       <ol>
       <li><a href="#concurrency-35">concurrency</a></li>
-      <li><a href="#asynchronous-programming-41">asynchronous programming</a></li>
-      <li><a href="#smart-pointers-box-rc-refcell-47">smart pointers</a></li>
+      <li><a href="#smart-pointers-box-rc-refcell-41">smart pointers</a></li>
+      <li><a href="#asynchronous-programming-47">asynchronous programming</a></li>
       <li><a href="#macros-54">macros</a></li>
       <li><a href="#unsafe-rust-63">unsafe rust</a></li>
       <li><a href="#lifetimes-and-generics-70">lifetimes and generics</a></li>

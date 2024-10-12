@@ -306,7 +306,7 @@ This repo is divided into 3 types of folders.
 - [ ] Create a program that implements a simple producer-consumer pattern using threads and channels.
 - [ ] Implement a program that uses threads to simulate a basic chat server where multiple clients can send and receive messages concurrently.
 
-#### Smart Pointers (Box, Rc, RefCell) (47%)
+#### Smart Pointers (Box, Rc, RefCell) (41%)
 
 - [ ] Write a program that uses `Box` to create a linked list.
 - [ ] Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.
@@ -319,7 +319,7 @@ This repo is divided into 3 types of folders.
 - [ ] Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.
 - [ ] Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.
 
-#### Asynchronous Programming (41%)
+#### Asynchronous Programming (47%)
 
 - [ ] Write an asynchronous program that fetches data from a web API using `async/await`.
 - [ ] Implement a program that performs multiple HTTP requests concurrently using `async/await`.

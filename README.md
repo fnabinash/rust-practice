@@ -131,8 +131,8 @@ This repo is divided into 3 types of folders.
 
   <ol>
   <li><a href="#concurrency-35">concurrency</a></li>
-  <li><a href="#asynchronous-programming-41">asynchronous programming</a></li>
-  <li><a href="#smart-pointers-box-rc-refcell-47">smart pointers</a></li>
+  <li><a href="#smart-pointers-box-rc-refcell-41">smart pointers</a></li>
+  <li><a href="#asynchronous-programming-47">asynchronous programming</a></li>
   <li><a href="#macros-54">macros</a></li>
   <li><a href="#unsafe-rust-63">unsafe rust</a></li>
   <li><a href="#lifetimes-and-generics-70">lifetimes and generics</a></li>
@@ -342,20 +342,7 @@ This repo is divided into 3 types of folders.
 - [ ] Create a program that implements a simple producer-consumer pattern using threads and channels.
 - [ ] Implement a program that uses threads to simulate a basic chat server where multiple clients can send and receive messages concurrently.
 
-#### Asynchronous Programming (41%)
-
-- [ ] Write an asynchronous program that fetches data from a web API using `async/await`.
-- [ ] Implement a program that performs multiple HTTP requests concurrently using `async/await`.
-- [ ] Create an asynchronous program that reads and writes to a file without blocking the main thread.
-- [ ] Write a program that uses asynchronous functions to perform a long-running task in the background.
-- [ ] Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.
-- [ ] Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.
-- [ ] Write a program that performs multiple database queries concurrently using asynchronous functions.
-- [ ] Implement an asynchronous program that streams data from a source and processes it in real-time.
-- [ ] Create an asynchronous program that handles multiple client connections to a server concurrently.
-- [ ] Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).
-
-#### Smart Pointers (Box, Rc, RefCell) (47%)
+#### Smart Pointers (Box, Rc, RefCell) (41%)
 
 - [ ] Write a program that uses `Box` to create a linked list.
 - [ ] Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.
@@ -367,6 +354,19 @@ This repo is divided into 3 types of folders.
 - [ ] Implement a program that uses `Box` to store a trait object and call methods on it dynamically.
 - [ ] Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.
 - [ ] Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.
+
+#### Asynchronous Programming (47%)
+
+- [ ] Write an asynchronous program that fetches data from a web API using `async/await`.
+- [ ] Implement a program that performs multiple HTTP requests concurrently using `async/await`.
+- [ ] Create an asynchronous program that reads and writes to a file without blocking the main thread.
+- [ ] Write a program that uses asynchronous functions to perform a long-running task in the background.
+- [ ] Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.
+- [ ] Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.
+- [ ] Write a program that performs multiple database queries concurrently using asynchronous functions.
+- [ ] Implement an asynchronous program that streams data from a source and processes it in real-time.
+- [ ] Create an asynchronous program that handles multiple client connections to a server concurrently.
+- [ ] Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).
 
 #### Macros (54%)
 

@@ -37,8 +37,8 @@ It contains the direct links to `src/main.rs` files of every exercise, so that y
 
       <ol>
       <li><a href="#concurrency-35">concurrency</a></li>
-      <li><a href="#asynchronous-programming-41">asynchronous programming</a></li>
-      <li><a href="#smart-pointers-box-rc-refcell-47">smart pointers</a></li>
+      <li><a href="#smart-pointers-box-rc-refcell-41">smart pointers</a></li>
+      <li><a href="#asynchronous-programming-47">asynchronous programming</a></li>
       <li><a href="#macros-54">macros</a></li>
       <li><a href="#unsafe-rust-63">unsafe rust</a></li>
       <li><a href="#lifetimes-and-generics-70">lifetimes and generics</a></li>
@@ -249,31 +249,31 @@ It contains the direct links to `src/main.rs` files of every exercise, so that y
 - [Create a program that implements a simple producer-consumer pattern using threads and channels.](03-advanced-rust/01_concurrency/concurrency_09/src/main.rs)
 - [Implement a program that uses threads to simulate a basic chat server where multiple clients can send and receive messages concurrently.](03-advanced-rust/01_concurrency/concurrency_10/src/main.rs)
 
-#### Asynchronous Programming (41%)
+#### Smart Pointers (Box, Rc, RefCell) (41%)
 
-- [Write an asynchronous program that fetches data from a web API using `async/await`.](03-advanced-rust/02_async/async_01/src/main.rs)
-- [Implement a program that performs multiple HTTP requests concurrently using `async/await`.](03-advanced-rust/02_async/async_02/src/main.rs)
-- [Create an asynchronous program that reads and writes to a file without blocking the main thread.](03-advanced-rust/02_async/async_03/src/main.rs)
-- [Write a program that uses asynchronous functions to perform a long-running task in the background.](03-advanced-rust/02_async/async_04/src/main.rs)
-- [Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.](03-advanced-rust/02_async/async_05/src/main.rs)
-- [Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.](03-advanced-rust/02_async/async_06/src/main.rs)
-- [Write a program that performs multiple database queries concurrently using asynchronous functions.](03-advanced-rust/02_async/async_07/src/main.rs)
-- [Implement an asynchronous program that streams data from a source and processes it in real-time.](03-advanced-rust/02_async/async_08/src/main.rs)
-- [Create an asynchronous program that handles multiple client connections to a server concurrently.](03-advanced-rust/02_async/async_09/src/main.rs)
-- [Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).](03-advanced-rust/02_async/async_10/src/main.rs)
+- [Write a program that uses `Box` to create a linked list.](03-advanced-rust/02_smart_pointers/smart_pointers_01/src/main.rs)
+- [Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.](03-advanced-rust/02_smart_pointers/smart_pointers_02/src/main.rs)
+- [Create a program that uses `RefCell` to modify data inside a `struct` with shared ownership.](03-advanced-rust/02_smart_pointers/smart_pointers_03/src/main.rs)
+- [Write a program that uses `Box` to create a recursive data structure (e.g., a binary tree).](03-advanced-rust/02_smart_pointers/smart_pointers_04/src/main.rs)
+- [Implement a program that uses `Rc` to share a configuration object between multiple threads.](03-advanced-rust/02_smart_pointers/smart_pointers_05/src/main.rs)
+- [Create a program that uses `RefCell` to implement interior mutability in a `struct`.](03-advanced-rust/02_smart_pointers/smart_pointers_06/src/main.rs)
+- [Write a program that uses `Rc` and `RefCell` together to create a graph data structure.](03-advanced-rust/02_smart_pointers/smart_pointers_07/src/main.rs)
+- [Implement a program that uses `Box` to store a trait object and call methods on it dynamically.](03-advanced-rust/02_smart_pointers/smart_pointers_08/src/main.rs)
+- [Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.](03-advanced-rust/02_smart_pointers/smart_pointers_09/src/main.rs)
+- [Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.](03-advanced-rust/02_smart_pointers/smart_pointers_10/src/main.rs)
 
-#### Smart Pointers (Box, Rc, RefCell) (47%)
+#### Asynchronous Programming (47%)
 
-- [Write a program that uses `Box` to create a linked list.](03-advanced-rust/03_smart_pointers/smart_pointers_01/src/main.rs)
-- [Implement a program that uses `Rc` to create a tree data structure with shared ownership of nodes.](03-advanced-rust/03_smart_pointers/smart_pointers_02/src/main.rs)
-- [Create a program that uses `RefCell` to modify data inside a `struct` with shared ownership.](03-advanced-rust/03_smart_pointers/smart_pointers_03/src/main.rs)
-- [Write a program that uses `Box` to create a recursive data structure (e.g., a binary tree).](03-advanced-rust/03_smart_pointers/smart_pointers_04/src/main.rs)
-- [Implement a program that uses `Rc` to share a configuration object between multiple threads.](03-advanced-rust/03_smart_pointers/smart_pointers_05/src/main.rs)
-- [Create a program that uses `RefCell` to implement interior mutability in a `struct`.](03-advanced-rust/03_smart_pointers/smart_pointers_06/src/main.rs)
-- [Write a program that uses `Rc` and `RefCell` together to create a graph data structure.](03-advanced-rust/03_smart_pointers/smart_pointers_07/src/main.rs)
-- [Implement a program that uses `Box` to store a trait object and call methods on it dynamically.](03-advanced-rust/03_smart_pointers/smart_pointers_08/src/main.rs)
-- [Create a program that uses `Rc` to manage a list of subscribers in a publish-subscribe pattern.](03-advanced-rust/03_smart_pointers/smart_pointers_09/src/main.rs)
-- [Write a program that uses `RefCell` to dynamically update a data structure while maintaining shared ownership.](03-advanced-rust/03_smart_pointers/smart_pointers_10/src/main.rs)
+- [Write an asynchronous program that fetches data from a web API using `async/await`.](03-advanced-rust/03_async/async_01/src/main.rs)
+- [Implement a program that performs multiple HTTP requests concurrently using `async/await`.](03-advanced-rust/03_async/async_02/src/main.rs)
+- [Create an asynchronous program that reads and writes to a file without blocking the main thread.](03-advanced-rust/03_async/async_03/src/main.rs)
+- [Write a program that uses asynchronous functions to perform a long-running task in the background.](03-advanced-rust/03_async/async_04/src/main.rs)
+- [Implement a program that uses `tokio` or `async-std` to create an asynchronous TCP server.](03-advanced-rust/03_async/async_05/src/main.rs)
+- [Create an asynchronous program that simulates a delay using `tokio::time::sleep` or similar.](03-advanced-rust/03_async/async_06/src/main.rs)
+- [Write a program that performs multiple database queries concurrently using asynchronous functions.](03-advanced-rust/03_async/async_07/src/main.rs)
+- [Implement an asynchronous program that streams data from a source and processes it in real-time.](03-advanced-rust/03_async/async_08/src/main.rs)
+- [Create an asynchronous program that handles multiple client connections to a server concurrently.](03-advanced-rust/03_async/async_09/src/main.rs)
+- [Write a program that uses asynchronous functions to manage a pool of resources (e.g., database connections).](03-advanced-rust/03_async/async_10/src/main.rs)
 
 #### Macros (54%)
 

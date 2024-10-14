@@ -240,7 +240,7 @@ It contains the links to `src/main.rs` files of every exercise, so that you can 
 
 -  [Write a program that uses threads to perform multiple calculations in parallel.](03-advanced-rust/01_concurrency/concurrency_01/src/main.rs)
 -  [Implement a program that spawns multiple threads to process a large array and combines the results.](03-advanced-rust/01_concurrency/concurrency_02/src/main.rs)
--  Create a program that uses channels to send messages between threads.
+-  [Create a program that uses channels to send messages between threads.](03-advanced-rust/01_concurrency/concurrency_03/src/main.rs)
 -  Implement a program that uses a thread pool to manage and execute multiple tasks concurrently.
 -  Write a program that uses `Arc` (atomic reference counting) to share data between threads safely.
 -  Create a program that uses `Mutex` to protect shared data from race conditions.

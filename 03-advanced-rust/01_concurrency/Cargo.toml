@@ -6,5 +6,8 @@ members = [
     "concurrency_01",
     
     # Implement a program that spawns multiple threads to process a large array and combines the results.
-    "concurrency_02"
+    "concurrency_02",
+    
+    # Create a program that uses channels to send messages between threads.
+    "concurrency_03"
 ]

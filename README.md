@@ -298,7 +298,7 @@ This repo is divided into 3 types of folders.
 - [X] Write a program that uses threads to perform multiple calculations in parallel.
 - [X] Implement a program that spawns multiple threads to process a large array and combines the results.
 - [X] Create a program that uses channels to send messages between threads.
-- [ ] Implement a program that uses a thread pool to manage and execute multiple tasks concurrently.
+- [X] Implement a program that uses a thread pool to manage and execute multiple tasks concurrently.
 - [ ] Write a program that uses `Arc` (atomic reference counting) to share data between threads safely.
 - [ ] Create a program that uses `Mutex` to protect shared data from race conditions.
 - [ ] Implement a program that uses `RwLock` to allow multiple readers or one writer at a time.

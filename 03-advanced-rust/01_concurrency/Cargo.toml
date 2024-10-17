@@ -12,5 +12,8 @@ members = [
     "concurrency_03",
     
     # Implement a program that uses a thread pool to manage and execute multiple tasks concurrently.
-    "concurrency_04"
+    "concurrency_04",
+    
+    # Write a program that uses Arc (atomic reference counting) to share data between threads safely.
+    "concurrency_05"
 ]

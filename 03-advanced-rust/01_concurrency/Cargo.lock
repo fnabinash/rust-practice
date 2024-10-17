@@ -21,3 +21,11 @@ version = "0.1.0"
 [[package]]
 name = "concurrency_05"
 version = "0.1.0"
+
+[[package]]
+name = "concurrency_06"
+version = "0.1.0"
+
+[[package]]
+name = "concurrency_07"
+version = "0.1.0"

@@ -15,5 +15,11 @@ members = [
     "concurrency_04",
     
     # Write a program that uses Arc (atomic reference counting) to share data between threads safely.
-    "concurrency_05"
+    "concurrency_05",
+    
+    # Create a program that uses Mutex to protect shared data from race conditions.
+    "concurrency_06",
+    
+    # Implement a program that uses RwLock to allow multiple readers or one writer at a time.
+    "concurrency_07"
 ]
